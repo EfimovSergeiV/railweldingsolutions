@@ -4,14 +4,14 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Главный сварщик - сварочное оборудование и всё для сварки',
+      title: 'Rail Welding Solutions',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { 
           hid: 'description', 
           name: 'description', 
-          content: 'Купить высококачественное сварочное оборудование. Мы являемся официальным дистрибьютором ведущих брендов. Большой выбор, гарантия качества, доставка по всей России.' 
+          content: 'Rail Welding Solutions' 
         },
         { name: 'format-detection', content: 'telephone=yes' }
       ],
