@@ -5,7 +5,7 @@ export default defineNuxtPlugin(nuxtApp => {
       // const navBar = document.querySelector('#navbar')
       const navMenu = document.getElementById('navbar')
 
-      if (scrollPosition > 100) {
+      if (scrollPosition > 200) {
         navMenu.classList.remove('bg-white/50')
         navMenu.classList.add('bg-white', 'fixed')
         
@@ -24,17 +24,3 @@ export default defineNuxtPlugin(nuxtApp => {
     })    
   }
 })
-
-// handleScroll () {
-//   const navMenu = document.getElementById('navbar')
-//   const navContainer = document.getElementById('nav-container')
-//   if (window.scrollY > 50) {
-//     navMenu.classList.add('bg-white/60')
-//     navContainer.classList.add('fixed')
-//     // this.show = true
-//   } else {
-//     // this.show = false
-//     navMenu.classList.remove('bg-white/60')
-//     navContainer.classList.remove('fixed')
-//   }
-// }
