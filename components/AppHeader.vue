@@ -12,7 +12,7 @@
   <div class="h-screen grid grid-cols-1 justify-between">
 
     <div class="h-[56px]">
-      <div id="navbar" class=" w-full z-50 backdrop-blur-sm h-[56px] duration-700 transition-all">
+      <div id="navbar" class="border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm h-[56px] duration-700 transition-all">
         <div class=" container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
             <nuxt-link to="#">
@@ -21,7 +21,7 @@
           </div>
           <div class="flex gap-4 items-center px-4">
             <div class="flex items-center justify-center py-1">
-              <p class="text-sm text-center text-main-primary font-semibold">{{ show }} Рельсосварочное оборудование</p>
+              <p class="text-sm text-center text-main-primary font-semibold">Рельсосварочное оборудование</p>
             </div>
             <div class="flex items-center justify-center py-1">
               <p class="text-sm text-center text-main-primary font-semibold">Испытательное оборудование</p>
