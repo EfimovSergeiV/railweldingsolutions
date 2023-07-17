@@ -1,26 +1,29 @@
 <template>
-  <div class="mx-auto max-w-7xl px-4 lg:max-w-7xl lg:px-8">
-    <div class="h-screen">
-      <div class=" flex items-center h-full">
-        
-        <div class="">
-          
-          <div class="border-b border-black/30 dark:border-white/30 py-4">
-            <p class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600 text-[40px] md:text-[80px] uppercase select-none">RailWelding</p>
-            <p class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600 text-[40px] md:text-[70px] uppercase select-none">Solutions</p>          
-          </div>
-          
-          <div class="py-4">
-            <p class="text-sm md:text-lg select-none">Development and production of rail welding machines</p>
-          </div>
-        
-        
+  <div class="">
+
+    <div class=" bg-main-primary">
+      <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
+
+        <div class="flex items-center h-20 justify-between">
+
+          <div class="flex items-center gap-4"><span class="font-bold text-white text-[36px]">+150</span><p class="text-gray-100 text-sm">Сотрудников</p></div>
+          <div class="flex items-center gap-4"><span class="font-bold text-white text-[36px]">+3500</span><p class="text-gray-100 text-sm">Реализованных проектов</p></div>
+          <div class="flex items-center gap-4"><span class="font-bold text-white text-[36px]">+560 Га</span><p class="text-gray-100 text-sm">Площадь производства</p></div>
+          <div class="flex items-center gap-4"><span class="font-bold text-white text-[36px]">+200</span><p class="text-gray-100 text-sm">Волнистых попугаев</p></div>
+
         </div>
 
       </div>
-      
     </div>
-    
+
+
+    <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
+      <p v-for="i in 150" :key="i" class="my-4">hallo welt</p>
+    </div>
+
 
   </div>
+
+
+
 </template>

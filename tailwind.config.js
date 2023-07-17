@@ -34,8 +34,11 @@ module.exports = {
         center: true,
       },
       colors: {
-        'yellow-450': '#f8dc08',
-        'yellow-550': '#baa50a',
+        'main-primary': '#074866',
+        'main-secondary': '#0F293E',
+        'main-dark': '#001E35',
+        'main-info': '#2A72A9',
+        'main-light': '#4C80A9',
       },
     },
   },

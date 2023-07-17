@@ -67,7 +67,8 @@ export default defineNuxtConfig({
   // },
 
   plugins: [
-    { src: '~/plugins/bg-scroll.js', mode: 'client' }
+    { src: '~/plugins/bg-scroll.js', mode: 'client' },
+    { src: '~/plugins/navbar.js', mode: 'client' },
   ],
 
   lodash: {
