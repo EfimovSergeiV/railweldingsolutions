@@ -67,7 +67,7 @@
 
 
 
-    <div class="bg-gradient-to-br from-main-primary/90 via-main-primary/80 to-main-secondary/60 backdrop-blur-sm border-t border-main-primary/40 py-8">
+    <div class="bg-gradient-to-br from-main-primary/90 via-main-primary/80 to-main-secondary/60 backdrop-blur-sm border-t border-main-primary/40 py-2">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 h-0">
         
         <div class="flex items-end justify-between">
