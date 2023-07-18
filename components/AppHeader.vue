@@ -1,8 +1,7 @@
 <script setup>
   const colorMode = useColorMode()
-  const { locale } = useI18n()
-  const localePath = useLocalePath()
   const switchLocalePath = useSwitchLocalePath()
+
   // const route = useRoute()
 
   // const { data: widebanners } = await useFetch('http://127.0.0.1:8000/c/widebanners/')
@@ -15,7 +14,7 @@
   <div class="h-screen grid grid-cols-1 justify-between">
 
     <div class="">
-      <div id="navbar" class="border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm duration-700 transition-all">
+      <div id="navbar" class="bg-white/60 border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm duration-700 transition-all">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
             <nuxt-link to="#">
@@ -40,7 +39,7 @@
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('language') }}</p>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-100 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
-                  <div class="bg-gray-100 rounded-sm w-[160px]">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[160px]">
                     <div class="grid grid-cols-1 gap-2 px-4 py-2">
                       <nuxt-link :to="switchLocalePath('en')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">English</nuxt-link>
                       <nuxt-link :to="switchLocalePath('ru')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Русский</nuxt-link>
@@ -64,22 +63,16 @@
     <div class="h-full">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
           
-        <div class="">
+        <div class="flex">
           
-          <div class="border-b border-black/30 dark:border-white/30 py-4">
-            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">RailWelding</p>
-            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">Solutions</p>          
-          </div>
+          <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-4 border-main-primary/80">
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
           
-          <div class="py-4">
-            <p class="text-sm md:text-lg select-none">Development and production of rail welding machines</p>
+            <div class="py-4">
+              <p class="text-2xl md:text-lg text-main-primary se lect-none font-opensans font-extrabold">{{ $t('slogan') }}</p>
+            </div>          
           </div>
-          <p class="text-2xl font-opensans font-extrabold">{{ $t('welcome') }}</p>
-        
-          <!-- <nuxt-link :to="localePath('index', 'en')">Homepage in English</nuxt-link><br />
-          <nuxt-link :to="localePath('index', 'ru')">Homepage in Russian</nuxt-link> -->
-        
-
 
         </div>
 
@@ -95,12 +88,12 @@
           <div class="">
             <p class="text-white font-black text-xl my-4">Почему выбирают нас ?</p>
             <div class="grid grid-cols-3 gap-4 text-gray-100">
-              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Более 17 лет успешной работы</p></div>
-              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Собственное конструкторское бюро</p></div>
-              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Полный производственный цикл</p></div>
-              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Сервисное обслуживание и поддержка</p></div>
-              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Персональный менеджер</p></div>
-              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Решение нестандартных задач</p></div>
+              <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> Более 17 лет успешной работы</p></div>
+              <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> Собственное конструкторское бюро</p></div>
+              <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> Полный производственный цикл</p></div>
+              <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> Сервисное обслуживание и поддержка</p></div>
+              <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> Персональный менеджер</p></div>
+              <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> Решение нестандартных задач</p></div>
             </div>                  
           </div>
           <div class="grid grid-cols-1 gap-2 text-right">

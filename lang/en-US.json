@@ -1,11 +1,13 @@
 {
-  "welcome": "Welcome",
-
   "railWeldingEquipment": "Rail welding equipment",
   "testEquipment": "Test equipment",
   "about": "About",
   "services": "Services",
   "language": "Language",
+
+  "title-1": "RAILWELDING",
+  "title-2": "SOLUTIONS",
+  "slogan": "Development and production of rail welding machines",
 
   "pages": {
     "about": {
