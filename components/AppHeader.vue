@@ -36,7 +36,7 @@
             </div>
             
             <div class="relative group">
-              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('language') }}</p>
+              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center cursor-pointer">{{ $t('language') }}</p>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-100 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
                   <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[160px]">
