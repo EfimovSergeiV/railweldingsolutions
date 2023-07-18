@@ -1,5 +1,12 @@
 {
   "welcome": "Привет",
+
+  "railWeldingEquipment": "Рельсосварочное оборудование",
+  "testEquipment": "Испытательное оборудование",
+  "about": "Услуги",
+  "services": "О компании",
+  "language": "Язык",
+
   "pages": {
     "about": {
       "description": "Русское описание"

@@ -17,7 +17,7 @@
       <AppHeader />
       <slot />
 
-      <h2>{{ $t('pages.about.description') }}</h2>
+      <!-- <h2>{{ $t('pages.about.description') }}</h2> -->
       
       <AppFooter />
 

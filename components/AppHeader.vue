@@ -14,36 +14,42 @@
 
   <div class="h-screen grid grid-cols-1 justify-between">
 
-    <div class="h-[56px]">
-      <div id="navbar" class="border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm h-[56px] duration-700 transition-all">
-        <div class=" container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
+    <div class="">
+      <div id="navbar" class="border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm duration-700 transition-all">
+        <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
             <nuxt-link to="#">
               <img src="/logo.png" class=" h-6" />
             </nuxt-link>                
           </div>
-          <div class="flex gap-4 items-center px-4">
-            <div class="flex items-center justify-center py-1">
-              <p class="text-sm text-center text-main-primary font-semibold">Рельсосварочное оборудование</p>
+          <div class="flex gap-4 items-center px-4 ">
+            <div class="">
+              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</p>
             </div>
-            <div class="flex items-center justify-center py-1">
-              <p class="text-sm text-center text-main-primary font-semibold">Испытательное оборудование</p>
+            <div class="">
+              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('testEquipment') }}</p>
             </div>
-            <div class="flex items-center justify-center py-1">
-              <p class="text-sm text-center text-main-primary font-semibold">Услуги</p>
+            <div class="">
+              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('about') }}</p>
             </div>
-            <div class="flex items-center justify-center py-1">
-              <p class="text-sm text-center text-main-primary font-semibold">О компании</p>
-            </div>
-            <div class="flex items-center justify-center py-1">
-              <p class="text-sm text-center text-main-primary font-semibold">Язык</p>
+            <div class="">
+              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('services') }}</p>
             </div>
             
-            <select v-model="locale">
-        <option value="en">en</option>
-        <option value="ru">ru</option>
-      </select>
-      <p>{{ $t('welcome') }}</p>
+            <div class="relative group">
+              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('language') }}</p>
+              <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-100 opacity-0 group-hover:opacity-100">
+                <div class="py-1">
+                  <div class="bg-gray-100 rounded-sm w-[160px]">
+                    <div class="grid grid-cols-1 gap-2 px-4 py-2">
+                      <nuxt-link :to="switchLocalePath('en')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">English</nuxt-link>
+                      <nuxt-link :to="switchLocalePath('ru')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Русский</nuxt-link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
 
           </div>
         </div>
@@ -61,19 +67,19 @@
         <div class="">
           
           <div class="border-b border-black/30 dark:border-white/30 py-4">
-            <p class=" font-large font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">RailWelding</p>
-            <p class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">Solutions</p>          
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">RailWelding</p>
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">Solutions</p>          
           </div>
           
           <div class="py-4">
             <p class="text-sm md:text-lg select-none">Development and production of rail welding machines</p>
           </div>
+          <p class="text-2xl font-opensans font-extrabold">{{ $t('welcome') }}</p>
         
-          <NuxtLink :to="localePath('index', 'en')">Homepage in English</NuxtLink><br />
-          <NuxtLink :to="localePath('index', 'ru')">Homepage in Russian</NuxtLink>
+          <!-- <nuxt-link :to="localePath('index', 'en')">Homepage in English</nuxt-link><br />
+          <nuxt-link :to="localePath('index', 'ru')">Homepage in Russian</nuxt-link> -->
         
-          <NuxtLink :to="switchLocalePath('en')">English</NuxtLink><br />
-          <NuxtLink :to="switchLocalePath('ru')">Русский</NuxtLink><br />
+
 
         </div>
 
@@ -81,7 +87,7 @@
     </div>
 
 
-
+    
     <div class="bg-gradient-to-br from-main-primary/90 via-main-primary/80 to-main-secondary/60 backdrop-blur-sm border-t border-main-primary/40 py-2">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 h-0">
         
@@ -107,9 +113,11 @@
             </div>
           </div>
         </div>
-      </div>            
+
+      </div>
     </div>
 
+    
 
   </div>
 

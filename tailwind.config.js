@@ -46,7 +46,7 @@ module.exports = {
         'mono': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
         'display': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
         'body': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
-        'large': ['Open Sans', ],
+        'opensans': ['Open Sans', ],
       },
     },
   },

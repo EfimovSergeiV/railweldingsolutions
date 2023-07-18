@@ -1,5 +1,12 @@
 {
   "welcome": "Welcome",
+
+  "railWeldingEquipment": "Rail welding equipment",
+  "testEquipment": "Test equipment",
+  "about": "About",
+  "services": "Services",
+  "language": "Language",
+
   "pages": {
     "about": {
       "description": "English description"
