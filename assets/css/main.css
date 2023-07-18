@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Play&display=swap');
+
+
+@font-face {
+  font-family: 'Proxima-Regular';
+  src: url('./fonts/ProximaNova/ProximaNova-Regular.ttf') format('woff2');
+}
+@font-face {
+  font-family: 'Proxima-Semibold';
+  src: url('./fonts/ProximaNova/ProximaNova-Semibold.ttf') format('woff2');
+}
+@font-face {
+  font-family: 'Proxima-Bold';
+  src: url('./fonts/ProximaNova/ProximaNova-Bold.ttf') format('woff2');
+}
+@font-face {
+  font-family: 'Proxima-Extrabold';
+  src: url('./fonts/ProximaNova/ProximaNova-Extrabld.ttf') format('woff2');
+}
+
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2A72A9;
+  border-radius: 6px;
+  box-shadow: inset 1px 1px 10px #2A72A9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2A72A9;
+}

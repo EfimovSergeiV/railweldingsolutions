@@ -111,7 +111,7 @@
       </div>
 
       <div class="flex items-center justify-center py-10">
-        <img src="logo.png" class=" h-8"/>
+        <img src="/logo.png" class=" h-8"/>
       </div>
       </div>
       

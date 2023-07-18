@@ -40,6 +40,14 @@ module.exports = {
         'main-info': '#2A72A9',
         'main-light': '#4C80A9',
       },
+      fontFamily: {
+        'sans': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
+        'serif': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
+        'mono': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
+        'display': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
+        'body': ['Proxima-Extrabold', 'Noto Sans', 'Open Sans', ],
+        'large': ['Open Sans', ],
+      },
     },
   },
   plugins: [

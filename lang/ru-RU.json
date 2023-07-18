@@ -1,0 +1,8 @@
+{
+  "welcome": "Привет",
+  "pages": {
+    "about": {
+      "description": "Русское описание"
+    }
+  }
+}

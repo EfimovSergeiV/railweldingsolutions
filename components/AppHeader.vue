@@ -1,5 +1,8 @@
 <script setup>
   const colorMode = useColorMode()
+  const { locale } = useI18n()
+  const localePath = useLocalePath()
+  const switchLocalePath = useSwitchLocalePath()
   // const route = useRoute()
 
   // const { data: widebanners } = await useFetch('http://127.0.0.1:8000/c/widebanners/')
@@ -16,7 +19,7 @@
         <div class=" container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
             <nuxt-link to="#">
-              <img src="logo.png" class=" h-6" />
+              <img src="/logo.png" class=" h-6" />
             </nuxt-link>                
           </div>
           <div class="flex gap-4 items-center px-4">
@@ -34,7 +37,14 @@
             </div>
             <div class="flex items-center justify-center py-1">
               <p class="text-sm text-center text-main-primary font-semibold">Язык</p>
-            </div>                
+            </div>
+            
+            <select v-model="locale">
+        <option value="en">en</option>
+        <option value="ru">ru</option>
+      </select>
+      <p>{{ $t('welcome') }}</p>
+
           </div>
         </div>
 
@@ -45,21 +55,26 @@
 
 
 
-    <div class=" ">
+    <div class="h-full">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
           
         <div class="">
           
           <div class="border-b border-black/30 dark:border-white/30 py-4">
-            <p class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase select-none">RailWelding</p>
-            <p class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase select-none">Solutions</p>          
+            <p class=" font-large font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">RailWelding</p>
+            <p class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">Solutions</p>          
           </div>
           
           <div class="py-4">
             <p class="text-sm md:text-lg select-none">Development and production of rail welding machines</p>
           </div>
         
+          <NuxtLink :to="localePath('index', 'en')">Homepage in English</NuxtLink><br />
+          <NuxtLink :to="localePath('index', 'ru')">Homepage in Russian</NuxtLink>
         
+          <NuxtLink :to="switchLocalePath('en')">English</NuxtLink><br />
+          <NuxtLink :to="switchLocalePath('ru')">Русский</NuxtLink><br />
+
         </div>
 
       </div>      
@@ -74,17 +89,17 @@
           <div class="">
             <p class="text-white font-black text-xl my-4">Почему выбирают нас ?</p>
             <div class="grid grid-cols-3 gap-4 text-gray-100">
-              <div class=""><p class="text-sm mdi mdi-brightness-1"> Более 17 лет успешной работы</p></div>
-              <div class=""><p class="text-sm mdi mdi-brightness-1"> Собственное конструкторское бюро</p></div>
-              <div class=""><p class="text-sm mdi mdi-brightness-1"> Полный производственный цикл</p></div>
-              <div class=""><p class="text-sm mdi mdi-brightness-1"> Сервисное обслуживание и поддержка</p></div>
-              <div class=""><p class="text-sm mdi mdi-brightness-1"> Персональный менеджер</p></div>
-              <div class=""><p class="text-sm mdi mdi-brightness-1"> Решение нестандартных задач</p></div>
+              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Более 17 лет успешной работы</p></div>
+              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Собственное конструкторское бюро</p></div>
+              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Полный производственный цикл</p></div>
+              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Сервисное обслуживание и поддержка</p></div>
+              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Персональный менеджер</p></div>
+              <div class=""><p class="text-sm font-semibold mdi mdi-brightness-1"> Решение нестандартных задач</p></div>
             </div>                  
           </div>
           <div class="grid grid-cols-1 gap-2 text-right">
             <div class="grid grid-cols-1 gap-1">
-              <p class="text-gray-100">info@railwelding.ru</p>
+              <p class="text-gray-100 font-semibold">info@railwelding.ru</p>
               <p class="text-white font-semibold text-xl">+49 (123) 000 45 45</p>
             </div>
             <div class="">

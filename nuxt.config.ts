@@ -38,6 +38,7 @@ export default defineNuxtConfig({
     '@artmizu/yandex-metrika-nuxt',
     '@pinia/nuxt',
     'nuxt-swiper',
+    '@nuxtjs/i18n',
   ],
 
   pinia: {
@@ -48,12 +49,39 @@ export default defineNuxtConfig({
     ],
   },
 
+  i18n: {
+    strategy: 'prefix_except_default',
+    // vueI18n: './i18n.config.ts',
+    defaultLocale: 'en',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',  // recommended
+    },
+    // baseUrl: 'https://my-nuxt-app.com',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.json'
+      },
+      {
+        code: 'ru',
+        iso: 'ru-RU',
+        file: 'ru-RU.json'
+      }
+    ],
+    lazy: true,
+    langDir: 'lang/',
+  },
+
   imports: {
     dirs: ['stores'],
   },
 
   css: [
-    '~/assets/css/tailwind.css',
+    '@/assets/css/main.css',
+    '@/assets/css/tailwind.css',
     '@mdi/font/css/materialdesignicons.min.css',
   ],
 
