@@ -1,5 +1,6 @@
 <script setup>
   const colorMode = useColorMode()
+  const localePath = useLocalePath()
   const switchLocalePath = useSwitchLocalePath()
 
   // const route = useRoute()
@@ -17,7 +18,7 @@
       <div id="navbar" class="bg-white/60 border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm duration-700 transition-all">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
-            <nuxt-link to="#">
+            <nuxt-link :to="localePath('index')">
               <img src="/logo.png" class=" h-6" />
             </nuxt-link>                
           </div>
@@ -69,7 +70,7 @@
             <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
             <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
           
-            <div class="py-4">
+            <div class="py-3">
               <p class="text-2xl md:text-lg text-main-primary se lect-none font-opensans font-extrabold">{{ $t('slogan') }}</p>
             </div>          
           </div>
