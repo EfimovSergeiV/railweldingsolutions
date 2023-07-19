@@ -64,10 +64,10 @@
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
         <div class="flex">
           <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-4 border-main-primary/80">
-            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-cyan-800 to-blue-700 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
-            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-cyan-800 to-blue-600 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-800 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-600 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
             <div class="py-3">
-              <p class="text-2xl md:text-lg text-main-primary se lect-none font-opensans font-extrabold">{{ $t('slogan') }}</p>
+              <p class="text-2xl md:text-lg text-sky-950 se lect-none font-opensans font-extrabold">{{ $t('slogan') }}</p>
             </div>          
           </div>
         </div>
@@ -79,7 +79,7 @@
     <div class="">
       <div class="">
 
-        <div class="bg-gradient-to-br from-main-primary/90 via-main-primary/80 to-main-secondary/60 backdrop-blur-sm border-t border-main-primary/40 py-2">
+        <div class="bg-gradient-to-br from-sky-950/95 to-sky-800/95 backdrop-blur-sm border-t border-main-primary/40 py-8">
           <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 py-4">
             <div class="flex items-end justify-between">
               <div class="">

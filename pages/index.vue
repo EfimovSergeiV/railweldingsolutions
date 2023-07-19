@@ -1,15 +1,15 @@
 <template>
   <div class="">
 
-    <div class=" bg-main-primary">
+    <div class=" bg-sky-950">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
         <div class="flex items-center h-20 justify-between">
 
-          <div class="flex items-center gap-2"><span class="font-bold text-white text-[36px]">+150</span><p class="text-gray-100 text-base font-semibold">Сотрудников</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-white text-[36px]">+3500</span><p class="text-gray-100 text-base font-semibold">Реализованных проектов</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-white text-[36px]">+560 Га</span><p class="text-gray-100 text-base font-semibold">Площадь производства</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-white text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold">Волнистых попугаев</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+150</span><p class="text-gray-100 text-base font-semibold">Сотрудников</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+3500</span><p class="text-gray-100 text-base font-semibold">Реализованных проектов</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+560 Га</span><p class="text-gray-100 text-base font-semibold">Площадь производства</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold">Волнистых попугаев</p></div>
 
         </div>
 
