@@ -67,8 +67,8 @@
         <div class="flex">
           
           <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-4 border-main-primary/80">
-            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
-            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-cyan-800 to-blue-700 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
+            <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-cyan-800 to-blue-600 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
           
             <div class="py-3">
               <p class="text-2xl md:text-lg text-main-primary se lect-none font-opensans font-extrabold">{{ $t('slogan') }}</p>
