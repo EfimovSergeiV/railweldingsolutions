@@ -9,7 +9,40 @@
   "title-2": "SOLUTIONS",
   "slogan": "Development and production of rail welding machines",
 
+  "requestCall": "Request a call",
+
   "pages": {
+    "index": {
+      "chooseUs-title": "Why choose us?",
+      "chooseUs-1": "More than 17 years of successful work",
+      "chooseUs-2": "Own design office",
+      "chooseUs-3": "Full production cycle",
+      "chooseUs-4": "Service and Support",
+      "chooseUs-5": "Solution of non-standard tasks",
+      "chooseUs-6": "Personal manager",
+      
+      "employees": "Employees",
+      "complProjects": "Completed projects",
+      "prodArea": "Production area",
+
+      "service-title": "ON-SITE MAINTENANCE AND TROUBLESHOOTING",
+      "service-1": "We offer on-site service and troubleshooting for the entire range of Railwelding products and equipment.",
+      "service-2": "Error analysis and troubleshooting on site",
+      "service-3": "Repair or replacement of defective components by experienced technicians",
+      "service-4": "Documentation of incidents of malfunctions and description of troubleshooting methods (service reports)",
+      "service-5": "Troubleshooting Tips",
+      "service-6": "Our specialists are ready to intervene promptly so that work can be resumed as soon as possible.",
+
+      "repair-title": "OVERHAUL OF EQUIPMENT",
+      "repair-text": "Professional and regular equipment maintenance minimizes unscheduled and costly downtime and keeps you productive. Thanks to this, repair costs are also reduced to the necessary minimum. Railwelding service specialists have many years of experience in the development and repair of rail welding machines and component equipment and regularly carry out warranty and post-warranty maintenance of the manufactured equipment in accordance with applicable standards. However, if you need to repair or upgrade (re-equip) outdated or broken rail welding equipment, we will provide you with quick and reliable assistance in this. With the necessary proprietary equipment, tools and spare parts, your equipment will quickly return to service. We are ready not only to carry out a complete restoration of used equipment, but also to improve its technical characteristics necessary to bring your outdated rail welding machine into modern production. We will give your equipment a new life!",
+      
+      "aboutus-title": "ABOUT US",
+      "aboutus-text": "RAILWELDING COMPANY Leader in the design and manufacture of rail welding equipment. Our innovative technologies and high quality materials ensure the reliability and durability of our equipment. Our company offers a wide range of rail welding machines, designed and manufactured entirely in-house, taking into account the specifics of each project and the needs of each client. In our catalog you will find equipment available in various configurations.",
+      "aboutus-promo": "With us, you can be sure that your rail welding process will run without delays and failures!",
+
+      "learn-title": "TRAINING AND TECHNICAL SUPPORT",
+      "learn-text": "We offer specialized technical training and consulting services in rail welding. Our team consists of experienced engineers and skilled workers who are always ready and willing to share their knowledge with other professionals in this field. The customer service department of Railwelding company pays great attention to the quality transmission of knowledge, continuous support, and ensuring sustainable production without the need for frequent technical maintenance. Such a comprehensive approach to customer service is a guarantee of long-term fruitful cooperation. We are eager to provide training and guidance on all aspects of operating and maintaining the equipment we produce."
+    },
     "about": {
       "description": "English description"
     }

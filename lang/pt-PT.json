@@ -1,0 +1,50 @@
+{
+    "railWeldingEquipment": "Equipamentos de soldagem de trilhos",
+    "testEquipment": "Equipamentos de teste",
+    "services": "Serviços",
+    "about": "Sobre a empresa",
+    "language": "Idioma",
+  
+    "title-1": "RAILWELDING",
+    "title-2": "SOLUTIONS",
+    "slogan": "Desenvolvimento e fabricação de máquinas de soldagem de trilhos.",
+  
+    "requestCall": "Solicite uma ligação",
+
+    "pages": {
+      "index": {
+        "chooseUs-title": "Porque escolher-nos?",
+        "chooseUs-1": "Mais de 17 anos de trabalho bem-sucedido.",
+        "chooseUs-2": "Próprio escritório de design.",
+        "chooseUs-3": "Ciclo completo de produção.",
+        "chooseUs-4": "Manutenção e suporte de serviço.",
+        "chooseUs-5": "Solução de problemas não convencionais.",
+        "chooseUs-6": "Gerente pessoal.",
+        
+        "employees": "Funcionários",
+        "complProjects": "Projetos completos",
+        "prodArea": "Área de produção",
+
+        "service-title": "MANUTENÇÃO NO LOCAL E SOLUÇÃO DE PROBLEMAS",
+        "service-1": "Oferecemos serviço no local e solução de problemas para toda a gama de produtos e equipamentos de soldagem ferroviária.",
+        "service-2": "Análise de erros e solução de problemas no local",
+        "service-3": "Reparação ou substituição de componentes defeituosos por técnicos experientes",
+        "service-4": "Documentação de incidentes de mau funcionamento e descrição de métodos de solução de problemas (relatórios de serviço)",
+        "service-5": "Dicas de soluções de problemas",
+        "service-6": "Nossos especialistas estão prontos para intervir prontamente para que o trabalho possa ser retomado o mais rápido possível.",
+  
+        "repair-title": "OVERHAUL OF EQUIPMENT",
+        "repair-text": "A manutenção profissional e regular do equipamento minimiza o tempo de inatividade não programado e caro e mantém você produtivo. Graças a isso, os custos de reparo também são reduzidos ao mínimo necessário. Os especialistas em serviço de soldagem de trilhos têm muitos anos de experiência no desenvolvimento e reparo de máquinas de solda de trilhos e equipamentos de componentes e realizam regularmente manutenção de garantia e pós-garantia do equipamento fabricado de acordo com os padrões aplicáveis. No entanto, se você precisar reparar ou atualizar (reequipar) equipamentos de soldagem de trilhos desatualizados ou quebrados, forneceremos assistência rápida e confiável para isso. Com os equipamentos, ferramentas e peças de reposição necessários, seu equipamento retornará rapidamente ao serviço. Estamos prontos não apenas para realizar uma restauração completa de equipamentos usados, mas também para melhorar suas características técnicas necessárias para trazer sua máquina de solda de trilhos desatualizada para a produção moderna. Damos uma nova vida ao seu equipamento!",
+
+        "aboutus-title": "SOBRE NÓS",
+        "aboutus-text": "RAILWELDING COMPANY Líder na concepção e fabrico de equipamentos de soldadura ferroviária. Nossas tecnologias inovadoras e materiais de alta qualidade garantem a confiabilidade e durabilidade de nossos equipamentos. A nossa empresa dispõe de uma vasta gama de máquinas de soldar carris, concebidas e fabricadas inteiramente internamente, tendo em conta as especificidades de cada projeto e as necessidades de cada cliente. Em nosso catálogo você encontra equipamentos disponíveis em diversas configurações.",  
+        "aboutus-promo": "Conosco, você pode ter certeza de que seu processo de soldagem de trilhos será executado sem atrasos e falhas!",
+
+        "learn-title": "FORMAÇÃO E SUPORTE TÉCNICO",
+        "learn-text": "Oferecemos treinamento técnico especializado e consultoria em soldagem de trilhos. Nossa equipe é composta por engenheiros experientes e trabalhadores qualificados, sempre prontos e felizes em compartilhar seus conhecimentos com outros profissionais nesta área. O serviço de suporte da Railwelding dedica muita atenção à transferência de conhecimento de qualidade, acompanhamento contínuo e garantia de produção sustentável sem a necessidade de manutenção técnica frequente. Esse enfoque abrangente no serviço ao cliente é a garantia de uma parceria de longo prazo e produtiva. Teremos prazer em treiná-lo e orientá-lo em todas as questões relacionadas à operação e manutenção dos equipamentos que fabricamos."
+      },
+      "about": {
+        "description": "Русское описание"
+      }
+    }
+  }
