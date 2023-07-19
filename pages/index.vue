@@ -17,7 +17,7 @@
     </div>
 
 
-    <div class="bg-white py-1 min-h-screen">
+    <div class="bg-white py-1 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto  lg:max-w-7xl lg:px-8">
         <p class="my-4 text-2xl">Продукция</p>
         <p v-for="i in 15" :key="i" class="my-2">hallo welt</p>
@@ -28,7 +28,7 @@
     <div class="">
       <div class="bg-white">
 
-        <div class="bg-[url('images/rails-bg.jpg')] h-[480px] bg-no-repeat bg-left-bottom bg-cover">
+        <div class="bg-[url('images/rails-bg.jpg')] h-[380px] bg-no-repeat bg-left-bottom bg-cover">
           <div class="bg-main-primary/70 hover:bg-main-primary/80 backdrop-blur-sm transition-all duration-1000 h-full relative">
             <div class="absolute w-full h-full">
 
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="bg-white/80 py-4">
+    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
         <div class="my-4">
@@ -61,7 +61,7 @@
       </div>
     </div>
 
-    <div class="bg-white/80 py-4">
+    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
         <div class="my-4">
@@ -95,7 +95,7 @@
       </div>
     </div>
 
-    <div class="bg-white/80 py-4">
+    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
         <div class="my-4">
           <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-800 to-blue-900 text-[20px] md:text-[40px] uppercase se lect-none">Капитальный ремонт оборудования</p>
@@ -110,7 +110,7 @@
 
 
     
-    <div class="bg-white/80 py-4">
+    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
