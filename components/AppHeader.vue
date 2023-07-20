@@ -19,7 +19,7 @@
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
             <nuxt-link :to="localePath('index')">
-              <img src="/logo.png" class=" h-6" />
+              <img src="/railwelding-logo.webp" class=" h-6" />
             </nuxt-link>                
           </div>
           <div class="flex gap-4 items-center px-4 ">
@@ -80,7 +80,7 @@
     <div class="">
       <div class="">
 
-        <div class="bg-gradient-to-br from-sky-950/95 to-sky-800/95 backdrop-blur-sm border-t border-sky-950/40 py-8">
+        <div class="bg-gradient-to-br from-sky-950/95 to-sky-800/95 backdrop-blur-sm border-t border-sky-950/40 py- 2">
           <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 py-4">
             <div class="flex items-end justify-between">
               <div class="">
