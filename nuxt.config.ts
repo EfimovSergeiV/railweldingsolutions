@@ -19,10 +19,12 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
       ]
     },
-    // pageTransition: { 
-    //   name: 'page', 
-    //   mode: 'out-in' 
-    // },
+
+    /// Transition with fixed navbar - BUG
+    pageTransition: { 
+      name: 'page', 
+      mode: 'out-in' 
+    },
     // pageTransition: {
     //   name: 'fade',
     //   mode: 'out-in' // default

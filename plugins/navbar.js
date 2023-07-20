@@ -6,12 +6,12 @@ export default defineNuxtPlugin(nuxtApp => {
       const navMenu = document.getElementById('navbar')
 
       if (scrollPosition > 200) {
-        navMenu.classList.remove('bg-white/60')
+        navMenu.classList.remove('bg-white/60', 'absolute')
         navMenu.classList.add('bg-white', 'fixed')
         
       } else {
         navMenu.classList.remove('bg-white', 'fixed')
-        navMenu.classList.add('bg-white/60')
+        navMenu.classList.add('bg-white/60', 'absolute')
       }
 
       // if (scrollPosition > 200) {

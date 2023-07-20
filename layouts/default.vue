@@ -14,7 +14,7 @@
   <div class="">
     <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
 
-      <AppHeader class="absolute w-full" />
+      <AppHeader />
       <slot />
 
       <!-- <h2>{{ $t('pages.about.description') }}</h2> -->

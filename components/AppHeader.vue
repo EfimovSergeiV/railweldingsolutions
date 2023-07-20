@@ -16,8 +16,8 @@
     <!-- <nuxt-link :to="localePath({ name: 'index'})" class=" font-semibold text-2xl">JKHJSDHDKJSHKJHJKDSHKJDJKSHDJKD</nuxt-link>
     <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class=" font-semibold text-2xl">J KHJSDHDKJSHKJHJKDSHKJDJKSHDJKD</nuxt-link> -->
 
-    <div class="">
-      <div id="navbar" class="bg-white/60 border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm duration-700 transition-all">
+    <div class=" ">
+      <div id="navbar" class="bg-white/60 border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full absolute z-50 backdrop-blur-sm duration-700 transition-all">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
           <div class="py-1">
             <nuxt-link :to="localePath('index')">
