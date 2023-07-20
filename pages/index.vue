@@ -35,6 +35,11 @@
               <div class="my-2">
                 <p class="text-sm font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
               </div>
+              <div>
+                <p class="text-xs text-sky-950">
+                  The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
+                </p>
+              </div>
             
             </div>
 
@@ -42,9 +47,6 @@
 
           
         </div>
-
-
-
 
 
       </div>      
@@ -58,12 +60,10 @@
           <div class="bg-sky-950/70 hover:bg-sky-950/80 backdrop-blur-sm transition-all duration-1000 h-full relative">
             <div class="absolute w-full h-full">
 
-              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 h-full">
-                <div class="flex items-center justify-center h-full">
-                  <div class="grid grid-cols-1 gap-2">
-                    <p class="text-slate-200 font-black text-[36px] uppercase">Ищете надежное и эффективное решение для сварки рельсов?</p>
-                    <p class="text-3xl text-white uppercase">У нас есть идеальное предложение для вас!</p>                
-                  </div>
+              <div class="flex items-center justify-center h-full">
+                <div class="grid grid-cols-1 gap-2">
+                  <p class="text-slate-200 font-semibold text-xl uppercase">Ищете надежное и эффективное решение для сварки рельсов?</p>
+                  <p class="text-4xl text-white uppercase">У нас есть идеальное предложение для вас!</p>
                 </div>
               </div>
 
@@ -91,7 +91,7 @@
 
         <div class="">
 
-          <div class="flex gap-4 items-center justify-end my-8">
+          <div class="flex gap-4 items-center justify-end my-14">
             <div v-for="i in 4" :key="i" class="">
               <img src="/teh-support.png" class="h-28 rounded-lg"/>
             </div>
@@ -122,20 +122,20 @@
           {{ $t('pages.index.service-1') }}
         </p>
         
-        <div class="flex my-4">
+        <div class="flex my-12">
           <div class=" grid grid-cols-1 gap-4">
             
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
             </div>
 
           </div>
