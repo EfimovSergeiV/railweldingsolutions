@@ -1,3 +1,11 @@
+<script setup>
+ const localePath = useLocalePath()
+
+
+</script>
+
+
+
 <template>
   <div class="">
 
@@ -25,25 +33,44 @@
 
 
         <div class="my-4">
-          <div class="grid grid-cols-3 gap-4">
+          <div v-for="f in 3" :key="f" class="">
+            <div class="">
+              <div class="flex items-center justify-end border-b border-sky-950/20">
+                <p class="text-sm text-sky-950 font-semibold">Welding machines {{ f }}</p>
+              </div>
 
-            <div v-for="i in 15" :key="i" class="my-2">
-            
-              <div class="flex items-center justify-center bg-white border border-sky-950">
-                <img src="/prod/fbm-140.png" class=" w-40" />
-              </div>
-              <div class="my-2">
-                <p class="text-sm font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
-              </div>
-              <div>
-                <p class="text-xs text-sky-950">
-                  The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
-                </p>
-              </div>
-            
-            </div>
+              <div class="grid grid-cols-3 gap-4">
 
+                <div v-for="i in 5 - f" :key="i" class="my-2">
+                
+
+                  <div class="flex items-center justify-center bg-white border border-sky-950/20">
+                    <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+                  </div>
+                  <div class="my-2">
+                    <p class="text-sm font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+                  </div>
+                  <div>
+                    <p class="text-xs text-sky-950">
+                      The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
+                    </p>
+                  </div>
+
+                  <div class="my-4 flex items-center justify-between">
+                    <button class="text-sm text-sky-950 font-semibold uppercase">Request price</button>
+                    <nuxt-link :to="localePath('index')" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
+                  </div>
+
+
+                </div>
+              
+
+              
+              </div>
+
+            </div>            
           </div>
+
 
           
         </div>
