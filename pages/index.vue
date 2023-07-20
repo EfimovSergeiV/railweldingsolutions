@@ -58,7 +58,7 @@
 
                   <div class="my-4 flex items-center justify-between">
                     <button class="text-sm text-sky-950 font-semibold uppercase">Request price</button>
-                    <nuxt-link :to="localePath('index')" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
+                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
                   </div>
 
 
