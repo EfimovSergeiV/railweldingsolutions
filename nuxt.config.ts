@@ -23,10 +23,10 @@ export default defineNuxtConfig({
     //   name: 'page', 
     //   mode: 'out-in' 
     // },
-    pageTransition: {
-      name: 'fade',
-      mode: 'out-in' // default
-    },
+    // pageTransition: {
+    //   name: 'fade',
+    //   mode: 'out-in' // default
+    // },
     // layoutTransition: {
     //   name: 'slide',
     //   mode: 'out-in' // default

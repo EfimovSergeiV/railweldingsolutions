@@ -12,9 +12,9 @@
 
 <template>
   <div class="">
-    <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')] min-h-screen">
+    <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
 
-      <AppHeader />
+      <AppHeader class="absolute w-full" />
       <slot />
 
       <!-- <h2>{{ $t('pages.about.description') }}</h2> -->

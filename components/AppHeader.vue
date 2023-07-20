@@ -12,7 +12,7 @@
 
 <template>
 
-  <div class="min-h-screen grid grid-cols-1 content-between ">
+  <div class="">
     <!-- <nuxt-link :to="localePath({ name: 'index'})" class=" font-semibold text-2xl">JKHJSDHDKJSHKJHJKDSHKJDJKSHDJKD</nuxt-link>
     <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class=" font-semibold text-2xl">J KHJSDHDKJSHKJHJKDSHKJDJKSHDJKD</nuxt-link> -->
 
@@ -62,7 +62,7 @@
 
     
 
-    <div class="">
+    <!-- <div class="">
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
         <div class="flex">
@@ -111,7 +111,7 @@
 
       </div>
 
-    </div>
+    </div> -->
 
   </div>
 
