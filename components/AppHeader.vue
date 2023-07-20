@@ -12,7 +12,9 @@
 
 <template>
 
-  <div class="min-h-screen grid grid-cols-1 content-between">
+  <div class="min-h-screen grid grid-cols-1 content-between ">
+    <!-- <nuxt-link :to="localePath({ name: 'index'})" class=" font-semibold text-2xl">JKHJSDHDKJSHKJHJKDSHKJDJKSHDJKD</nuxt-link>
+    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class=" font-semibold text-2xl">J KHJSDHDKJSHKJHJKDSHKJDJKSHDJKD</nuxt-link> -->
 
     <div class="">
       <div id="navbar" class="bg-white/60 border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full z-50 backdrop-blur-sm duration-700 transition-all">
@@ -24,10 +26,10 @@
           </div>
           <div class="flex gap-4 items-center px-4 ">
             <div class="">
-              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</p>
+              <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
             </div>
             <div class="">
-              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('testEquipment') }}</p>
+              <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('testEquipment') }}</nuxt-link>
             </div>
             <div class="">
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('about') }}</p>
