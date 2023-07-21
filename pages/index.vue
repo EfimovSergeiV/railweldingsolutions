@@ -161,7 +161,7 @@
       </div>
     </div>
 
-    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
+    <div class="bg-white/80 my-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
         <div class="">
@@ -195,9 +195,39 @@
     </div>
 
 
+<!-- <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]"> -->
+    <!-- <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center"> -->
+    <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
+      <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
+        <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
-    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
+          <div class="my-2">
+            <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+              {{ $t('pages.index.repair-title') }}
+            </p>
+          </div>
+          
+          <p class="text-base text-sky-950 se lect-none font-opensans">
+            {{ $t('pages.index.repair-text') }}
+          </p>
+
+          <div class="">
+            <div class="flex gap-4 items-center justify-end my-14">
+              <div v-for="i in 4" :key="i" class="">
+                <img src="/teh-support.png" class="h-28 rounded-lg"/>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
+
 
         <div class="my-2">
           <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
@@ -235,37 +265,12 @@
         </div>
 
 
-          
-      </div>
-    </div>
-
-
-
-    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
-      <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="my-2">
-          <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
-            {{ $t('pages.index.repair-title') }}
-          </p>
-        </div>
-         
-        <p class="text-base text-sky-950 se lect-none font-opensans">
-          {{ $t('pages.index.repair-text') }}
-        </p>
-
-        <div class="">
-          <div class="flex gap-4 items-center justify-end my-14">
-            <div v-for="i in 4" :key="i" class="">
-              <img src="/teh-support.png" class="h-28 rounded-lg"/>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
 
     
-    <div class="bg-sky-950 bg-gradient-to-r from-sky-950 via-sky-900 to-sky-950 py-4 min-h-screen grid grid-cols-1 content-center border-t border-white">
+    <div class="bg-sky-950 py-8 bg-gradient-to-r from-sky-950 via-sky-900 to-sky-950 min-h-screen grid grid-cols-1 content-center border-t border-white">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
@@ -293,7 +298,7 @@
               </p>
             </div>
 
-            <div class="grid grid-cols-2 gap-8">
+            <div class="grid grid-cols-2 gap-2">
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
                   <img src="/partners/2.png" class="h-14"/>
