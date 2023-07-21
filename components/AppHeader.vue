@@ -47,6 +47,7 @@
                       <nuxt-link :to="switchLocalePath('ru')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Русский</nuxt-link>
                       <nuxt-link :to="switchLocalePath('en')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">English</nuxt-link>
                       <nuxt-link :to="switchLocalePath('pt')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Português</nuxt-link>
+                      <nuxt-link :to="switchLocalePath('de')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Deutsch</nuxt-link>
                     </div>
                   </div>
                 </div>

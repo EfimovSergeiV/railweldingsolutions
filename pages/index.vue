@@ -248,6 +248,14 @@
         <p class="text-base text-sky-950 se lect-none font-opensans">
           {{ $t('pages.index.repair-text') }}
         </p>
+
+        <div class="">
+          <div class="flex gap-4 items-center justify-end my-14">
+            <div v-for="i in 4" :key="i" class="">
+              <img src="/teh-support.png" class="h-28 rounded-lg"/>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

@@ -1,0 +1,62 @@
+{
+  "railWeldingEquipment": "Schienenschweißausrüstung",
+  "testEquipment": "Testgerät",
+  "about": "Dienste",
+  "services": "Über das Unternehmen",
+  "language": "Sprache",
+
+  "title-1": "RAILWELDING",
+  "title-2": "SOLUTIONS",
+  "slogan": "Entwicklung und Produktion von Schienenschweißmaschinen",
+
+  "requestCall": "Anruf anfordern",
+
+  "pages": {
+    "index": {
+
+      "readySolutions": "Fertiglösungen",
+      "prod-name-1": "SCHIENENSCHWEISSMASCHINE FBM-140",
+
+
+      "chooseUs-title": "Warum uns wählen?",
+      "chooseUs-1": "Über 17 Jahre Erfolg",
+      "chooseUs-2": "Eigenes Designbüro",
+      "chooseUs-3": "Voller Produktionslauf",
+      "chooseUs-4": "Service und Support",
+      "chooseUs-5": "Lösung nicht standardmäßiger Aufgaben",
+      "chooseUs-6": "Persönlicher Manager",
+     
+      "Mitarbeiter": "Mitarbeiter",
+      "complProjects": "Abgeschlossene Projekte",
+      "prodArea": "Produktionsbereich",
+
+      "service-title": "SERVICE UND FEHLERBEHEBUNG VOR ORT",
+      "service-1": "Wir bieten Vor-Ort-Service und Fehlerbehebung für das gesamte Sortiment an Railwelding-Produkten und -Geräten.",
+      "service-2": "Fehleranalyse und Fehlerbehebung vor Ort",
+      "service-3": "Reparatur oder Austausch defekter Komponenten durch erfahrene Techniker",
+      "service-4": "Dokumentation von Störungsvorfällen und Beschreibung der Fehlerbehebung (Serviceberichte)",
+      "service-5": "Empfehlungen zur Vermeidung von Störungen",
+      "service-6": "Unsere Spezialisten sind bereit, schnell einzugreifen, damit die Arbeit schnellstmöglich wieder aufgenommen werden kann.",
+
+      "repair-title": "GROSSE REPARATUR VON AUSRÜSTUNG",
+      "repair-text": "Eine professionelle und regelmäßige Wartung der Geräte minimiert ungeplante und kostspielige Ausfallzeiten und stellt die erforderliche Produktivität sicher. Dadurch werden auch die Reparaturkosten auf das notwendige Minimum reduziert. Die Spezialisten des Schienenschweißservices verfügen über langjährige Erfahrung in der Entwicklung und Reparatur von Schienenschweißmaschinen und Zubehör und führen regelmäßig Garantie- und Nachgarantiewartungen der hergestellten Geräte gemäß den aktuellen Standards durch. Wenn Sie jedoch eine veraltete oder ausgefallene Schienenschweißausrüstung reparieren oder aufrüsten (umrüsten) müssen, helfen wir Ihnen schnell und zuverlässig Diesbezüglich. Mit der notwendigen eigenen Ausrüstung, Werkzeugen und Ersatzteilen wird Ihre Ausrüstung schnell wieder in Betrieb genommen. Wir sind nicht nur bereit, eine vollständige Restaurierung gebrauchter Ausrüstung durchzuführen, sondern auch deren technische Eigenschaften zu verbessern, die erforderlich sind, um Ihre veraltete Schienenschweißmaschine in die moderne Produktion zu bringen. Wir geben Ihrer Ausrüstung ein neues Leben!",
+
+      "aboutus-title": "ÜBER UNS",
+      "aboutus-text": "RAILWELDING Ein führendes Unternehmen in der Entwicklung und Herstellung von Schienenschweißgeräten. Unsere innovativen Technologien und hochwertigen Materialien gewährleisten die Zuverlässigkeit und Langlebigkeit unserer Geräte. Unser Unternehmen bietet eine breite Palette von Schienenschweißmaschinen an, die vollständig im eigenen Haus entwickelt und hergestellt werden und dabei die Merkmale jedes Projekts und die Bedürfnisse jedes Kunden berücksichtigen. In unserem Katalog finden Sie Geräte in verschiedenen Konfigurationen.",
+      "aboutus-promo": "Bei uns können Sie sicher sein, dass Ihr Schienenschweißprozess ohne Verzögerungen und Ausfälle abläuft!",
+
+      "learn-title": "LERNEN UND TECHNISCHER SUPPORT",
+      "learn-text": "Wir bieten spezielle technische Schulungen und Beratung zum Elektroschweißen von Schienen. Unser Team besteht aus erfahrenen Ingenieuren und Facharbeitern, die jederzeit bereit und gerne bereit sind, ihr Wissen mit anderen Fachleuten auf diesem Gebiet zu teilen. Die Serviceabteilung von Railwelding legt großen Wert auf qualitativ hochwertigen Wissenstransfer, fortlaufende Unterstützung und nachhaltige Produktion ohne die Notwendigkeit einer häufigen Wartung. Dieser umfassende Kundendienstansatz ist der Schlüssel zu einer langfristig fruchtbaren Zusammenarbeit. Wir schulen und beraten Sie gerne in allen Betriebsfragen und der Wartung unserer Ausrüstung."
+    },
+
+    "prods": {
+      
+    },
+
+
+
+    "about": {
+      "description": "Russische Beschreibung"
+    }
+  }
+}
