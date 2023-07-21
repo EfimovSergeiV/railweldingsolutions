@@ -332,17 +332,29 @@
           <div class="w-[30em]">
 
             <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
-              <p class="text-sky-950 font-semibold">
+              <p class="text-sky-950 font-semibold ">
                 {{ $t('pages.index.contactus') }}
               </p>
             </div>
 
             <div class="grid grid-cols-1 gap-2">
-              <input type="text" id="person" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-300 dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="$t('pages.index.yorname')" />
-              <input type="text" id="person" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-300 dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="$t('pages.index.youremail')" />
-              <textarea type="text" id="person" rows="4" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-300 dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="$t('pages.index.yourmess')"></textarea>
+
+              <div class="relative">
+                <p class="absolute px-2 mdi mdi-24px mdi-account-tie text-gray-600"></p>
+                <input type="text" id="person" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 py-1.5 " :placeholder="$t('pages.index.yorname')" />
+              </div>
+
+              <div class="relative">
+                <p class="absolute px-2 mdi mdi-24px mdi-at text-gray-600"></p>
+                <input type="text" id="person" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-1.5 " :placeholder="$t('pages.index.youremail')" />
+              </div>
+
+              <div class="relative">
+                <p class="absolute px-2 py-1 mdi mdi-24px mdi-text-long text-gray-600"></p>
+                <textarea type="text" id="person" rows="4" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
+              </div>
             
-              <button class="bg-sky-950/70 text-gray-100 font-semibold py-1 rounded-sm">{{ $t('pages.index.send') }}</button>
+              <button class="bg-sky-950 text-gray-50 font-semibold py-1 rounded-sm">{{ $t('pages.index.send') }}</button>
             
             </div>
 
