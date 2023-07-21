@@ -145,8 +145,12 @@
 
               <div class="flex items-center justify-center h-full">
                 <div class="grid grid-cols-1 gap-2">
-                  <p class="text-slate-200 font-semibold text-xl uppercase">Ищете надежное и эффективное решение для сварки рельсов?</p>
-                  <p class="text-4xl text-white uppercase">У нас есть идеальное предложение для вас!</p>
+                  <p class="text-slate-200 font-semibold text-xl uppercase">
+                    {{ $t('pages.index.quest-title') }}
+                  </p>
+                  <p class="text-4xl text-white uppercase">
+                    {{ $t('pages.index.quest-text') }}
+                  </p>
                 </div>
               </div>
 
