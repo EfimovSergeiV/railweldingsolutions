@@ -284,6 +284,70 @@
             </p>
           </div>
         </div>
+
+        <div class="flex gap-4 items-center justify-between my-4">
+          <div class="">
+            <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
+              <p class="text-sky-950 font-semibold">
+                {{ $t('pages.index.partners') }}
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-8">
+              <div class="px-8">
+                <div class="flex items-center justify-center py-2">
+                  <img src="/partners/1.png" class="h-14"/>
+                </div>
+                <div class="flex items-center justify-center py-2">
+                  <p class="text-sky-950 text-xs">Lithuanian Railways</p>
+                </div>
+              </div>
+              <div class="px-8">
+                <div class="flex items-center justify-center py-2">
+                  <img src="/partners/2.png" class="h-14"/>
+                </div>
+                <div class="flex items-center justify-center py-2">
+                  <p class="text-sky-950 text-xs">Kazakh Railways</p>
+                </div>
+              </div>
+              <div class="px-8">
+                <div class="flex items-center justify-center py-2">
+                  <img src="/partners/3.png" class="h-14"/>
+                </div>
+                <div class="flex items-center justify-center py-2">
+                  <p class="text-sky-950 text-xs">Ozbekiston temir yollari</p>
+                </div>
+              </div>
+              <div class="px-8">
+                <div class="flex items-center justify-center py-2">
+                  <img src="/partners/4.png" class="h-14"/>
+                </div>
+                <div class="flex items-center justify-center py-2">
+                  <p class="text-sky-950 text-xs">Belarusian railways</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[30em]">
+
+            <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
+              <p class="text-sky-950 font-semibold">
+                {{ $t('pages.index.contactus') }}
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-2">
+              <input type="text" id="person" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-300 dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="$t('pages.index.yorname')" />
+              <input type="text" id="person" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-300 dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="$t('pages.index.youremail')" />
+              <textarea type="text" id="person" rows="4" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-300 dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="$t('pages.index.yourmess')"></textarea>
+            
+              <button class="bg-sky-950/70 text-gray-100 font-semibold py-1 rounded-sm">{{ $t('pages.index.send') }}</button>
+            
+            </div>
+
+          </div>
+        </div>
       
 
       <div class="flex items-center justify-center py-2 mt-8 px-10">
