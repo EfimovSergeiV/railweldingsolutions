@@ -265,13 +265,13 @@
 
 
     
-    <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center">
+    <div class="bg-sky-950 bg-gradient-to-r from-sky-950 via-sky-900 to-sky-950 py-4 min-h-screen grid grid-cols-1 content-center border-t border-white">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
         <div class="flex items-center justify-center text-center">
           <div class="my-2">
-            <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+            <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-gray-100 to-gray-300 uppercase se lect-none">
               {{ $t('pages.index.aboutus-title') }}
             </p>
           </div>
@@ -279,7 +279,7 @@
 
         <div class="flex items-center justify-center text-center">
           <div class="">
-            <p class="text-base text-sky-950 se lect-none font-opensans">
+            <p class="text-base text-gray-100 se lect-none font-opensans">
               {{ $t('pages.index.aboutus-text') }}
             </p>
           </div>
@@ -287,8 +287,8 @@
 
         <div class="flex gap-4 items-center justify-between my-4">
           <div class="">
-            <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
-              <p class="text-sky-950 font-semibold">
+            <div class="flex items-center justify-center my-4 border-b border-gray-100/20">
+              <p class="text-gray-100 font-semibold">
                 {{ $t('pages.index.partners') }}
               </p>
             </div>
@@ -296,18 +296,18 @@
             <div class="grid grid-cols-2 gap-8">
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
-                  <img src="/partners/1.png" class="h-14"/>
+                  <img src="/partners/2.png" class="h-14"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
-                  <p class="text-sky-950 text-xs">Lithuanian Railways</p>
+                  <p class="text-gray-100 text-xs">Kazakh Railways</p>
                 </div>
               </div>
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
-                  <img src="/partners/2.png" class="h-14"/>
+                  <img src="/partners/1.png" class="h-14"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
-                  <p class="text-sky-950 text-xs">Kazakh Railways</p>
+                  <p class="text-gray-100 text-xs">Lithuanian Railways</p>
                 </div>
               </div>
               <div class="px-8">
@@ -315,7 +315,7 @@
                   <img src="/partners/3.png" class="h-14"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
-                  <p class="text-sky-950 text-xs">Ozbekiston temir yollari</p>
+                  <p class="text-gray-100 text-xs">Ozbekiston temir yollari</p>
                 </div>
               </div>
               <div class="px-8">
@@ -323,7 +323,7 @@
                   <img src="/partners/4.png" class="h-14"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
-                  <p class="text-sky-950 text-xs">Belarusian railways</p>
+                  <p class="text-gray-100 text-xs">Belarusian railways</p>
                 </div>
               </div>
             </div>
@@ -331,8 +331,8 @@
 
           <div class="w-[30em]">
 
-            <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
-              <p class="text-sky-950 font-semibold ">
+            <div class="flex items-center justify-center my-4 border-b border-gray-100/20">
+              <p class="text-gray-100 font-semibold ">
                 {{ $t('pages.index.contactus') }}
               </p>
             </div>
@@ -341,20 +341,20 @@
 
               <div class="relative">
                 <p class="absolute px-2 mdi mdi-24px mdi-account-tie text-sky-950/90"></p>
-                <input type="text" id="person" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 py-1.5 " :placeholder="$t('pages.index.yorname')" />
+                <input type="text" id="person" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 py-1.5 " :placeholder="$t('pages.index.yorname')" />
               </div>
 
               <div class="relative">
                 <p class="absolute px-2 mdi mdi-24px mdi-at text-sky-950/90"></p>
-                <input type="text" id="person" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-1.5 " :placeholder="$t('pages.index.youremail')" />
+                <input type="text" id="person" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-1.5 " :placeholder="$t('pages.index.youremail')" />
               </div>
 
               <div class="relative">
                 <p class="absolute px-2 py-1 mdi mdi-24px mdi-text-long text-sky-950/90"></p>
-                <textarea type="text" id="person" rows="4" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
+                <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
               </div>
             
-              <button class="bg-sky-950 text-gray-50 font-semibold py-1 rounded-sm">{{ $t('pages.index.send') }}</button>
+              <button class="bg-sky-950 text-gray-50 font-semibold py-1 rounded-sm rounded-b-2xl shadow-lg shadow-black/50">{{ $t('pages.index.send') }}</button>
             
             </div>
 
@@ -362,13 +362,13 @@
         </div>
       
 
-      <div class="flex items-center justify-center py-2 mt-8 px-10">
-        <p class="text-base text-sky-950 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
-      </div>
+        <div class="flex items-center justify-center py-2 mt-8 px-10">
+          <p class="text-base text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
+        </div>
 
-      <div class="flex items-center justify-center py-4">
-        <img src="/logo.png" class=" h-8"/>
-      </div>
+        <div class="flex items-center justify-center py-4">
+          <img src="/logo-white.png" class=" h-8"/>
+        </div>
       </div>
       
     </div>

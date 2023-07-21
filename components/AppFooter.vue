@@ -1,10 +1,10 @@
 <template>
-  <div class=" bg-main-dark">
+  <div class=" bg-main-dark border-t border-white/40">
     <div class="mx-auto max-w-7xl px-4 lg:max-w-7xl lg:px-8 relative">
       
       <div class="py-4">
-        <div class="flex items-center justify-center py-1">
-          <p class="text-sm text-gray-100">(c) RailWeldingSolutions.com </p>
+        <div class="flex items-center justify-start py-1">
+          <p class="text-xs text-gray-100">By RailWeldingSolutions.com </p>
         </div>      
       </div>
 
