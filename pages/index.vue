@@ -1,7 +1,15 @@
 <script setup>
  const localePath = useLocalePath()
+ const config = useRuntimeConfig()
+  // const colorMode = useColorMode()
+  // const route = useRoute()
 
-
+  const { data: widebanner } = await useFetch(`${ config.public.baseURL }c/widebanners/`)
+  const { data: banners } = await useFetch(`${ config.public.baseURL }c/mainbanner/`)
+  const { data: brands } = await useFetch(`${ config.public.baseURL }c/brands/`)
+  const { data: esab } = await useFetch(`${ config.public.baseURL }c/prods/?brnd=3`)
+  const { data: latest } = await useFetch(`${ config.public.baseURL }c/neues/`)
+  
 </script>
 
 

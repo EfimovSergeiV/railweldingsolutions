@@ -55,6 +55,12 @@ export default defineNuxtConfig({
     ],
   },
 
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.BASE_URL || 'https://api.glsvar.ru/',///'http://127.0.0.1:8000/',
+    },
+  },
+
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
