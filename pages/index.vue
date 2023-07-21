@@ -354,7 +354,7 @@
                 <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
               </div>
             
-              <button class="bg-sky-950 text-gray-50 font-semibold py-1 rounded-sm rounded-b-2xl shadow-lg shadow-black/50">{{ $t('pages.index.send') }}</button>
+              <button class="bg-sky-900 text-gray-50 font-semibold py-1 rounded-sm rounded-b-2xl shadow-lg shadow-black/50">{{ $t('pages.index.send') }}</button>
             
             </div>
 
