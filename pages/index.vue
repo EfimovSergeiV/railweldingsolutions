@@ -209,8 +209,8 @@
           {{ $t('pages.index.service-1') }}
         </p>
         
-        <div class="flex my-12">
-          <div class=" grid grid-cols-1 gap-4">
+        <div class="flex my-8">
+          <div class=" grid grid-cols-1 gap-2">
             
             <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
@@ -228,7 +228,7 @@
           </div>
         </div>
 
-        <div class="my-8">
+        <div class="my-4">
           <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">
             {{ $t('pages.index.service-6') }}
           </p>
