@@ -340,17 +340,17 @@
             <div class="grid grid-cols-1 gap-2">
 
               <div class="relative">
-                <p class="absolute px-2 mdi mdi-24px mdi-account-tie text-gray-600"></p>
+                <p class="absolute px-2 mdi mdi-24px mdi-account-tie text-sky-950/90"></p>
                 <input type="text" id="person" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 py-1.5 " :placeholder="$t('pages.index.yorname')" />
               </div>
 
               <div class="relative">
-                <p class="absolute px-2 mdi mdi-24px mdi-at text-gray-600"></p>
+                <p class="absolute px-2 mdi mdi-24px mdi-at text-sky-950/90"></p>
                 <input type="text" id="person" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-1.5 " :placeholder="$t('pages.index.youremail')" />
               </div>
 
               <div class="relative">
-                <p class="absolute px-2 py-1 mdi mdi-24px mdi-text-long text-gray-600"></p>
+                <p class="absolute px-2 py-1 mdi mdi-24px mdi-text-long text-sky-950/90"></p>
                 <textarea type="text" id="person" rows="4" class="bg-gray-50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
               </div>
             
