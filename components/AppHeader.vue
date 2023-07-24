@@ -24,18 +24,51 @@
               <img src="/railwelding-logo.webp" class=" h-6" />
             </nuxt-link>                
           </div>
-          <div class="flex gap-4 items-center px-4 ">
-            <div class="">
+          <div class="flex gap-6 items-center">
+            <div class="relative group">
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
+              <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+                <div class="py-1">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
+                    <div class="grid grid-cols-1 gap-2 px-10 py-2">
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
             </div>
-            <div class="">
+            <div class="relative group">
               <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('testEquipment') }}</nuxt-link>
+              <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+                <div class="py-1">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
+                    <div class="grid grid-cols-1 gap-2 px-10 py-2">
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Прес тестировычный</nuxt-link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
             </div>
-            <div class="">
-              <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('about') }}</p>
-            </div>
-            <div class="">
+            <div class="relative group">
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('services') }}</p>
+              <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+                <div class="py-1">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
+                    <div class="grid grid-cols-1 gap-2 px-10 py-2">
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Обучение и тех. поддержка</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Капитальный ремонт</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Обслуживание и устранение неполадок</nuxt-link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
             </div>
             
             <div class="relative group">

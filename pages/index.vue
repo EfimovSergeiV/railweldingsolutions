@@ -105,7 +105,7 @@
                 <div v-for="i in 5 - f" :key="i" class="my-2">
 
                   
-                  <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })">
+                  <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })">
                     <div class="flex items-center justify-center bg-white border border-sky-950/20">
                       <img src="/prod/fbm-140.png" class=" w-40 py-4" />
                     </div>
@@ -122,7 +122,7 @@
 
                   <div class="my-4 flex items-center justify-between">
                     <button class="text-sm text-sky-950 font-semibold uppercase">Request price</button>
-                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
+                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
                   </div>
                 </div>
               </div>
@@ -195,7 +195,7 @@
 <!-- <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]"> -->
     <!-- <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center"> -->
     <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
-      <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center border-t border-b border-sky-950/30">
+      <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center border-t border-b border-sky-950/20">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
           <div class="my-2">

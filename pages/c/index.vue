@@ -102,7 +102,7 @@
               </div>
               <div class="grid grid-cols-3 gap-4">
                 <div v-for="i in 5 - f" :key="i" class="my-2">
-                  <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })">
+                  <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })">
                     <div class="flex items-center justify-center bg-white border border-sky-950/20">
                       <img src="/prod/fbm-140.png" class=" w-40 py-4" />
                     </div>
@@ -117,7 +117,7 @@
                   </nuxt-link>
                   <div class="my-4 flex items-center justify-between">
                     <button class="text-sm text-sky-950 font-semibold uppercase">Request price</button>
-                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
+                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
                   </div>
                 </div>
               </div>
