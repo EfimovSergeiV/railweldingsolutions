@@ -5,7 +5,13 @@
 
   // const route = useRoute()
 
-  // const { data: widebanners } = await useFetch('http://127.0.0.1:8000/c/widebanners/')
+  const railmachines = ref([
+    { 'id': 1, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-60', 'path': 'fbm-60' },
+    { 'id': 2, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
+    { 'id': 3, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
+    { 'id': 4, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
+    { 'id': 5, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
+  ])
   // console.log(route.params.id)
 </script>
 
@@ -30,11 +36,18 @@
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
                   <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
-                    <div class="grid grid-cols-1 gap-2 px-10 py-2">
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                    <div class="grid grid-cols-1 gap-2 py-2">
+                      
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: machine.path } })" v-for="(machine, pk) in railmachines" :key="pk" class="">
+                        <div class="px-2 py-2">
+                          <p class="text-right text-sm text-main-primary font-semibold py-1">{{  machine.name }}</p>
+                        </div>
+                        <div v-if="pk + 1 !== railmachines.length" class="border-t border-sky-950/30"></div>                      
+                      </nuxt-link>
+
+                      <!-- <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold py-1">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold py-1">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold py-1">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link> -->
                     </div>
                   </div>
                 </div>
@@ -61,9 +74,9 @@
                 <div class="py-1">
                   <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
                     <div class="grid grid-cols-1 gap-2 px-10 py-2">
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Обучение и тех. поддержка</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Капитальный ремонт</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Обслуживание и устранение неполадок</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'index', hash: '#learn' })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Обучение и тех. поддержка</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'index', hash: '#repair' })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Капитальный ремонт</nuxt-link>
+                      <nuxt-link :to="localePath({ name: 'index', hash: '#service' })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Обслуживание и устранение неполадок</nuxt-link>
                     </div>
                   </div>
                 </div>

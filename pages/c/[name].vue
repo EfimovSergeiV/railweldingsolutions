@@ -90,12 +90,33 @@
 
     <div class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto  lg:max-w-7xl lg:px-8">
-        <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
+        <!-- <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
           {{ $t('pages.index.readySolutions') }}
-        </nuxt-link>
+        </nuxt-link> -->
+        <div class="py-4">
+          <div class="flex">
+            <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+
+          <div class=" bg-white border border-sky-950/20 flex items-center justify-center px-4 py-4">
+            <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+          </div>               
+
+          <div>
+            <p class="text-base text-sky-950">
+              The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
+            </p>
+          </div>           
+          
+
+
+        </div>
+
       </div>
     </div>
-
 
 
 

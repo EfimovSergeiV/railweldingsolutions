@@ -158,7 +158,7 @@
       </div>
     </div>
 
-    <div class="bg-white/80 my-10 min-h-screen grid grid-cols-1 content-center">
+    <div id="learn" class="bg-white/80 my-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
         <div class="">
@@ -194,7 +194,7 @@
 
 <!-- <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]"> -->
     <!-- <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center"> -->
-    <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
+    <div id="repair" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
       <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center border-t border-b border-sky-950/20">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
@@ -222,7 +222,7 @@
 
 
 
-    <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
+    <div id="service" class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
 
