@@ -195,7 +195,7 @@
 <!-- <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]"> -->
     <!-- <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center"> -->
     <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
-      <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
+      <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center border-t border-b border-sky-950/30">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
           <div class="my-2">
