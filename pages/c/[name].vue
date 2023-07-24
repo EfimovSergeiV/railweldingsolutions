@@ -88,7 +88,7 @@
     </div>
 
 
-    <div class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
+    <div id="product-description" class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto  lg:max-w-7xl lg:px-8">
         <!-- <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
           {{ $t('pages.index.readySolutions') }}

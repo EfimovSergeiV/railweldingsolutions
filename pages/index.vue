@@ -105,7 +105,7 @@
                 <div v-for="i in 5 - f" :key="i" class="my-2">
 
                   
-                  <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })">
+                  <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
                     <div class="flex items-center justify-center bg-white border border-sky-950/20">
                       <img src="/prod/fbm-140.png" class=" w-40 py-4" />
                     </div>
@@ -122,7 +122,7 @@
 
                   <div class="my-4 flex items-center justify-between">
                     <button class="text-sm text-sky-950 font-semibold uppercase">Request price</button>
-                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
+                    <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
                   </div>
                 </div>
               </div>
@@ -267,7 +267,7 @@
 
 
     
-    <div class="bg-sky-950 py-8 bg-gradient-to-r from-sky-950 via-sky-900 to-sky-950 min-h-screen grid grid-cols-1 content-center border-t border-white">
+    <div id="contact-us" class="bg-sky-950 py-8 bg-gradient-to-r from-sky-950 via-sky-900 to-sky-950 min-h-screen grid grid-cols-1 content-center border-t border-white">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
