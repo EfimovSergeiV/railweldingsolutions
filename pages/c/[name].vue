@@ -3,6 +3,14 @@
   const route = useRoute()
   const router = useRouter()
 
+  definePageMeta({
+    title: 'pages.title.about'
+  })
+
+  useHead({
+    meta: [{ property: "og:title", content: "this is og title for about page" }]
+  })
+
   const { data: widebanner } = await useFetch(`${ config.public.baseURL }c/widebanners/`)
   const { data: banners } = await useFetch(`${ config.public.baseURL }c/mainbanner/`)
   const { data: brands } = await useFetch(`${ config.public.baseURL }c/brands/`)
@@ -129,6 +137,8 @@
               <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
             </div>
           </div> -->
+
+          <p class="text-xs">{{ latest[0] }}</p>
 
           <div class="flex items-center gap-8 py-4">
             <div class="flex-none">
