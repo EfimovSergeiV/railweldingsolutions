@@ -3,12 +3,19 @@
   const route = useRoute()
   const router = useRouter()
 
+  const { data: widebanner } = await useFetch(`${ config.public.baseURL }c/widebanners/`)
+  const { data: banners } = await useFetch(`${ config.public.baseURL }c/mainbanner/`)
+  const { data: brands } = await useFetch(`${ config.public.baseURL }c/brands/`)
+  const { data: esab } = await useFetch(`${ config.public.baseURL }c/prods/?brnd=3`)
+  const { data: latest } = await useFetch(`${ config.public.baseURL }c/neues/`)
+  
+
 </script>
 
 
 <template>
-  <div class="grid grid-cols-1 gap-4 my-10 bg-white">
-    <div class="min-h-screen grid grid-cols-1 content-between ">
+  <div class="">
+    <div class="min-h-screen grid grid-cols-1 content-between bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
 
       <div></div>
 
@@ -63,5 +70,63 @@
 
       </div>
     </div>
+
+
+    <div class=" bg-sky-950 border-t border-sky-950/20 border-white">
+      <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
+
+        <div class="flex items-center h-20 justify-between">
+
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+150</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.employees') }}</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+3500</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.complProjects') }}</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+560Ha</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.prodArea') }}</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold"> Волнистых попугаев</p></div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
+      <div class="container mx-auto  lg:max-w-7xl lg:px-8">
+        <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
+          {{ $t('pages.index.readySolutions') }}
+        </nuxt-link>
+
+        <div class="my-4">
+          <div v-for="f in 3" :key="f" class="">
+            <div class="">
+              <div class="flex items-center justify-end border-b border-sky-950/20">
+                <p class="text-sm text-sky-950 font-semibold">Welding machines {{ f }}</p>
+              </div>
+              <div class="grid grid-cols-3 gap-4">
+                <div v-for="i in 5 - f" :key="i" class="my-2">
+                  <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })">
+                    <div class="flex items-center justify-center bg-white border border-sky-950/20">
+                      <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+                    </div>
+                    <div class="my-2">
+                      <p class="text-sm font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-sky-950">
+                        The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
+                      </p>
+                    </div>                  
+                  </nuxt-link>
+                  <div class="my-4 flex items-center justify-between">
+                    <button class="text-sm text-sky-950 font-semibold uppercase">Request price</button>
+                    <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'thispath'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link>
+                  </div>
+                </div>
+              </div>
+            </div>            
+          </div>          
+        </div>
+      </div>      
+    </div>
+
+
   </div>
 </template>

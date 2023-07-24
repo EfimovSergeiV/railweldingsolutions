@@ -88,10 +88,12 @@
     </div>
 
 
-    <div class="bg-white/80">
-      <p>{{ route }}</p>
-      <p v-for="i in 100" :key="i">Hallo welt</p>
-      <nuxt-link :to="localePath({ name: 'index' })"> На главную</nuxt-link>
+    <div class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
+      <div class="container mx-auto  lg:max-w-7xl lg:px-8">
+        <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
+          {{ $t('pages.index.readySolutions') }}
+        </nuxt-link>
+      </div>
     </div>
 
 
