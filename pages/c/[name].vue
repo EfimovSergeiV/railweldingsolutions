@@ -9,6 +9,38 @@
   const { data: esab } = await useFetch(`${ config.public.baseURL }c/prods/?brnd=3`)
   const { data: latest } = await useFetch(`${ config.public.baseURL }c/neues/`)
   
+  const advantages = ref([  
+    { "id": 1, "text": "Мощные сварочные трансформаторы, что позволяет вести сварку на более жестких режимах" },
+    { "id": 2, "text": "Наличие цилиндров зажатия с мультипликационным давлением, которое исключает проскальзывание рельсов при осадке" },
+    { "id": 3, "text": "Горизонтальное расположение цилиндров зажатия для создания постоянного, не зависящего от износа губок, усилия" },
+    { "id": 4, "text": "Съём грата выполняется автоматически, сразу после сварки, накидным гратоснимателем с помощью встроенных автономных гидроцилиндров гратосьема" },
+    { "id": 5, "text": "Грат снимается по всему периметру профиля рельса" },
+    { "id": 6, "text": "Большой ресурс работы ножей накидного гратоснимателя за счет наплавленных режущих кромок" },
+    { "id": 7, "text": "Ход цилиндров осадки составляет 100мм, при необходимости по спец. заказу может быть увеличен" },
+    { "id": 8, "text": "Возможность, за счет увеличенного усилия осадки – 120 т., сваривать длинномерные рельсовые плети в пути (производить подтяжку плетей)" },
+    { "id": 9, "text": "Центрирование рельса не зависящее от износа зажимных губок" },
+    { "id": 10, "text": "Наличие пневмогидроаккумулятора, который служит для накопления энергии давления в гидросистеме в период пауз ее потребления гидроагрегатами и выдачи ее в систему при увеличении секундного расхода масла в момент осадки" },
+  ])
+
+  const specifications = ref([
+    { "id": 1, "key": "Напряжение питающей сети, В", "value": "380" },
+    { "id": 1, "key": "Частота, Гц", "value": "50" },
+    { "id": 1, "key": "Номинальный длительный вторичный ток, кА", "value": "24" },
+    { "id": 1, "key": "Наибольший вторичный ток, кА, не менее", "value": "67" },
+    { "id": 1, "key": "Наибольшая мощность короткого замыкания, кВА", "value": "500" },
+    { "id": 1, "key": "Сопротивление вторичного контура машины вторичному току, мкОм, не более", "value": "20" },
+    { "id": 1, "key": "Номинальная мощность, потребляемая машиной из сети при ПВ=50%, кВА", "value": "258" },
+    { "id": 1, "key": "Наибольшее усилие осадки Кн при наибольшем давлении в гидросистеме", "value": "1400" },
+    { "id": 1, "key": "Наибольшее рабочее давление в гидросистеме, Мпа, не более", "value": "" },
+    { "id": 1, "key": "Привод механизма зажатия осадки", "value": "Гидравлический" },
+    { "id": 1, "key": "Расход охлаждающей жидкости при давлении 0,15 МПа, л/мин", "value": "20" },
+    { "id": 1, "key": "Масса комплекта поставки, кг", "value": "5000" },
+    { "id": 1, "key": "Габаритные размеры, мм:", "value": null },
+    { "id": 1, "key": "сварочной машины", "value": "1860x1050x1300" },
+    { "id": 1, "key": "насосной станции", "value": "1270x740x1530" },
+    { "id": 1, "key": "шкафа управления", "value": "1200x600x1600" },
+  ])
+
 
 </script>
 
@@ -88,31 +120,56 @@
     </div>
 
 
-    <div id="product-description" class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
-      <div class="container mx-auto  lg:max-w-7xl lg:px-8">
-        <!-- <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
-          {{ $t('pages.index.readySolutions') }}
-        </nuxt-link> -->
-        <div class="py-4">
-          <div class="flex">
-            <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+    <div class="bg-white min-h-screen grid grid-cols-1 content-center">
+      <div id="product-description" class="container mx-auto lg:max-w-7xl lg:px-8">
+
+        <div class=" mt-[60px]">
+          <!-- <div class="my-4">
+            <div class="flex items-center justify-start">
+              <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+            </div>
+          </div> -->
+
+          <div class="flex items-center gap-8 py-4">
+            <div class="flex-none">
+              <div class="bg-white border border-sky-950/20 w-[400px] h-[300px] flex items-center justify-center">
+                <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+              </div>
+            </div>               
+            <div>
+              <div class="flex items-center justify-start my-4">
+                <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+              </div>
+              <p class="text-base text-sky-950">
+                The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
+              </p>
+            </div>           
+          </div>
+
+          <div class="py-8 text-sm">
+            <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
+            <div class=" grid grid-cols-1 gap-2 py-4">
+              <div v-for="advantage in advantages" :key="advantage.id" class="">
+                <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+                <p class="text-sm text-sky-900 se lect-none font-opensans font-semibold">{{ advantage.text }}</p>
+                </div>
+              </div>
+            
+            </div>
           </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-4">
 
-          <div class=" bg-white border border-sky-950/20 flex items-center justify-center px-4 py-4">
-            <img src="/prod/fbm-140.png" class=" w-40 py-4" />
-          </div>               
-
-          <div>
-            <p class="text-base text-sky-950">
-              The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
-            </p>
-          </div>           
-          
-
-
+        <div class="py-8 text-sm">
+          <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Технические параметры:</p>
+          <div class=" grid grid-cols-1 gap-2 py-4">
+            <div v-for="specification in specifications" :key="specification.id" class="">
+              <div class="flex items-center justify-between text-sm">
+                <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.key }}</p>
+                <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.value }}</p>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
