@@ -49,6 +49,13 @@
     { "id": 1, "key": "шкафа управления", "value": "1200x600x1600" },
   ])
 
+  const materials = ref([
+    { "id": 1, 'title': "Видеообзор 1", "link": "#", },
+    { "id": 2, 'title': "Видеообзор 2", "link": "#", },
+    { "id": 3, 'title': "Инструкция по эксплуатации", "link": "#", },
+    { "id": 4, 'title': "Сертификат", "link": "#", },
+  ])
+
 
 </script>
 
@@ -128,7 +135,7 @@
     </div>
 
 
-    <div class="bg-white min-h-screen grid grid-cols-1 content-center">
+    <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
       <div id="product-description" class="container mx-auto lg:max-w-7xl lg:px-8">
 
         <div class=" mt-[60px]">
@@ -138,49 +145,89 @@
             </div>
           </div> -->
 
-          <p class="text-xs">{{ latest[0] }}</p>
+          <!-- <p class="text-xs">{{ latest[0] }}</p> -->
 
-          <div class="flex items-center gap-8 py-4">
+          <div class="flex items-center gap-8 py-4 h-full">
             <div class="flex-none">
               <div class="bg-white border border-sky-950/20 w-[400px] h-[300px] flex items-center justify-center">
                 <img src="/prod/fbm-140.png" class=" w-40 py-4" />
               </div>
             </div>               
-            <div>
+            <div class="grid grid-cols-1 content-between h-[300px]">
               <div class="flex items-center justify-start my-4">
                 <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
               </div>
               <p class="text-base text-sky-950">
                 The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
               </p>
-            </div>           
+
+
+              <div class="flex justify-end">
+                <button class=" py-4 px-20 bg-sky-950 text-gray-100 font-semibold uppercase">Заказать</button>
+              </div>
+
+            </div>
           </div>
 
-          <div class="py-8 text-sm">
+          <div class=" border-l-4 border-sky-950/80 px-4 text-sm my-8">
             <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
-            <div class=" grid grid-cols-1 gap-2 py-4">
+            <div class=" grid grid-cols-1 gap-4 py-4">
               <div v-for="advantage in advantages" :key="advantage.id" class="">
                 <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
                 <p class="text-sm text-sky-900 se lect-none font-opensans font-semibold">{{ advantage.text }}</p>
                 </div>
               </div>
-            
             </div>
           </div>
+
         </div>
 
 
-        <div class="py-8 text-sm">
-          <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Технические параметры:</p>
-          <div class=" grid grid-cols-1 gap-2 py-4">
-            <div v-for="specification in specifications" :key="specification.id" class="">
-              <div class="flex items-center justify-between text-sm">
-                <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.key }}</p>
-                <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.value }}</p>
+        <div class=" flex gap-8">
+          <div class=" w-1/3">
+            <div class="my-2">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Материалы:</p>
+            </div>
+            
+            <div class="py-4 ">
+              <div class="grid grid-cols-1 gap-4 text-sky-950">
+                <div v-for="material in materials" :key="material.id" class="">
+                  <a :href="material.link">
+                    <div class="flex items-center gap-2">
+                      <div class="mdi mdi-24px mdi-file-pdf-box"></div>
+                      <p class=" text-sm">{{ material.title }}</p>
+                    </div> 
+                    
+                    
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+          <div class="w-full text-sm">
+            <div class="my-2">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Технические параметры:</p>
+            </div>
+            <div class=" grid grid-cols-1 gap-2 py-4">
+              <div v-for="specification in specifications" :key="specification.id" class="">
+                <div v-if="specification.value" class="">
+                  <div class="flex items-center justify-between text-sm border-b border-sky-950/30 hover:border-sky-950/60 transition-all duration-700">
+                    <p class="text-sky-900 se lect-none font-opensans">{{ specification.key }}</p>
+                    <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.value }}</p>
+                  </div>                
+                </div>
+                <div v-else class="">
+                  <div class="flex items-center justify-start text-sm mt-6">
+                    <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.key }}:</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>            
+          </div>
         </div>
+
+        <div class="py-4"></div>
 
       </div>
     </div>

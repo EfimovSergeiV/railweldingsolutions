@@ -23,7 +23,7 @@
 
     </div>
 
-    <div id="write-us" class="invisible ease-in-out transition-opacity duration-300 opacity-100">
+    <!-- <div id="write-us" class="invisible ease-in-out transition-opacity duration-300 opacity-100">
       <div class="px-1 fixed bottom-56 left-0 w-0">
         <div class=" rotate-90">
           <div class="">
@@ -37,7 +37,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </template>

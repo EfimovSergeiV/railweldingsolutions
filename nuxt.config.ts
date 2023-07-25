@@ -34,7 +34,6 @@ export default defineNuxtConfig({
     //   mode: 'out-in' // default
     // }
   },
-
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',

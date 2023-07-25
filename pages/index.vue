@@ -225,7 +225,6 @@
     <div id="service" class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
-
         <div class="my-2">
           <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
             {{ $t('pages.index.service-title') }}

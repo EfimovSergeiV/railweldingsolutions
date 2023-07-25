@@ -12,16 +12,16 @@ export default defineNuxtPlugin(nuxtApp => {
         navMenu.classList.add('bg-white', 'fixed')
         /// Отображение врайт закладки
 
-        writeUs.classList.remove('invisible')
-        writeUs.classList.add('visible')
+        // writeUs.classList.remove('invisible')
+        // writeUs.classList.add('visible')
         
       } else {
         /// Отображение навбара
         navMenu.classList.remove('bg-white', 'fixed')
         navMenu.classList.add('bg-white/60', 'absolute')
         /// Отображение врайт закладки
-        writeUs.classList.remove('visible')
-        writeUs.classList.add('invisible')
+        // writeUs.classList.remove('visible')
+        // writeUs.classList.add('invisible')
       }
 
       // if (scrollPosition > 200) {
