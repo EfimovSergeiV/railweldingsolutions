@@ -59,7 +59,7 @@
                     <p class="text-white font-semibold text-xl">+49 (123) 000 45 45</p>
                   </div>
                   <div class="">
-                    <button class="bg-gradient-to-tr from-white via-gray-200 to-gray-200 font-semibold text-main-secondary w-60 py-2 rounded-md shadow-xl shadow-main-secondary mt-2">{{ $t('requestCall') }}</button>
+                    <button class="bg-gradient-to-tr from-white via-gray-200 to-gray-200 font-semibold text-main-secondary w-60 py-2 rounded-sm shadow-xl shadow-main-secondary mt-2">{{ $t('requestCall') }}</button>
                   </div>
                 </div>
               </div>

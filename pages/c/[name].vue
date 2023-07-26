@@ -108,7 +108,7 @@
                     <p class="text-white font-semibold text-xl">+49 (123) 000 45 45</p>
                   </div>
                   <div class="">
-                    <button class="bg-gradient-to-tr from-white via-gray-200 to-gray-200 font-semibold text-main-secondary w-60 py-2 rounded-md shadow-xl shadow-main-secondary mt-2">{{ $t('requestCall') }}</button>
+                    <button class="bg-gradient-to-tr from-white via-gray-200 to-gray-200 font-semibold text-main-secondary w-60 py-2 rounded-sm shadow-xl shadow-main-secondary mt-2">{{ $t('requestCall') }}</button>
                   </div>
                 </div>
               </div>
@@ -155,10 +155,7 @@
 
         <div class="">
 
-
-          <!-- <p class="text-xs">{{ latest[0] }}</p> -->
-
-          <div class="flex items-center gap-8 py-4 h-full">
+          <div class="flex items-center gap-8 h-full">
             <div class="flex-none">
               <div class="bg-white border border-sky-950/20 w-[400px] h-[300px] flex items-center justify-center">
                 <img src="/prod/fbm-140.png" class=" w-40 py-4" />
@@ -171,15 +168,67 @@
               <p class="text-base text-sky-950">
                 The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
               </p>
-
-
               <div class="flex justify-end">
                 <button class=" py-4 px-20 bg-sky-950 text-gray-100 font-semibold uppercase">Заказать</button>
               </div>
-
             </div>
           </div>
 
+          <div class="flex gap-4 py-4 ">
+            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="">
+        <div class="">
+          <div class="">
+            <Swiper
+              class="relative"
+              style=""
+              :modules="[SwiperAutoplay, SwiperEffectCreative]"
+              :slides-per-view="1"
+              :loop="true"
+
+              :autoplay="{
+                delay: 3000,
+                disableOnInteraction: true
+              }"
+              :creative-effect="{
+                prev: {
+                  shadow: false,
+                  translate: ['-20%', 0, -1]
+                },
+                next: {
+                  translate: ['100%', 0, 0]
+                }
+              }"
+            >
+              <SwiperSlide v-for="(advantage, pk) in advantages" :key="pk" class="bg-white ">
+                <div class="flex items-start container mx-auto lg:max-w-7xl lg:px-8 h-[140px]">
+                  <div class="">
+                    <!-- <p class="text-base text-sky-950">{{ advantage.id }} / {{ advantages.length }} </p> -->
+                    <div class="flex items-start h-[140px]">
+                      <div class="border-l-4 border-sky-950/80 px-2">
+                        <p class="text-xl text-sky-950 font-semibold uppercase">{{ advantage.text }}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </SwiperSlide>
+
+              <div class="absolute bottom-0 right-0 z-50 p-3">
+                <SwiperControls />
+              </div>
+            </Swiper>
+          </div>
         </div>
       </div>
     </div>
@@ -201,42 +250,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="hidden lg:block">
-        <Swiper
-          class="rounded-sm relative"
-          style="height: 348px; width: 598px;"
-          :modules="[SwiperAutoplay, SwiperEffectCreative]"
-          :slides-per-view="1"
-          :loop="true"
-          :effect="'creative'"
-          :autoplay="{
-            delay: 10000,
-            disableOnInteraction: true
-          }"
-          :creative-effect="{
-            prev: {
-              shadow: false,
-              translate: ['-20%', 0, -1]
-            },
-            next: {
-              translate: ['100%', 0, 0]
-            }
-          }"
-        >
-          <SwiperSlide v-for="slide in props.banners" :key="slide.id" class="">
-            <nuxt-link :to="slide.link">
-              <img
-                style="height: 348px; width: 598px;"
-                :src="slide.image"
-                class="rounded-sm border dark:border-gray-700 shadow-md "
-              />             
-            </nuxt-link>
-          </SwiperSlide>
-          <div class="absolute bottom-0 right-0 z-50 p-3">
-            <SwiperControls />
-          </div>
-        </Swiper>
-      </div> -->
     </div>
 
 
