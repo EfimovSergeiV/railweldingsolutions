@@ -225,30 +225,30 @@
     <div id="service" class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
-        <div class="my-2">
+        <div class="my-4">
           <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
             {{ $t('pages.index.service-title') }}
           </p>
         </div>
 
-        <p class="text-base text-sky-950 se lect-none font-opensans">
-          {{ $t('pages.index.service-1') }}
+        <p class="text-base text-sky-950 se lect-none font-opensans border-l-4 border-sky-950/80 px-4 py-2">
+          {{ $t('pages.index.service-1' ) }}
         </p>
         
         <div class="flex my-8">
-          <div class=" grid grid-cols-1 gap-2 border-l-4 border-sky-950/80 px-4">
+          <div class=" grid grid-cols-1 gap-8 py-2">
             
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
+              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
+              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
+              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
+              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
             </div>
 
           </div>

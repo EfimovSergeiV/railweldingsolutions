@@ -174,7 +174,7 @@
             </div>
           </div>
 
-          <div class="flex gap-4 py-4 ">
+          <div class="flex gap-4 py-10">
             <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
             <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
             <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
