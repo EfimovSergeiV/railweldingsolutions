@@ -137,15 +137,24 @@
     </div>
 
 
-    <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
-      <div id="product-description" class="container mx-auto lg:max-w-7xl lg:px-8">
-
-        <div class=" mt-[60px]">
-          <!-- <div class="my-4">
+    <div class="bg-gray-300 grid grid-cols-1 content-center ">
+      <div class="container mx-auto lg:max-w-7xl lg:px-8">
+        <div class="my-4">
             <div class="flex items-center justify-start">
-              <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
+              <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center"><nuxt-link :to="localePath({ name: 'index' })" class="uppercase">Главная</nuxt-link></div>
+              <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center mdi mdi-chevron-double-right"><nuxt-link :to="localePath({ name: 'c', hash: '#products' })" class="uppercase">Оборудование для сварки рельсов</nuxt-link></div>
+              <div class="flex gap-1 text-sm font-semibold text-sky-950/90 text-center mdi mdi-chevron-double-right"><p class="uppercase">Машина для сварки рельсов FBM-60</p></div>
             </div>
-          </div> -->
+          </div>
+      </div>
+    </div>
+
+
+    <div id="product-description" class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
+      <div class="container mx-auto lg:max-w-7xl lg:px-8">
+
+        <div class="">
+
 
           <!-- <p class="text-xs">{{ latest[0] }}</p> -->
 
@@ -171,33 +180,79 @@
             </div>
           </div>
 
-          <div class="text-sm py-4">
-            <div class="py-4">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
-            </div>
-            <div class="grid grid-cols-1 gap-4 py-1 border-l-4 border-sky-950/80 px-4">
-              <div v-for="advantage in advantages" :key="advantage.id" class="">
-                <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
-                <p class="text-sm text-sky-900 se lect-none font-opensans font-semibold">{{ advantage.text }}</p>
-                </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="bg-gray-200 grid grid-cols-1 content-center  my-4">
+      <div id="product-advantages" class="container mx-auto lg:max-w-7xl lg:px-8">
+        <div class="text-sm py-4">
+          <div class="py-4">
+            <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
+          </div>
+          <div class="grid grid-cols-1 gap-4 py-1 border-l-4 border-sky-950/80 px-4">
+            <div v-for="advantage in advantages" :key="advantage.id" class="">
+              <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi m di-brightness-1 mdi-24px mdi-hand-pointing-right">
+              <p class="text-sm text-sky-900 se lect-none font-opensans font-semibold">{{ advantage.text }}</p>
               </div>
             </div>
           </div>
-
         </div>
+      </div>
+      <!-- <div class="hidden lg:block">
+        <Swiper
+          class="rounded-sm relative"
+          style="height: 348px; width: 598px;"
+          :modules="[SwiperAutoplay, SwiperEffectCreative]"
+          :slides-per-view="1"
+          :loop="true"
+          :effect="'creative'"
+          :autoplay="{
+            delay: 10000,
+            disableOnInteraction: true
+          }"
+          :creative-effect="{
+            prev: {
+              shadow: false,
+              translate: ['-20%', 0, -1]
+            },
+            next: {
+              translate: ['100%', 0, 0]
+            }
+          }"
+        >
+          <SwiperSlide v-for="slide in props.banners" :key="slide.id" class="">
+            <nuxt-link :to="slide.link">
+              <img
+                style="height: 348px; width: 598px;"
+                :src="slide.image"
+                class="rounded-sm border dark:border-gray-700 shadow-md "
+              />             
+            </nuxt-link>
+          </SwiperSlide>
+          <div class="absolute bottom-0 right-0 z-50 p-3">
+            <SwiperControls />
+          </div>
+        </Swiper>
+      </div> -->
+    </div>
 
 
+    <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
+      <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
         <div class=" flex gap-8 border-t border-sky-950/30">
           <div class=" w-1/3">
             <div class="my-2">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Материалы:</p>
             </div>
             
-            <div class="py-4 ">
-              <div class="grid grid-cols-1 gap-4 text-sky-950">
+            <div class="py-2 ">
+              <div class="grid grid-cols-1 gap-2 text-sky-950">
                 <div v-for="material in materials" :key="material.id" class="">
                   <a :href="material.link">
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-1">
                       <div class="mdi mdi-open-in-new"></div>
                       <p class=" text-sm">{{ material.title }}</p>
                     </div>
@@ -230,9 +285,6 @@
             </div>            
           </div>
         </div>
-
-        <div class="py-4"></div>
-
       </div>
     </div>
 

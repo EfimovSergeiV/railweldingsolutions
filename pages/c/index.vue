@@ -77,13 +77,25 @@
 
         <div class="flex items-center h-20 justify-between">
 
-          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+150</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.employees') }}</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+3500</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.complProjects') }}</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+560Ha</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.prodArea') }}</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold"> Волнистых попугаев</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+230</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.employees') }}</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+500</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.complProjects') }}</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+460Ha</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.prodArea') }}</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.clients') }}</p></div>
 
         </div>
 
+      </div>
+    </div>
+
+
+    <div class="bg-gray-300 grid grid-cols-1 content-center ">
+      <div class="container mx-auto lg:max-w-7xl lg:px-8">
+        <div class="my-4">
+            <div class="flex items-center justify-start">
+              <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center"><nuxt-link :to="localePath({ name: 'index' })" class="uppercase">Главная</nuxt-link></div>
+              <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center mdi mdi-chevron-double-right"><p class="">ОБОРУДОВАНИЕ ДЛЯ СВАРКИ РЕЛЬСОВ</p></div>
+            </div>
+          </div>
       </div>
     </div>
 
