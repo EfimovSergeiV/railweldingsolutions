@@ -52,6 +52,8 @@
   const materials = ref([
     { "id": 1, 'title': "Видеообзор 1", "link": "#", },
     { "id": 2, 'title': "Видеообзор 2", "link": "#", },
+    { "id": 2, 'title': "Видеообзор 3", "link": "#", },
+    { "id": 2, 'title': "Видеообзор 4", "link": "#", },
     { "id": 3, 'title': "Инструкция по эксплуатации", "link": "#", },
     { "id": 4, 'title': "Сертификат", "link": "#", },
   ])
@@ -169,11 +171,13 @@
             </div>
           </div>
 
-          <div class=" border-l-4 border-sky-950/80 px-4 text-sm my-8">
-            <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
-            <div class=" grid grid-cols-1 gap-4 py-4">
+          <div class="text-sm py-4">
+            <div class="py-4">
+              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
+            </div>
+            <div class="grid grid-cols-1 gap-4 py-1 border-l-4 border-sky-950/80 px-4">
               <div v-for="advantage in advantages" :key="advantage.id" class="">
-                <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+                <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
                 <p class="text-sm text-sky-900 se lect-none font-opensans font-semibold">{{ advantage.text }}</p>
                 </div>
               </div>
@@ -183,7 +187,7 @@
         </div>
 
 
-        <div class=" flex gap-8">
+        <div class=" flex gap-8 border-t border-sky-950/30">
           <div class=" w-1/3">
             <div class="my-2">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Материалы:</p>
@@ -194,9 +198,9 @@
                 <div v-for="material in materials" :key="material.id" class="">
                   <a :href="material.link">
                     <div class="flex items-center gap-2">
-                      <div class="mdi mdi-24px mdi-file-pdf-box"></div>
+                      <div class="mdi mdi-open-in-new"></div>
                       <p class=" text-sm">{{ material.title }}</p>
-                    </div> 
+                    </div>
                     
                     
                   </a>
