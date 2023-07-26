@@ -137,7 +137,7 @@
     </div>
 
 
-    <div class="bg-gray-300 grid grid-cols-1 content-center ">
+    <div id="product-description" class="bg-gray-300 grid grid-cols-1 content-center ">
       <div class="container mx-auto lg:max-w-7xl lg:px-8">
         <div class="my-4">
             <div class="flex items-center justify-start">
@@ -150,7 +150,7 @@
     </div>
 
 
-    <div id="product-description" class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
+    <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
       <div class="container mx-auto lg:max-w-7xl lg:px-8">
 
         <div class="">
@@ -197,12 +197,12 @@
               :loop="true"
 
               :autoplay="{
-                delay: 3000,
+                delay: 6000,
                 disableOnInteraction: true
               }"
               :creative-effect="{
                 prev: {
-                  shadow: false,
+                  shadow: true,
                   translate: ['-20%', 0, -1]
                 },
                 next: {
@@ -235,7 +235,7 @@
 
 
 
-    <div class="bg-gray-200 grid grid-cols-1 content-center  my-4">
+    <!-- <div class="bg-gray-200 grid grid-cols-1 content-center  my-4">
       <div id="product-advantages" class="container mx-auto lg:max-w-7xl lg:px-8">
         <div class="text-sm py-4">
           <div class="py-4">
@@ -250,7 +250,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
