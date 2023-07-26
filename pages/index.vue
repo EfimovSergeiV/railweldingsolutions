@@ -236,7 +236,7 @@
         </p>
         
         <div class="flex my-8">
-          <div class=" grid grid-cols-1 gap-8 py-2">
+          <div class=" grid grid-cols-1 gap-6 py-2">
             
             <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
               <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
