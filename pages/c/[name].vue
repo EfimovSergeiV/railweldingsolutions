@@ -143,25 +143,25 @@
             <div class="flex items-center justify-start">
               <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center"><nuxt-link :to="localePath({ name: 'index' })" class="uppercase">Главная</nuxt-link></div>
               <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center mdi mdi-chevron-double-right"><nuxt-link :to="localePath({ name: 'c', hash: '#products' })" class="uppercase">Оборудование для сварки рельсов</nuxt-link></div>
-              <div class="flex gap-1 text-sm font-semibold text-sky-950/90 text-center mdi mdi-chevron-double-right"><p class="uppercase">Машина для сварки рельсов FBM-60</p></div>
+              <div class="flex gap-1 text-sm font-semibold text-sky-950 text-center mdi mdi-chevron-double-right"><p class="uppercase">Машина для сварки рельсов FBM-60</p></div>
             </div>
           </div>
       </div>
     </div>
 
 
-    <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
+    <div class="bg-white min-h-screen grid grid-cols-1 content-center my-4">
       <div class="container mx-auto lg:max-w-7xl lg:px-8">
 
         <div class="">
 
           <div class="flex items-center gap-8 h-full">
             <div class="flex-none">
-              <div class="bg-white border border-sky-950/20 w-[400px] h-[300px] flex items-center justify-center">
+              <div class="bg-white border border-sky-950/20 w-[400px] h-[320px] flex items-center justify-center">
                 <img src="/prod/fbm-140.png" class=" w-40 py-4" />
               </div>
             </div>               
-            <div class="grid grid-cols-1 content-between h-[300px]">
+            <div class="grid grid-cols-1 content-between h-[320px]">
               <div class="flex items-center justify-start my-4">
                 <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
               </div>
@@ -234,26 +234,7 @@
     </div>
 
 
-
-    <!-- <div class="bg-gray-200 grid grid-cols-1 content-center  my-4">
-      <div id="product-advantages" class="container mx-auto lg:max-w-7xl lg:px-8">
-        <div class="text-sm py-4">
-          <div class="py-4">
-            <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Преимущества:</p>
-          </div>
-          <div class="grid grid-cols-1 gap-4 py-1 border-l-4 border-sky-950/80 px-4">
-            <div v-for="advantage in advantages" :key="advantage.id" class="">
-              <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi m di-brightness-1 mdi-24px mdi-hand-pointing-right">
-              <p class="text-sm text-sky-900 se lect-none font-opensans font-semibold">{{ advantage.text }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-    <div class="bg-white min-h-screen grid grid-cols-1 content-center  my-4">
+    <div class="bg-white grid grid-cols-1 content-center  my-4">
       <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
         <div class=" flex gap-8 border-t border-sky-950/30">
           <div class=" w-1/3">

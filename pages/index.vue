@@ -236,18 +236,18 @@
         </p>
         
         <div class="flex my-8">
-          <div class=" grid grid-cols-1 gap-2">
+          <div class=" grid grid-cols-1 gap-2 border-l-4 border-sky-950/80 px-4">
             
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
             </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/50 mdi mdi-brightness-1">
+            <div class="flex items-center w-10/12 gap-4 text-sky-950/80 mdi mdi-brightness-1">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
             </div>
 
