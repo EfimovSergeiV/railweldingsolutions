@@ -158,7 +158,7 @@
       </div>
     </div>
 
-    <div id="learn" class="bg-white/80 my-10 min-h-screen grid grid-cols-1 content-center">
+    <!-- <div id="learn" class="bg-white/80 my-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
         <div class="">
@@ -185,7 +185,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 <!-- <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]"> -->
@@ -197,30 +197,86 @@
 
           <dv class="grid grid-cols-2 gap-8">
             <div class="">
-              <div class="my-2">
-                <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
-                  {{ $t('pages.index.repair-title') }}
-                </p>
-              </div>
-              <p class="text-sm text-sky-950 se lect-none font-opensans">
-                {{ $t('pages.index.repair-text-1') }}
-              </p>
-              <p class="text-sm text-sky-950 se lect-none font-opensans">
-                {{ $t('pages.index.repair-text-2') }}
-              </p>
-              <div class="">
-                <div class="flex gap-4 items-center justify-end my-14">
-                  <div v-for="i in 4" :key="i" class="">
-                    <img src="/teh-support.png" class="h-28 rounded-lg"/>
-                  </div>
+              <div class="flex px-8">
+                <div class="bg-sky-600 z-20 rounded-sm px-8 py-2">
+                  <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
+                    {{ $t('pages.index.repair-title') }}
+                  </p>                  
                 </div>
+              </div>
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm -mt-4 px-4 py-8 ">
+
+                <div class="py-2">
+                  <p class="text-sky-950 uppercase text-sm font-semibold"> Мы имеем:</p>
+
+                  <div class="grid grid-cols-1 gap-1 my-2">
+                    <div class="flex items-center gap-1 text-sky-900/50 mdi mdi-brightness-1 text-xs">
+                      <p class="text-sm text-sky-950"> Собственное современное производство</p>
+                    </div>
+                    <div class="flex items-center gap-1 text-sky-900/50 mdi mdi-brightness-1 text-xs">
+                      <p class="text-sm text-sky-950"> Собственный конструкторский отдел</p>
+                    </div>
+                    <div class="flex items-center gap-1 text-sky-900/50 mdi mdi-brightness-1 text-xs">
+                      <p class="text-sm text-sky-950"> Проверенных поставщиков материалов</p>
+                    </div>            
+                  </div>
+
+                  
+                </div>
+
+                <div class="bg-sky-600 px-4 py-2 rounded-sm">
+                  <p class="text-sm text-white font-opensans">
+                    {{ $t('pages.index.repair-text-1') }}
+                  </p>                  
+                </div>
+
+                <p class="text-sm text-sky-900 font-semibold se lect-none font-opensans my-4">
+                  {{ $t('pages.index.repair-text-2') }}
+                </p>                
               </div>
             </div>
 
+
             <div class="">
+              <div class="flex px-8">
+                <div class="bg-sky-600 z-20 rounded-sm px-8 py-2">
+                  <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
+                    {{ $t('pages.index.learn-title') }}
+                  </p>                  
+                </div>
+              </div>
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm -mt-4 px-4 py-8 ">
+
+                <div class="py-2">
+                  <p class="text-sm text-sky-950 se lect-none font-opensans">
+                    Мы предлагаем специализированное техническое обучение и консультации по электросварке рельсов.
+                  </p>
+                </div>
+
+                <div class="py-2">
+                  <p class="text-sm text-sky-950 se lect-none font-opensans">
+                    Наша команда состоит из опытных инженеров и квалифицированных рабочих, которые всегда готовы и рады поделиться своими знаниями с другими профессионалами в этой области. 
+                  </p>
+                </div>
+              
+                <div class="bg-sky-600 px-4 py-2 rounded-sm">
+                  <p class="text-sm text-white font-opensans">
+                    Сервисная служба компании Railwelding уделяет много внимания качественной передаче знаний, постоянному сопровождению и обеспечению устойчивого производства без необходимости частого технического обслуживания. Такой комплексный подход к клиентскому сервису является залогом долгосрочного плодотворного сотрудничества.
+                  </p>                  
+                </div>
+
+                <div class="py-2">
+                  <p class="text-sm text-sky-950 se lect-none font-opensans">
+                    Мы охотно обучим и проконсультируем вас по всем вопросам эксплуатации и обслуживания выпускаемого нами оборудования.                  </p>
+                </div>
+        
+              </div>
+            </div>
+
+            <!-- <div class="">
               <div class="my-2">
-                <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
-                  {{ $t('pages.index.learn-title') }}
+                <p class="font-opensans font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+                  
                 </p>
               </div>
               <p class="text-sm text-sky-950 se lect-none font-opensans">
@@ -229,14 +285,8 @@
               <p class="text-sm text-sky-950 se lect-none font-opensans">
                 {{ $t('pages.index.repair-text-2') }}
               </p>
-              <div class="">
-                <div class="flex gap-4 items-center justify-end my-14">
-                  <div v-for="i in 4" :key="i" class="">
-                    <img src="/teh-support.png" class="h-28 rounded-lg"/>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            </div> -->
           </dv>
 
 
