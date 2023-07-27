@@ -209,19 +209,19 @@
                   </p>                  
                 </div>
               </div>
-              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm -mt-4 px-4 py-8 ">
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 rounded-md -mt-4 py-8 ">
 
-                <div class="py-2">
-                  <p class="text-sky-950 uppercase text-sm font-semibold"> Мы имеем:</p>
+                <div class="py-2 px-4">
+                  <p class="text-sky-900 uppercase text-sm font-semibold"> Мы имеем:</p>
 
                   <div class="grid grid-cols-1 gap-1 my-2">
-                    <div class="flex items-center gap-1 text-sky-900/80 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-2 text-sky-900/95 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Собственное современное производство</p>
                     </div>
-                    <div class="flex items-center gap-1 text-sky-900/80 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-2 text-sky-900/95 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Собственный конструкторский отдел</p>
                     </div>
-                    <div class="flex items-center gap-1 text-sky-900/80 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-2 text-sky-900/95 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Проверенных поставщиков материалов</p>
                     </div>            
                   </div>
@@ -229,15 +229,18 @@
                   
                 </div>
 
-                <div class="bg-sky-800 px-4 py-2 rounded-sm">
+                <div class="bg-sky-800 px-6 py-2">
                   <p class="text-sm text-white font-opensans">
                     {{ $t('pages.index.repair-text-1') }}
                   </p>                  
                 </div>
 
-                <p class="text-sm text-sky-800 font-semibold se lect-none font-opensans my-4">
-                  {{ $t('pages.index.repair-text-2') }}
-                </p>                
+                <div class="px-4">
+                  <p class="text-sm text-sky-800 font-semibold se lect-none font-opensans my-4">
+                    {{ $t('pages.index.repair-text-2') }}
+                  </p>                  
+                </div>
+               
               </div>
             </div>
 
@@ -250,27 +253,27 @@
                   </p>                  
                 </div>
               </div>
-              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm -mt-4 px-4 py-8 ">
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 rounded-md -mt-4 py-8 ">
 
-                <div class="py-2">
+                <div class="py-2 px-4">
                   <p class="text-sm text-sky-950 se lect-none font-opensans">
                     Мы предлагаем специализированное техническое обучение и консультации по электросварке рельсов.
                   </p>
                 </div>
 
-                <div class="py-2">
+                <div class="py-2 px-4">
                   <p class="text-sm text-sky-950 se lect-none font-opensans">
                     Наша команда состоит из опытных инженеров и квалифицированных рабочих, которые всегда готовы и рады поделиться своими знаниями с другими профессионалами в этой области. 
                   </p>
                 </div>
               
-                <div class="bg-sky-800 px-4 py-2 rounded-sm">
+                <div class="bg-sky-800 px-6 py-2 rounded-sm">
                   <p class="text-sm text-gray-100 font-opensans">
                     Сервисная служба компании Railwelding уделяет много внимания качественной передаче знаний, постоянному сопровождению и обеспечению устойчивого производства без необходимости частого технического обслуживания. Такой комплексный подход к клиентскому сервису является залогом долгосрочного плодотворного сотрудничества.
                   </p>                  
                 </div>
 
-                <div class="py-2">
+                <div class="py-2 px-4">
                   <p class="text-sm font-semibold text-sky-800 se lect-none font-opensans">
                     Мы охотно обучим и проконсультируем вас по всем вопросам эксплуатации и обслуживания выпускаемого нами оборудования.                  </p>
                 </div>
