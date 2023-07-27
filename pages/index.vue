@@ -47,12 +47,12 @@
                 <div class="">
                   <p class="text-white font-black text-xl my-4">{{ $t('pages.index.chooseUs-title') }}</p>
                   <div class="grid grid-cols-3 gap-4 text-gray-100">
-                    <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> <span class="mx-1">{{ $t('pages.index.chooseUs-1') }}</span> </p></div>
-                    <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> <span class="mx-1">{{ $t('pages.index.chooseUs-2') }}</span></p></div>
-                    <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> <span class="mx-1">{{ $t('pages.index.chooseUs-3') }}</span></p></div>
-                    <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> <span class="mx-1">{{ $t('pages.index.chooseUs-4') }}</span></p></div>
-                    <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> <span class="mx-1">{{ $t('pages.index.chooseUs-5') }}</span></p></div>
-                    <div class=""><p class="text-sm text-gray-200 font-semibold mdi mdi-brightness-1"> <span class="mx-1">{{ $t('pages.index.chooseUs-6') }}</span></p></div>
+                    <div class="flex items-center gap-1 mdi mdi-brightness-1"><p class="text-sm text-gray-200 font-semibold ">{{ $t('pages.index.chooseUs-1') }}</p></div>
+                    <div class="flex items-center gap-1 mdi mdi-brightness-1"><p class="text-sm text-gray-200 font-semibold ">{{ $t('pages.index.chooseUs-2') }}</p></div>
+                    <div class="flex items-center gap-1 mdi mdi-brightness-1"><p class="text-sm text-gray-200 font-semibold ">{{ $t('pages.index.chooseUs-3') }}</p></div>
+                    <div class="flex items-center gap-1 mdi mdi-brightness-1"><p class="text-sm text-gray-200 font-semibold ">{{ $t('pages.index.chooseUs-4') }}</p></div>
+                    <div class="flex items-center gap-1 mdi mdi-brightness-1"><p class="text-sm text-gray-200 font-semibold ">{{ $t('pages.index.chooseUs-5') }}</p></div>
+                    <div class="flex items-center gap-1 mdi mdi-brightness-1"><p class="text-sm text-gray-200 font-semibold "> {{ $t('pages.index.chooseUs-6') }}</p></div>
                   </div>                  
                 </div>
                 <div class="grid grid-cols-1 gap-2 text-right">
@@ -225,17 +225,69 @@
     <div id="service" class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
-        <div class="my-4">
+        <div class="">
           <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
             {{ $t('pages.index.service-title') }}
           </p>
         </div>
 
-        <p class="text-base text-sky-950 se lect-none font-opensans border-l-4 border-sky-950/80 px-4 py-2">
-          {{ $t('pages.index.service-1' ) }}
-        </p>
+
+
+        <div class="grid grid-cols-2 gap-8">
+
+          <div class="flex items-center h-full">
+            <div class="">
+              <p class="text-sm text-sky-950 se lect-none font-opensans">
+                {{ $t('pages.index.service-1' ) }}
+              </p>
+              <div class="my-4 border-t border-sky-950/10 py-1">
+                <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">
+                  {{ $t('pages.index.service-6') }}
+                </p>
+              </div>              
+            </div>
+
+
+          </div>
+
+          <div class="">
+            <div class="grid grid-cols-2 gap-4 py-8">
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+                <div class="flex items-center justify-start h-[8rem]">
+                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-2') }}</p>
+                </div>
+              </div>
+            
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+                <div class="flex items-center justify-start h-[8rem]">
+                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-3') }}</p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+                <div class="flex items-center justify-start h-[8rem]">
+                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-4') }}</p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+                <div class="flex items-center justify-start h-[8rem]">
+                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-5') }}</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
         
-        <div class="flex my-8">
+        <!-- <div class="flex my-8">
           <div class=" grid grid-cols-1 gap-6 py-2">
             
             <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
@@ -252,13 +304,9 @@
             </div>
 
           </div>
-        </div>
+        </div> -->
 
-        <div class="my-4">
-          <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">
-            {{ $t('pages.index.service-6') }}
-          </p>
-        </div>
+
 
 
       </div>
