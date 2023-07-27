@@ -236,7 +236,7 @@
 
     <div class="bg-white grid grid-cols-1 content-center  my-4">
       <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
-        <div class=" flex gap-8 border-t border-sky-950/30">
+        <div class=" flex gap-8">
           <div class=" w-1/3">
             <div class="my-2">
               <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Материалы:</p>
