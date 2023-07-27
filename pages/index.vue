@@ -334,25 +334,25 @@
 
           <div class="">
             <div class="grid grid-cols-2 gap-4 py-8">
-              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="flex items-center justify-start h-[8rem]">
                   <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-2') }}</p>
                 </div>
               </div>
             
-              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="flex items-center justify-start h-[8rem]">
                   <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-3') }}</p>
                 </div>
               </div>
 
-              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="flex items-center justify-start h-[8rem]">
                   <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-4') }}</p>
                 </div>
               </div>
 
-              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-950/80 shadow-lg shadow-black/10 px-4">
+              <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="flex items-center justify-start h-[8rem]">
                   <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-5') }}</p>
                 </div>
