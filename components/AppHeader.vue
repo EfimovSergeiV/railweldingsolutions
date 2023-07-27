@@ -68,7 +68,7 @@
               </div>
             
             </div>
-            <div class="relative group">
+            <!-- <div class="relative group">
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('services') }}</p>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
@@ -82,7 +82,7 @@
                 </div>
               </div>
             
-            </div>
+            </div> -->
             
             <div class="relative group">
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center cursor-pointer">{{ $t('language') }}</p>

@@ -8,7 +8,7 @@
     meta: [{ property: "og:title", content: "this is og title for about page" }]
   })
 
-  const policy_cookies = ref(true)
+  const policy_cookies = ref(false)
 
 
 </script>
