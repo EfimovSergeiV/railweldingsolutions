@@ -194,11 +194,16 @@
       <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center border-t border-b border-sky-950/20">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
+          <div class="flex items-center justify-end my-4">
+            <p class="font-opensans font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
+              Наши услуги
+            </p>
+          </div>
 
           <dv class="grid grid-cols-2 gap-8">
             <div class="">
-              <div class="flex px-8">
-                <div class="bg-sky-600 z-20 rounded-sm px-8 py-2">
+              <div class="flex px-6">
+                <div class="bg-sky-800 z-20 rounded-sm px-8 py-2">
                   <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
                     {{ $t('pages.index.repair-title') }}
                   </p>                  
@@ -210,13 +215,13 @@
                   <p class="text-sky-950 uppercase text-sm font-semibold"> Мы имеем:</p>
 
                   <div class="grid grid-cols-1 gap-1 my-2">
-                    <div class="flex items-center gap-1 text-sky-900/50 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-1 text-sky-900/80 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Собственное современное производство</p>
                     </div>
-                    <div class="flex items-center gap-1 text-sky-900/50 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-1 text-sky-900/80 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Собственный конструкторский отдел</p>
                     </div>
-                    <div class="flex items-center gap-1 text-sky-900/50 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-1 text-sky-900/80 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Проверенных поставщиков материалов</p>
                     </div>            
                   </div>
@@ -224,22 +229,22 @@
                   
                 </div>
 
-                <div class="bg-sky-600 px-4 py-2 rounded-sm">
+                <div class="bg-sky-800 px-4 py-2 rounded-sm">
                   <p class="text-sm text-white font-opensans">
                     {{ $t('pages.index.repair-text-1') }}
                   </p>                  
                 </div>
 
-                <p class="text-sm text-sky-900 font-semibold se lect-none font-opensans my-4">
+                <p class="text-sm text-sky-800 font-semibold se lect-none font-opensans my-4">
                   {{ $t('pages.index.repair-text-2') }}
                 </p>                
               </div>
             </div>
 
 
-            <div class="">
-              <div class="flex px-8">
-                <div class="bg-sky-600 z-20 rounded-sm px-8 py-2">
+            <div class="mt-8">
+              <div class="flex px-6">
+                <div class="bg-sky-800 z-20 rounded-sm px-8 py-2">
                   <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
                     {{ $t('pages.index.learn-title') }}
                   </p>                  
@@ -259,14 +264,14 @@
                   </p>
                 </div>
               
-                <div class="bg-sky-600 px-4 py-2 rounded-sm">
-                  <p class="text-sm text-white font-opensans">
+                <div class="bg-sky-800 px-4 py-2 rounded-sm">
+                  <p class="text-sm text-gray-100 font-opensans">
                     Сервисная служба компании Railwelding уделяет много внимания качественной передаче знаний, постоянному сопровождению и обеспечению устойчивого производства без необходимости частого технического обслуживания. Такой комплексный подход к клиентскому сервису является залогом долгосрочного плодотворного сотрудничества.
                   </p>                  
                 </div>
 
                 <div class="py-2">
-                  <p class="text-sm text-sky-950 se lect-none font-opensans">
+                  <p class="text-sm font-semibold text-sky-800 se lect-none font-opensans">
                     Мы охотно обучим и проконсультируем вас по всем вопросам эксплуатации и обслуживания выпускаемого нами оборудования.                  </p>
                 </div>
         
