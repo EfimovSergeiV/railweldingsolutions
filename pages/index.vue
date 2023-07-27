@@ -320,7 +320,7 @@
                 {{ $t('pages.index.service-1' ) }}
               </p>
               <div class="my-4 border-t border-sky-950/10 py-1">
-                <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">
+                <p class="text-base text-sky-800 se lect-none font-opensans font-semibold">
                   {{ $t('pages.index.service-6') }}
                 </p>
               </div>              
