@@ -209,7 +209,7 @@
                   </p>                  
                 </div>
               </div>
-              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 rounded-md -mt-4 py-8 ">
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 shadow-xl shadow-black/10 rounded-md -mt-4 py-8 ">
 
                 <div class="py-2 px-4">
                   <p class="text-sky-900 uppercase text-sm font-semibold"> Мы имеем:</p>
@@ -238,7 +238,7 @@
                 <div class="px-4">
                   <p class="text-sm text-sky-800 font-semibold se lect-none font-opensans my-4">
                     {{ $t('pages.index.repair-text-2') }}
-                  </p>                  
+                  </p>
                 </div>
                
               </div>
@@ -253,7 +253,7 @@
                   </p>                  
                 </div>
               </div>
-              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 rounded-md -mt-4 py-8 ">
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 shadow-xl shadow-black/10 rounded-md -mt-4 py-8 ">
 
                 <div class="py-2 px-4">
                   <p class="text-sm text-sky-950 se lect-none font-opensans">
@@ -280,23 +280,7 @@
         
               </div>
             </div>
-
-            <!-- <div class="">
-              <div class="my-2">
-                <p class="font-opensans font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
-                  
-                </p>
-              </div>
-              <p class="text-sm text-sky-950 se lect-none font-opensans">
-                {{ $t('pages.index.repair-text-1') }}
-              </p>
-              <p class="text-sm text-sky-950 se lect-none font-opensans">
-                {{ $t('pages.index.repair-text-2') }}
-              </p>
-
-            </div> -->
           </dv>
-
 
         </div>
       </div>
@@ -360,36 +344,7 @@
             </div>
 
           </div>
-
-
-
         </div>
-
-
-
-
-        
-        <!-- <div class="flex my-8">
-          <div class=" grid grid-cols-1 gap-6 py-2">
-            
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
-            </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
-            </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
-            </div>
-            <div class="flex items-center w-10/12 gap-4 text-sky-950/90 mdi mdi-brightness-1">
-              <p class="text-base text-sky-950 se lect-none font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
-            </div>
-
-          </div>
-        </div> -->
-
-
-
 
       </div>
     </div>
@@ -498,7 +453,7 @@
         </div>
 
         <div class="flex items-center justify-center py-4">
-          <img src="/logo-white.png" class=" h-8"/>
+          <img src="/logo-white.png" class=" h-6"/>
         </div>
       </div>
       
