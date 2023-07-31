@@ -158,6 +158,18 @@
       </div>
     </div>
 
+    <div class="bg-sky-950 border-t border-b border-white/20">
+      <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
+        <div class="">
+          <a href="#" class="flex items-center justify-center gap-1 py-6">
+            <div class="mdi mdi-24px mdi-book-open-outline text-gray-100"></div>
+            <p class="text-xl text-gray-100">Скачать каталог</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
     <!-- <div id="learn" class="bg-white/80 my-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
