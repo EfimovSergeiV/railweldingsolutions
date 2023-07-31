@@ -91,7 +91,7 @@
 
     <div class="bg-white py-10 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto  lg:max-w-7xl lg:px-8">
-        <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
+        <nuxt-link :to="localePath({ name: 'c' })" class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-800 to-sky-800 uppercase se lect-none">
           {{ $t('pages.index.readySolutions') }}
         </nuxt-link>
 
@@ -207,21 +207,21 @@
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
           <div class="flex items-center justify-end my-4">
-            <p class="font-opensans font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-700 uppercase se lect-none">
+            <p class="font-opensans font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-800 to-sky-800 uppercase se lect-none">
               Наши услуги
             </p>
           </div>
 
           <dv class="grid grid-cols-2 gap-8">
             <div class="">
-              <div class="flex px-6">
+              <div class="flex">
                 <div class="bg-sky-800 z-20 rounded-sm px-8 py-2">
                   <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
                     {{ $t('pages.index.repair-title') }}
                   </p>                  
                 </div>
               </div>
-              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 shadow-xl shadow-black/10 rounded-md -mt-4 py-8 ">
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 shadow-xl shadow-black/10 rounded-md -mt-6 py-8 ">
 
                 <div class="py-2 px-4">
                   <p class="text-sky-900 uppercase text-sm font-semibold"> Мы имеем:</p>
@@ -248,7 +248,7 @@
                 </div>
 
                 <div class="px-4">
-                  <p class="text-sm text-sky-800 font-semibold se lect-none font-opensans my-4">
+                  <p class="text-sm text-sky-900 font-semibold se lect-none font-opensans my-4">
                     {{ $t('pages.index.repair-text-2') }}
                   </p>
                 </div>
@@ -258,14 +258,14 @@
 
 
             <div class="mt-8">
-              <div class="flex px-6">
+              <div class="flex">
                 <div class="bg-sky-800 z-20 rounded-sm px-8 py-2">
                   <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
                     {{ $t('pages.index.learn-title') }}
                   </p>                  
                 </div>
               </div>
-              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 shadow-xl shadow-black/10 rounded-md -mt-4 py-8 ">
+              <div class="bg-gradient-to-br z-10 from-white/70 to-white/40 backdrop-blur-sm border border-sky-950/10 shadow-xl shadow-black/10 rounded-md -mt-6 py-8 ">
 
                 <div class="py-2 px-4">
                   <p class="text-sm text-sky-950 se lect-none font-opensans">
@@ -286,7 +286,7 @@
                 </div>
 
                 <div class="py-2 px-4">
-                  <p class="text-sm font-semibold text-sky-800 se lect-none font-opensans">
+                  <p class="text-sm font-semibold text-sky-900 se lect-none font-opensans">
                     Мы охотно обучим и проконсультируем вас по всем вопросам эксплуатации и обслуживания выпускаемого нами оборудования.                  </p>
                 </div>
         

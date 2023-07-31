@@ -225,7 +225,10 @@
               </SwiperSlide>
 
               <div class="absolute bottom-0 right-0 z-50 p-3">
-                <SwiperControls />
+                <div class="flex items-start container mx-auto lg:max-w-7xl lg:px-14">
+                  <SwiperControls />
+                </div>
+                
               </div>
             </Swiper>
           </div>
@@ -234,16 +237,16 @@
     </div>
 
 
-    <div class="bg-white grid grid-cols-1 content-center  my-4">
+    <div class="bg-sky-950 grid grid-cols-1 content-center py-4 border-t border-black/10">
       <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
         <div class=" flex gap-8">
           <div class=" w-1/3">
             <div class="my-2">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Материалы:</p>
+              <p class="text-base text-gray-100 se lect-none font-opensans font-semibold">Материалы:</p>
             </div>
             
             <div class="py-2 ">
-              <div class="grid grid-cols-1 gap-2 text-sky-950">
+              <div class="grid grid-cols-1 gap-2 text-gray-200">
                 <div v-for="material in materials" :key="material.id" class="">
                   <a :href="material.link">
                     <div class="flex items-center gap-1">
@@ -259,19 +262,19 @@
           </div>
           <div class="w-full text-sm">
             <div class="my-2">
-              <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">Технические параметры:</p>
+              <p class="text-base text-gray-100 se lect-none font-opensans font-semibold">Технические параметры:</p>
             </div>
             <div class=" grid grid-cols-1 gap-2 py-4">
               <div v-for="specification in specifications" :key="specification.id" class="">
                 <div v-if="specification.value" class="">
-                  <div class="flex items-center justify-between text-sm border-b border-sky-950/30 hover:border-sky-950/60 transition-all duration-700">
-                    <p class="text-sky-900 se lect-none font-opensans">{{ specification.key }}</p>
-                    <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.value }}</p>
+                  <div class="flex items-center justify-between text-sm border-b border-gray-200/30 hover:border-gray-200/60 transition-all duration-300">
+                    <p class="text-gray-200 se lect-none font-opensans">{{ specification.key }}</p>
+                    <p class="text-gray-200 se lect-none font-opensans font-semibold">{{ specification.value }}</p>
                   </div>                
                 </div>
                 <div v-else class="">
                   <div class="flex items-center justify-start text-sm mt-6">
-                    <p class="text-sky-900 se lect-none font-opensans font-semibold">{{ specification.key }}:</p>
+                    <p class="text-gray-100 se lect-none font-opensans font-semibold">{{ specification.key }}:</p>
                   </div>
                 </div>
 
