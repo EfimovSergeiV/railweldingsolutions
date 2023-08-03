@@ -260,7 +260,7 @@
 
     <div class=" bg-gradient-to-b from-sky-950 to-sky-950/95  grid grid-cols-1 content-center py-4 border-t border-black/10">
       <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
-        <div class=" flex gap-8">
+        <div class=" flex gap-8 py-8">
           <div class=" w-1/3">
             <div class="my-2">
               <p class="text-base text-gray-100 se lect-none font-opensans font-semibold">Материалы:</p>
@@ -281,7 +281,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full text-sm py-8">
+          <div class="w-full text-sm">
             <div class="my-2">
               <p class="text-base text-gray-100 se lect-none font-opensans font-semibold">Технические параметры:</p>
             </div>
