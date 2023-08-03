@@ -17,17 +17,20 @@
 <template>
   <div class="">
 
-    <div class="min-h-screen grid grid-cols-1 content-between bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
-
+    <div class="min-h-screen grid grid-cols-1 content-between">
       <div></div>
+
+      <div class="absolute overflow-hidden -z-10">
+        <img src="/backgrounds/bg-5.webp" class="" />
+      </div>
 
       <div class="">
 
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
           <div class="flex">
-            <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-4 border-main-primary/80">
-              <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-800 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
-              <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-600 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
+            <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-8 border-sky-800/90">
+              <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-800 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-1') }}</p>
+              <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-600 text-[40px] md:text-[60px] uppercase se lect-none">{{ $t('title-2') }}</p>          
               <div class="py-3">
                 <p class="text-2xl md:text-lg text-sky-800 se lect-none font-opensans font-extrabold">{{ $t('slogan') }}</p>
               </div>          
@@ -303,11 +306,11 @@
     <div id="service" class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
-        <div class="">
+        <!-- <div class="">
           <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
             {{ $t('pages.index.service-title') }}
           </p>
-        </div>
+        </div> -->
 
 
 
@@ -315,6 +318,11 @@
 
           <div class="flex items-center h-full">
             <div class="">
+              <div class="py-8">
+                <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+                  {{ $t('pages.index.service-title') }}
+                </p>
+              </div>
               <p class="text-sm text-sky-950 se lect-none font-opensans">
                 {{ $t('pages.index.service-1' ) }}
               </p>
@@ -329,7 +337,7 @@
           </div>
 
           <div class="">
-            <div class="grid grid-cols-2 gap-4 py-8">
+            <div class="grid grid-cols-2 gap-8 py-8">
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="flex items-center justify-start h-[8rem]">
                   <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-2') }}</p>

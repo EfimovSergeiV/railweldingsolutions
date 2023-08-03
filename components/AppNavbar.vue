@@ -1,5 +1,5 @@
 <script setup>
-  const { data: cts } = await useFetch('http://127.0.0.1:8000/c/ct/')
+  // const { data: cts } = await useFetch('http://127.0.0.1:8000/c/ct/')
 
 </script>
 
@@ -58,7 +58,6 @@
                           <div v-for="ct in cts" :key="ct.id" class="break-inside-avoid-column">
                             <div class="">
 
-
                               <div class="p-2">
                                 <div class="mb-1">
                                   <nuxt-link :to="{ name: 'prods', query: { ct: ct.id } }" class="font-bold text-gray-700 dark:text-gray-300 text-base">{{ ct.name }}</nuxt-link>              
@@ -90,17 +89,17 @@
                 </li>
 
                 <li class="relative px-2">
-                    <nuxt-link :to="{ name: 'cart' }" class="block border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 mdi mdi-cart text-base"> Корзина</nuxt-link>
-                    <!-- <div v-if="cart.length > 0" class="absolute top-0 right-0">
-                      <span class="flex h-2 w-2">
-                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
-                      </span>
-                    </div> -->
+                  <nuxt-link :to="{ name: 'cart' }" class="block border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 mdi mdi-cart text-base"> Корзина</nuxt-link>
+                  <!-- <div v-if="cart.length > 0" class="absolute top-0 right-0">
+                    <span class="flex h-2 w-2">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+                    </span>
+                  </div> -->
                     
                 </li>
                 <li>
-                    <nuxt-link :to="{ name: 'about' }" class="block border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 mdi mdi-store-marker text-base"> Магазины</nuxt-link>
+                  <nuxt-link :to="{ name: 'about' }" class="block border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 mdi mdi-store-marker text-base"> Магазины</nuxt-link>
                 </li>
               </ul>
             </div>

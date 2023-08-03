@@ -35,7 +35,7 @@
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
-                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[460px]">
                     <div class="grid grid-cols-1 gap-2 py-2">
                       
                       <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: machine.path } })" v-for="(machine, pk) in railmachines" :key="pk" class="">
@@ -59,7 +59,7 @@
               <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'thispath'} })" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('testEquipment') }}</nuxt-link>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
-                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[460px]">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[460px]">
                     <div class="grid grid-cols-1 gap-2 px-10 py-2">
                       <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Прес тестировычный</nuxt-link>
                     </div>
@@ -88,7 +88,7 @@
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center cursor-pointer">{{ $t('language') }}</p>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
-                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-xl w-[260px]">
+                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[260px]">
                     <div class="grid grid-cols-1 gap-2 px-10 py-2">
                       <nuxt-link :to="switchLocalePath('ru')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Русский</nuxt-link>
                       <nuxt-link :to="switchLocalePath('en')" class="text-right text-sm text-main-primary font-semibold px-2 py-2">English</nuxt-link>

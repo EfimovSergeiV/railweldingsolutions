@@ -15,15 +15,19 @@
 
 <template>
   <div class="">
-    <div class="min-h-screen grid grid-cols-1 content-between bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
+    <div class="min-h-screen grid grid-cols-1 content-between">
 
       <div></div>
+
+      <div class="absolute overflow-hidden -z-10">
+        <img src="/backgrounds/bg-5.webp" class="" />
+      </div>
 
       <div class="">
 
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
           <div class="flex">
-            <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-4 border-main-primary/80">
+            <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-8 border-sky-800/90">
               <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-800 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
               <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-600 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
               <div class="py-3">

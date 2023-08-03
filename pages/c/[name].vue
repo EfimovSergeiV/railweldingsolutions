@@ -64,15 +64,19 @@
 
 <template>
   <div class="">
-    <div class="min-h-screen grid grid-cols-1 content-between bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
+    <div class="min-h-screen grid grid-cols-1 content-between">
 
       <div></div>
+
+      <div class="absolute overflow-hidden -z-10">
+        <img src="/backgrounds/bg-5.webp" class="" />
+      </div>
 
       <div class="">
 
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
           <div class="flex">
-            <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-4 border-main-primary/80">
+            <div class="bg-white/50 backdrop-blur-sm px-16 py-4 border-l-8 border-sky-800/90">
               <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-800 text-[40px] md:text-[80px] uppercase se lect-none">{{ $t('title-1') }}</p>
               <p class="font-opensans font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-br from-sky-950 to-sky-600 text-[40px] md:text-[70px] uppercase se lect-none">{{ $t('title-2') }}</p>          
               <div class="py-3">
@@ -168,7 +172,14 @@
               <p class="text-base text-sky-950">
                 The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
               </p>
-              <div class="flex justify-end">
+              <div class="flex items-end justify-between gap-4">
+                <div class="bg-white flex items-center gap-2 cursor-pointer">
+                  <img src="/pngegg.webp" class="w-10 opacity-95" />
+                  <div class="grid grid-cols-1 items-center gap-0.5">
+                    <p class="text-sky-900 text-sm font-semibold uppercase"> FBM-140 RAIL WELDING MACHINE</p>
+                    <p class="text-sky-950 text-sm">.PDF</p>
+                  </div>
+                </div>
                 <button class=" py-4 px-20 bg-sky-950 text-gray-100 font-semibold uppercase">Заказать</button>
               </div>
             </div>
@@ -188,7 +199,7 @@
 
       <div class="">
         <div class="">
-          <div class="">
+          <!-- <div class="">
             <Swiper
               class="relative"
               style=""
@@ -213,7 +224,6 @@
               <SwiperSlide v-for="(advantage, pk) in advantages" :key="pk" class="bg-white ">
                 <div class="flex items-start container mx-auto lg:max-w-7xl lg:px-8 h-[140px]">
                   <div class="">
-                    <!-- <p class="text-base text-sky-950">{{ advantage.id }} / {{ advantages.length }} </p> -->
                     <div class="flex items-start h-[140px]">
                       <div class="border-l-4 border-sky-950/80 px-2">
                         <p class="text-xl text-sky-950 font-semibold uppercase">{{ advantage.text }}</p>
@@ -231,13 +241,24 @@
                 
               </div>
             </Swiper>
+          </div> -->
+
+          <div class="container mx-auto lg:max-w-7xl lg:px-8 py-4">
+            <div class="grid grid-cols-2 gap-8">
+              <div class="" v-for="(advantage, pk) in advantages" :key="pk">
+                <p class="text-sm font-semibold text-sky-900">{{ advantage.text }}</p>
+              </div>
+            </div>            
           </div>
+
+
+
         </div>
       </div>
     </div>
 
 
-    <div class="bg-sky-950 grid grid-cols-1 content-center py-4 border-t border-black/10">
+    <div class=" bg-gradient-to-b from-sky-950 to-sky-950/95  grid grid-cols-1 content-center py-4 border-t border-black/10">
       <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
         <div class=" flex gap-8">
           <div class=" w-1/3">
@@ -260,7 +281,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full text-sm">
+          <div class="w-full text-sm py-8">
             <div class="my-2">
               <p class="text-base text-gray-100 se lect-none font-opensans font-semibold">Технические параметры:</p>
             </div>
