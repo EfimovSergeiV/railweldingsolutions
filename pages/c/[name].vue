@@ -154,12 +154,12 @@
     </div>
 
 
-    <div class="bg-white min-h-screen grid grid-cols-1 content-center my-4">
+    <div class="bg-white min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto lg:max-w-7xl lg:px-8">
 
         <div class="">
 
-          <div class="flex items-center gap-8 h-full">
+          <div class="flex items-center gap-8 h-full py-2">
             <div class="flex-none">
               <div class="bg-white border border-sky-950/20 w-[400px] h-[320px] flex items-center justify-center">
                 <img src="/prod/fbm-140.png" class=" w-40 py-4" />
@@ -185,7 +185,7 @@
             </div>
           </div>
 
-          <div class="flex gap-4 py-10">
+          <div class="flex gap-4 py-2">
             <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
             <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
             <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
@@ -197,61 +197,23 @@
       </div>
 
 
-      <div class="">
+      <div class=" bg-white py-4">
         <div class="">
-          <!-- <div class="">
-            <Swiper
-              class="relative"
-              style=""
-              :modules="[SwiperAutoplay, SwiperEffectCreative]"
-              :slides-per-view="1"
-              :loop="true"
 
-              :autoplay="{
-                delay: 6000,
-                disableOnInteraction: true
-              }"
-              :creative-effect="{
-                prev: {
-                  shadow: true,
-                  translate: ['-20%', 0, -1]
-                },
-                next: {
-                  translate: ['100%', 0, 0]
-                }
-              }"
-            >
-              <SwiperSlide v-for="(advantage, pk) in advantages" :key="pk" class="bg-white ">
-                <div class="flex items-start container mx-auto lg:max-w-7xl lg:px-8 h-[140px]">
-                  <div class="">
-                    <div class="flex items-start h-[140px]">
-                      <div class="border-l-4 border-sky-950/80 px-2">
-                        <p class="text-xl text-sky-950 font-semibold uppercase">{{ advantage.text }}</p>
-                      </div>
-                    </div>
-                  </div>
+          <div class="container mx-auto lg:max-w-7xl lg:px-8 py-4 ">
+            <div class="flex items-center justify-end py-4">
+              <p class="text-lg font-semibold text-sky-950 uppercase">Преимущества:</p>
+            </div>
+            <div class=" columns-2 gap-4">
+
+              <div class="my-2 break-inside-avoid-column" v-for="(advantage, pk) in advantages" :key="pk">
+                <div class="px-2 py-4 bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10">
+                  <p class="text-sm font-semibold text-sky-900">{{ advantage.text }}</p>
                 </div>
+              </div>                
 
-              </SwiperSlide>
-
-              <div class="absolute bottom-0 right-0 z-50 p-3">
-                <div class="flex items-start container mx-auto lg:max-w-7xl lg:px-14">
-                  <SwiperControls />
-                </div>
-                
-              </div>
-            </Swiper>
-          </div> -->
-
-          <div class="container mx-auto lg:max-w-7xl lg:px-8 py-4">
-            <div class="grid grid-cols-2 gap-8">
-              <div class="" v-for="(advantage, pk) in advantages" :key="pk">
-                <p class="text-sm font-semibold text-sky-900">{{ advantage.text }}</p>
-              </div>
             </div>            
           </div>
-
-
 
         </div>
       </div>

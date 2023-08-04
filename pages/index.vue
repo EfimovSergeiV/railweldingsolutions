@@ -237,13 +237,13 @@
                   <p class="text-sky-900 uppercase text-sm font-semibold"> Мы имеем:</p>
 
                   <div class="grid grid-cols-1 gap-1 my-2">
-                    <div class="flex items-center gap-2 text-sky-900/95 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-2 text-sky-900/30 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Собственное современное производство</p>
                     </div>
-                    <div class="flex items-center gap-2 text-sky-900/95 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-2 text-sky-900/30 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Собственный конструкторский отдел</p>
                     </div>
-                    <div class="flex items-center gap-2 text-sky-900/95 mdi mdi-brightness-1 text-xs">
+                    <div class="flex items-center gap-2 text-sky-900/30 mdi mdi-brightness-1 text-xs">
                       <p class="text-sm text-sky-950"> Проверенных поставщиков материалов</p>
                     </div>            
                   </div>
@@ -325,7 +325,7 @@
 
           <div class="flex items-center h-full">
             <div class="">
-              <div class="py-8">
+              <div class="py-2">
                 <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
                   {{ $t('pages.index.service-title') }}
                 </p>
