@@ -161,7 +161,7 @@
 
           <div class="flex items-center gap-8 h-full py-2">
             <div class="flex-none">
-              <div class="bg-white border border-sky-950/20 w-[400px] h-[320px] flex items-center justify-center">
+              <div class="bg-white w-[400px] h-[320px] flex items-center justify-center">
                 <img src="/prod/fbm-140.png" class=" w-40 py-4" />
               </div>
             </div>               
@@ -186,11 +186,11 @@
           </div>
 
           <div class="flex gap-4 py-2">
-            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
-            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
-            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
-            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
-            <div class="bg-white border border-sky-950/20 px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
+            <div class="bg-white px-4 py-2"><img src="/prod/fbm-140.png" class="w-20" /></div>
           </div>
 
         </div>

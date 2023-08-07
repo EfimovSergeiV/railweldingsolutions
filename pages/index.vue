@@ -112,7 +112,7 @@
 
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
-                    <div class="flex items-center justify-center bg-white border border-sky-950/20">
+                    <div class="flex items-center justify-center bg-white">
                       <img src="/prod/fbm-140.png" class=" w-40 py-4" />
                     </div>
                     <div class="my-2">
@@ -130,8 +130,8 @@
                   </nuxt-link>
 
 
-                  <div class="my-4 flex items-center border-b border-sky-950/30 py-1">
-                    <button class="text-sm bg-sky-950 text-gray-100 px-4 py-2 font-semibold uppercase">Request price</button>
+                  <div class="my-4 flex items-center py-1">
+                    <button class="text-sm shadow-lg shadow-black/30 bg-sky-800 text-gray-100 px-4 py-2 font-semibold uppercase">Request price</button>
                     <!-- <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link> -->
                   </div>
                 </div>
@@ -217,7 +217,7 @@
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
           <div class="flex items-center justify-end my-4">
-            <p class="font-opensans font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-800 to-sky-800 uppercase se lect-none">
+            <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
               Наши услуги
             </p>
           </div>
@@ -378,63 +378,14 @@
 
 
     
-    <div id="contact-us" class="bg-sky-950 py-8 bg-gradient-to-r from-sky-950 via-sky-900 to-sky-950 min-h-screen grid grid-cols-1 content-center border-t border-white">
+    <div id="contact-us" class="py-8 bg-gradient-to-br from-sky-950 via-sky-900 to-sky-950 min-h-screen grid grid-cols-1 content-center border-t border-white">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="py-8">
-          <!-- <div class="flex items-center justify-start">
-            <div class="my-2">
-              <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-gray-100 to-gray-300 uppercase se lect-none">
-                {{ $t('pages.index.aboutus-title') }}
-              </p>
-            </div>
-          </div> -->
-
-          <div class="flex items-center justify-center">
-            <div class="">
-              <p class="text-base text-gray-100 se lect-none font-opensans">
-                {{ $t('pages.index.aboutus-text') }}
-              </p>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-2 gap-12 py-12">
-            <div class="grid grid-cols-1 content-between">
-              <div class="text-gray-100">
-                <p class="font-semibold">Railwelding GmbH</p>
-                <div class="py-2">
-                  <p class="text-sm">Axel Springer Neubau</p>
-                  <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
-                </div>
-              </div>
-              <div class="text-gray-100 flex">
-                <div class="grid grid-cols-1 gap-2">
-                  <p class="text-xl font-semibold">+49 (123) 000 45 45</p>
-                  <p class="text-sm">info@railwelding.ru</p>
-                </div>
-
-              </div>
-              <div class="">
-                <div class="flex items-center justify-center">
-                  <p class="text-center text-sm text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
-                </div>
-                <div class="flex items-center justify-center py-4">
-                  <img src="/logo-white.png" class=" h-6"/>
-                </div>
-              </div>
-            </div>
-            <div class="border border-white/50 rounded-sm">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.632374104829!2d13.388066589832308!3d52.50834305015572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d7b48083ff%3A0x39d44292c4df2659!2sAxel%20Springer%20Neubau!5e1!3m2!1sru!2sru!4v1691392224183!5m2!1sru!2sru" width="100%" height="300" class=" rounded-sm" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-
-
-
+        
         <div class="flex gap-4 items-center justify-between">
           <div class="">
-            <div class="flex items-center justify-center my-4 border-b border-gray-100/20">
+            <div class="flex items-center justify-start my-4 border-b border-gray-100/20">
               <p class="text-gray-100 font-semibold">
                 {{ $t('pages.index.partners') }}
               </p>
@@ -478,7 +429,7 @@
 
           <div class="w-[30em]">
 
-            <div class="flex items-center justify-center my-4 border-b border-gray-100/20">
+            <div class="flex items-center justify-start my-4 border-b border-gray-100/20">
               <p class="text-gray-100 font-semibold ">
                 {{ $t('pages.index.contactus') }}
               </p>
@@ -501,12 +452,65 @@
                 <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
               </div>
             
-              <button class="bg-sky-900 text-gray-50 font-semibold py-1 rounded-sm rounded-b-2xl shadow-lg shadow-black/50">{{ $t('pages.index.send') }}</button>
+              <button class="bg-sky-900 text-gray-50 font-semibold py-1 rounded-sm shadow-lg shadow-black/50">{{ $t('pages.index.send') }}</button>
             
             </div>
 
           </div>
         </div>
+        
+        <div class="py-8">
+
+          <div class="flex items-center justify-start border-b border-gray-100/20 my-2">
+            <div class="">
+              <p class="text-base text-gray-100 se lect-none font-semibold">
+                {{ $t('pages.index.aboutus-title') }}
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <div class="">
+              <p class="text-base text-gray-100 se lect-none font-opensans">
+                {{ $t('pages.index.aboutus-text') }}
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-12 py-12">
+            <div class="grid grid-cols-1 content-between">
+              <div class="text-gray-100">
+                <p class="font-semibold">Railwelding GmbH</p>
+                <div class="py-2">
+                  <p class="text-sm">Axel Springer Neubau</p>
+                  <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
+                </div>
+              </div>
+              <div class="text-gray-100 flex">
+                <div class="grid grid-cols-1 gap-2">
+                  <p class="text-xl font-semibold">+ 49 (123) 000 45 45</p>
+                  <p class="text-sm">info@railwelding.ru</p>
+                </div>
+
+              </div>
+              <div class="">
+                <div class="flex items-center justify-center py-4">
+                  <p class="text-center text-sm text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
+                </div>
+                <div class="flex items-end justify-center">
+                  <img src="/logo-white.png" class=" h-6"/>
+                </div>
+              </div>
+            </div>
+            <div class="border border-white/50 shadow-lg shadow-black/50 rounded-sm">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.632374104829!2d13.388066589832308!3d52.50834305015572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d7b48083ff%3A0x39d44292c4df2659!2sAxel%20Springer%20Neubau!5e1!3m2!1sru!2sru!4v1691392224183!5m2!1sru!2sru" width="100%" height="300" class=" rounded-sm" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+
+
+
       
 
 

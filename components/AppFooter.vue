@@ -4,7 +4,7 @@
       
       <div class="py-4">
         <div class="flex items-center justify-start py-1">
-          <p class="text-xs text-gray-100">Railwelding Solutions Ltd </p>
+          <p class="text-xs text-gray-100">Railwelding GmbH </p>
         </div>      
       </div>
 
