@@ -171,7 +171,7 @@
     <div class="bg-sky-950 border-t border-b border-white/20">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
         <div class="">
-          <a href="#" class="flex items-center justify-center gap-1 py-6">
+          <a href="#" class="flex items-center justify-center gap-2 py-6">
             <div class="mdi mdi-24px mdi-book-open-outline text-gray-100"></div>
             <p class="text-xl text-gray-100">Скачать каталог</p>
           </a>
@@ -379,18 +379,38 @@
 
     <div class="border-t border-sky-950/30">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="grid items-start grid-cols-4 py-2">
-          <div class="text-sky-900 grid grid-cols-1 content-between gap-1">
-            <p class="font-semibold">Railwelding GmbH</p>
-            <div class="py-2">
-              <p class="text-sm">Axel Springer Neubau</p>
-              <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
+        <div class="flex gap-14 py-2">
+          
+          <div class="text-sky-900 flex items-center gap-8">
+            <div>
+              <div class="mdi mdi-48px mdi-map-marker text-sky-900"></div>
+            </div>
+            <div>
+              <p class="font-semibold">Railwelding GmbH</p>
+              <div class="py-1">
+                <p class="text-sm">Axel Springer Neubau</p>
+                <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
+              </div>              
             </div>
           </div>
-          <div class="text-sky-900 grid grid-cols-1 content-between gap-1">
-            <p class="text-xl font-semibold">+ 49 (123) 000 45 45</p>
-            <p class="text-sm">info@railwelding.com</p>
+
+          <div class="text-sky-900 flex items-center gap-8">
+            <div>
+              <div class="mdi mdi-48px mdi-phone-classic text-sky-900"></div>
+            </div>
+            <div>
+              <p class="font-semibold">+ 49 (123) 000 45 45</p>
+              <div class="py-1">
+                <p class="text-sm">info@railwelding.com</p>
+                <p class="text-sm">order@railwelding.com</p>              
+              </div>              
+            </div>
           </div>
+
+          <!-- <div class=" flex items-center w-[300px]">
+            <img src="/logo.png" class=" h-6"/>
+          </div> -->
+
         </div>
       </div>
     </div>
@@ -421,7 +441,7 @@
               </div>
               <div class="">
                 <div class="flex items-center justify-center py-4">
-                  <p class="text-center font-semibold text-sm text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
+                  <p class="text-center text-sm text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
                 </div>
                 <div class="flex items-end justify-center">
                   <img src="/logo-white.png" class=" h-6"/>
@@ -446,7 +466,7 @@
             <div class="grid grid-cols-2 gap-2">
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
-                  <img src="/partners/2.png" class="h-14"/>
+                  <img src="/partners/2.png" class="h-12"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
                   <p class="text-gray-100 text-xs">Kazakh Railways</p>
@@ -454,7 +474,7 @@
               </div>
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
-                  <img src="/partners/1.png" class="h-14"/>
+                  <img src="/partners/1.png" class="h-12"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
                   <p class="text-gray-100 text-xs">Lithuanian Railways</p>
@@ -462,7 +482,7 @@
               </div>
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
-                  <img src="/partners/3.png" class="h-14"/>
+                  <img src="/partners/3.png" class="h-12"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
                   <p class="text-gray-100 text-xs">Ozbekiston temir yollari</p>
@@ -470,7 +490,7 @@
               </div>
               <div class="px-8">
                 <div class="flex items-center justify-center py-2">
-                  <img src="/partners/4.png" class="h-14"/>
+                  <img src="/partners/4.png" class="h-12"/>
                 </div>
                 <div class="flex items-center justify-center py-2">
                   <p class="text-gray-100 text-xs">Belarusian railways</p>
@@ -490,18 +510,18 @@
             <div class="grid grid-cols-1 gap-2">
 
               <div class="relative">
-                <p class="absolute px-2 mdi mdi-24px mdi-account-tie text-sky-950/90"></p>
-                <input type="text" id="person" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 py-1.5 " :placeholder="$t('pages.index.yorname')" />
+                <p class="absolute px-2 py-1 mdi mdi-16px mdi-account-tie text-sky-950/90"></p>
+                <input type="text" id="person" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 py-1.5 " :placeholder="$t('pages.index.yorname')" />
               </div>
 
               <div class="relative">
-                <p class="absolute px-2 mdi mdi-24px mdi-at text-sky-950/90"></p>
-                <input type="text" id="person" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-1.5 " :placeholder="$t('pages.index.youremail')" />
+                <p class="absolute px-2 py-1 mdi mdi-16px mdi-at text-sky-950/90"></p>
+                <input type="text" id="person" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 p-1.5 " :placeholder="$t('pages.index.youremail')" />
               </div>
 
               <div class="relative">
-                <p class="absolute px-2 py-1 mdi mdi-24px mdi-text-long text-sky-950/90"></p>
-                <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-10 p-2.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
+                <p class="absolute px-2 py-1 mdi mdi-16px mdi-text-long text-sky-950/90"></p>
+                <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-md shadow-black/50 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 p-1.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
               </div>
             
               <button class="bg-sky-900 text-gray-50 font-semibold py-1 rounded-sm rounded-b-xl shadow-lg shadow-black/50">{{ $t('pages.index.send') }}</button>

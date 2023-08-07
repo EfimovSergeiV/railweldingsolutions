@@ -40,7 +40,6 @@ export default defineNuxtConfig({
     // '@sidebase/nuxt-auth',
     'nuxt-lodash',
     'nuxt-gtag',
-    '@artmizu/yandex-metrika-nuxt',
     '@pinia/nuxt',
     'nuxt-swiper',
     '@nuxtjs/i18n',
