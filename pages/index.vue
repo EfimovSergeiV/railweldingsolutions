@@ -382,23 +382,26 @@
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="flex items-center justify-center text-center">
-          <div class="my-2">
-            <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-gray-100 to-gray-300 uppercase se lect-none">
-              {{ $t('pages.index.aboutus-title') }}
-            </p>
+        <div class="">
+          <div class="flex items-center justify-start">
+            <div class="my-2">
+              <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-gray-100 to-gray-300 uppercase se lect-none">
+                {{ $t('pages.index.aboutus-title') }}
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <div class="">
+              <p class="text-base text-gray-100 se lect-none font-opensans">
+                {{ $t('pages.index.aboutus-text') }}
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="flex items-center justify-center text-center">
-          <div class="">
-            <p class="text-base text-gray-100 se lect-none font-opensans">
-              {{ $t('pages.index.aboutus-text') }}
-            </p>
-          </div>
-        </div>
 
-        <div class="flex gap-4 items-center justify-between my-4">
+        <div class="flex gap-4 items-center justify-between my-24">
           <div class="">
             <div class="flex items-center justify-center my-4 border-b border-gray-100/20">
               <p class="text-gray-100 font-semibold">
