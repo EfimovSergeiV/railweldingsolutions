@@ -382,14 +382,14 @@
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="">
-          <div class="flex items-center justify-start">
+        <div class="py-8">
+          <!-- <div class="flex items-center justify-start">
             <div class="my-2">
               <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-gray-100 to-gray-300 uppercase se lect-none">
                 {{ $t('pages.index.aboutus-title') }}
               </p>
             </div>
-          </div>
+          </div> -->
 
           <div class="flex items-center justify-center">
             <div class="">
@@ -398,10 +398,41 @@
               </p>
             </div>
           </div>
+
+          <div class="grid grid-cols-2 gap-12 py-12">
+            <div class="grid grid-cols-1 content-between">
+              <div class="text-gray-100">
+                <p class="font-semibold">Railwelding GmbH</p>
+                <div class="py-2">
+                  <p class="text-sm">Axel Springer Neubau</p>
+                  <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
+                </div>
+              </div>
+              <div class="text-gray-100 flex">
+                <div class="grid grid-cols-1 gap-2">
+                  <p class="text-xl font-semibold">+49 (123) 000 45 45</p>
+                  <p class="text-sm">info@railwelding.ru</p>
+                </div>
+
+              </div>
+              <div class="">
+                <div class="flex items-center justify-center">
+                  <p class="text-center text-sm text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
+                </div>
+                <div class="flex items-center justify-center py-4">
+                  <img src="/logo-white.png" class=" h-6"/>
+                </div>
+              </div>
+            </div>
+            <div class="border border-white/50 rounded-sm">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.632374104829!2d13.388066589832308!3d52.50834305015572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d7b48083ff%3A0x39d44292c4df2659!2sAxel%20Springer%20Neubau!5e1!3m2!1sru!2sru!4v1691392224183!5m2!1sru!2sru" width="100%" height="300" class=" rounded-sm" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
         </div>
 
 
-        <div class="flex gap-4 items-center justify-between my-24">
+
+        <div class="flex gap-4 items-center justify-between">
           <div class="">
             <div class="flex items-center justify-center my-4 border-b border-gray-100/20">
               <p class="text-gray-100 font-semibold">
@@ -478,13 +509,7 @@
         </div>
       
 
-        <div class="flex items-center justify-center py-2 mt-8 px-10">
-          <p class="text-base text-gray-100 se lect-none font-opensans">{{ $t('pages.index.aboutus-promo') }}</p>
-        </div>
 
-        <div class="flex items-center justify-center py-4">
-          <img src="/logo-white.png" class=" h-6"/>
-        </div>
       </div>
       
     </div>
