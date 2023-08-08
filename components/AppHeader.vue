@@ -39,9 +39,20 @@
                     <div class="grid grid-cols-1 gap-2 py-2">
                       
                       <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: machine.path } })" v-for="(machine, pk) in railmachines" :key="pk" class="">
+                        
+                        
                         <div class="px-2 py-2">
-                          <p class="text-right text-sm text-main-primary font-semibold py-1">{{  machine.name }}</p>
+                          <div class="flex items-center gap-2">
+                            <div class="px-4 py-2">
+                              <img src="/prod/fbm-140.png" class=" w-14" />
+                            </div>
+                            
+                            <p class="text-right text-sm text-main-primary font-semibold py-1">{{  machine.name }}</p>                            
+                          </div>
+
                         </div>
+
+
                         <div v-if="pk + 1 !== railmachines.length" class="border-t border-sky-950/30"></div>                      
                       </nuxt-link>
 
