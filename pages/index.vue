@@ -115,6 +115,7 @@
                     <div class="flex items-center justify-center bg-white">
                       <img src="/prod/fbm-140.png" class=" w-40 py-4" />
                     </div>
+
                     <div class="my-2">
                       <p class="text-sm font-semibold text-sky-950 ">{{ $t('pages.index.prod-name-1') }}</p>
                     </div>
@@ -131,11 +132,12 @@
 
 
                   <div class="my-4 flex items-center py-1">
-                    <button class="text-sm shadow-lg shadow-black/30 bg-sky-800 text-gray-100 px-4 py-2 font-semibold uppercase">Request price</button>
-                    <!-- <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })" class="text-sm text-sky-950 font-semibold uppercase">Open cart</nuxt-link> -->
+                    <button class="text-sm shadow-md shadow-black/50 bg-sky-800 text-gray-100 px-4 py-2 font-semibold uppercase">Request price</button>
                   </div>
                 </div>
               </div>
+
+              
             </div>            
           </div>          
         </div>
