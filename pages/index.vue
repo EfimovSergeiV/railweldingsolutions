@@ -381,43 +381,56 @@
 
     <div class="border-t border-sky-950/30">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="grid grid-cols-3 py-2">
+        <div class="grid grid-cols-4 py-2">
           
-          <div class="text-sky-900 flex items-center gap-8">
+          <div class="text-sky-900 flex items-center gap-4">
             <div>
-              <div class="mdi mdi-48px mdi-map-marker text-sky-900"></div>
+              <div class="mdi mdi-36px mdi-map-marker text-sky-900"></div>
             </div>
             <div>
-              <p class="font-semibold">Railwelding GmbH</p>
+              <p class="font-semibold text-sm">Railwelding GmbH</p>
               <div class="py-1 grid grid-cols-1 gap-0.5">
-                <p class="text-sm">Axel Springer Neubau</p>
-                <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
+                <p class="text-xs">Axel Springer Neubau</p>
+                <p class="text-xs">Zimmerstraße 50, 10117 Berlin</p>                  
               </div>              
             </div>
           </div>
 
           <div class="text-sky-900 flex items-center gap-8">
             <div>
-              <div class="mdi mdi-48px mdi-phone-classic text-sky-900"></div>
+              <div class="mdi mdi-36px mdi-phone-classic text-sky-900"></div>
             </div>
             <div>
-              <p class="font-semibold">+ 49 (123) 000 45 45</p>
+              <p class="font-semibold text-sm">+ 49 (123) 000 45 45</p>
               <div class="py-1 grid grid-cols-1 gap-0.5">
-                <p class="text-sm">info@railwelding.com</p>
-                <p class="text-sm">order@railwelding.com</p>              
+                <p class="text-xs">info@railwelding.com</p>
+                <p class="text-xs">order@railwelding.com</p>              
               </div>              
             </div>
           </div>
 
           <div class="text-sky-900 flex items-center gap-8">
             <div>
-              <div class="mdi mdi-48px mdi-book-open-page-variant text-sky-900"></div>
+              <div class="mdi mdi-36px mdi-book-open-page-variant text-sky-900"></div>
+            </div>
+            <div>
+              <p class="font-semibold text-sm">Cкачать каталог</p>
+              <div class="py-1 grid grid-cols-1 gap-0.5">
+                <p class="text-xs cursor-pointer">Рельсосварочное оборудование</p>
+                <p class="text-xs cursor-pointer">Испытательное оборудование</p>              
+              </div>              
+            </div>
+          </div>
+
+          <div class="text-sky-900 flex items-center gap-8">
+            <div>
+              <div class="mdi mdi-36px mdi-book-open-page-variant text-sky-900"></div>
             </div>
             <div>
               <p class="font-semibold">Cкачать каталог</p>
               <div class="py-1 grid grid-cols-1 gap-0.5">
-                <p class="text-sm cursor-pointer">Рельсосварочное оборудование</p>
-                <p class="text-sm cursor-pointer">Испытательное оборудование</p>              
+                <p class="text-xs cursor-pointer">Рельсосварочное оборудование</p>
+                <p class="text-xs cursor-pointer">Испытательное оборудование</p>              
               </div>              
             </div>
           </div>
