@@ -172,7 +172,7 @@
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
         <div class="">
           <a href="#" class="flex items-center justify-center gap-2 py-6">
-            <div class="mdi mdi-24px mdi-book-open-outline text-gray-100"></div>
+            <div class="mdi mdi-24px mdi-book-open-page-variant text-gray-100"></div>
             <p class="text-xl text-gray-100">Скачать каталог</p>
           </a>
         </div>
@@ -379,7 +379,7 @@
 
     <div class="border-t border-sky-950/30">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
-        <div class="flex gap-14 py-2">
+        <div class="grid grid-cols-3 py-2">
           
           <div class="text-sky-900 flex items-center gap-8">
             <div>
@@ -387,7 +387,7 @@
             </div>
             <div>
               <p class="font-semibold">Railwelding GmbH</p>
-              <div class="py-1">
+              <div class="py-1 grid grid-cols-1 gap-0.5">
                 <p class="text-sm">Axel Springer Neubau</p>
                 <p class="text-sm">Zimmerstraße 50, 10117 Berlin</p>                  
               </div>              
@@ -400,16 +400,25 @@
             </div>
             <div>
               <p class="font-semibold">+ 49 (123) 000 45 45</p>
-              <div class="py-1">
+              <div class="py-1 grid grid-cols-1 gap-0.5">
                 <p class="text-sm">info@railwelding.com</p>
                 <p class="text-sm">order@railwelding.com</p>              
               </div>              
             </div>
           </div>
 
-          <!-- <div class=" flex items-center w-[300px]">
-            <img src="/logo.png" class=" h-6"/>
-          </div> -->
+          <div class="text-sky-900 flex items-center gap-8">
+            <div>
+              <div class="mdi mdi-48px mdi-book-open-page-variant text-sky-900"></div>
+            </div>
+            <div>
+              <p class="font-semibold">Cкачать каталог</p>
+              <div class="py-1 grid grid-cols-1 gap-0.5">
+                <p class="text-sm cursor-pointer">Рельсосварочное оборудование</p>
+                <p class="text-sm cursor-pointer">Испытательное оборудование</p>              
+              </div>              
+            </div>
+          </div>
 
         </div>
       </div>
