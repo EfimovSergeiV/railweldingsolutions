@@ -87,7 +87,7 @@
           <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+150</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.employees') }}</p></div>
           <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+3500</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.complProjects') }}</p></div>
           <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+560Ha</span><p class="text-gray-100 text-base font-semibold"> {{ $t('pages.index.prodArea') }}</p></div>
-          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold"> Волнистых попугаев</p></div>
+          <div class="flex items-center gap-2"><span class="font-bold text-gray-100 text-[36px]">+200</span><p class="text-gray-100 text-base font-semibold">Клиентов</p></div>
 
         </div>
 
@@ -322,10 +322,16 @@
         </div> -->
 
 
+        <div class="">
+          <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+            Ремонт и обслуживание оборудования
+          </p>
+        </div>
 
-        <div class="grid grid-cols-2 gap-8">
 
-          <div class="flex items-center h-full">
+        <div class="grid grid-cols-1 gap-8">
+
+          <!-- <div class="flex items-center h-full">
             <div class="">
               <div class="py-2">
                 <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
@@ -343,37 +349,102 @@
             </div>
 
 
-          </div>
+          </div> -->
 
           <div class="">
             <div class="grid grid-cols-2 gap-8 py-8">
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="flex items-center justify-start h-[8rem]">
-                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-2') }}</p>
+                <div class=" h-[8rem]">
+                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
+                  <p class="text-xs py-2 text-sky-950">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
+                  </p>
                 </div>
               </div>
             
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="flex items-center justify-start h-[8rem]">
-                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-3') }}</p>
+                <div class="h-[8rem]">
+                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
+                  <p class="text-xs py-2 text-sky-950">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
+                  </p>
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="flex items-center justify-start h-[8rem]">
-                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-4') }}</p>
+                <div class="h-[8rem]">
+                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
+                  <p class="text-xs py-2 text-sky-950">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
+                  </p>
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="flex items-center justify-start h-[8rem]">
-                  <p class="text-sm text-sky-950 font-opensans">{{ $t('pages.index.service-5') }}</p>
+                <div class="h-[8rem]">
+                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
+                  <p class="text-xs py-2 text-sky-950">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
+                  </p>
                 </div>
               </div>
             </div>
 
           </div>
         </div>
+
+
+
+        <div class=" grid grid-cols-2 gap-8">
+
+          <div class="flex items-end">
+            <div class="">
+
+              <p class="text-sm text-sky-950 se lect-none font-opensans py-1">
+                {{ $t('pages.index.service-1' ) }}
+              </p>
+              <div class="my-4">
+                <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">
+                  {{ $t('pages.index.service-6') }}
+                </p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="">
+
+            <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
+              <p class="text-sky-900 font-semibold ">
+                {{ $t('pages.index.contactus') }}
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-2">
+
+              <div class="relative">
+                <p class="absolute px-2 py-1 mdi mdi-16px mdi-account-tie text-sky-950/90"></p>
+                <input type="text" id="person" class="bg-gray-50 shadow-lg shadow-black/10 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 py-1.5 " :placeholder="$t('pages.index.yorname')" />
+              </div>
+
+              <div class="relative">
+                <p class="absolute px-2 py-1 mdi mdi-16px mdi-at text-sky-950/90"></p>
+                <input type="text" id="person" class="bg-gray-50 shadow-lg shadow-black/10 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 p-1.5 " :placeholder="$t('pages.index.youremail')" />
+              </div>
+
+              <div class="relative">
+                <p class="absolute px-2 py-1 mdi mdi-16px mdi-text-long text-sky-950/90"></p>
+                <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-lg shadow-black/10 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 p-1.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
+              </div>
+
+              <button class="bg-sky-800 text-gray-50 font-semibold py-1 shadow-lg shadow-black/30">{{ $t('pages.index.send') }}</button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
 
       </div>
     </div>
@@ -424,13 +495,13 @@
 
           <div class="text-sky-900 flex items-center gap-8">
             <div>
-              <div class="mdi mdi-36px mdi-book-open-page-variant text-sky-900"></div>
+              <div class="mdi mdi-36px mdi-train text-sky-900"></div>
             </div>
             <div>
-              <p class="font-semibold">Cкачать каталог</p>
+              <p class="font-semibold text-sm">Материалы</p>
               <div class="py-1 grid grid-cols-1 gap-0.5">
-                <p class="text-xs cursor-pointer">Рельсосварочное оборудование</p>
-                <p class="text-xs cursor-pointer">Испытательное оборудование</p>              
+                <p class="text-xs cursor-pointer">Документы</p>
+                <p class="text-xs cursor-pointer">Видеоматериалы</p>              
               </div>              
             </div>
           </div>
@@ -441,7 +512,7 @@
 
 
     
-    <div id="contact-us" class=" bg-gradient-to-br from-sky-950 via-sky-900 to-sky-950 min-h-screen grid grid-cols-1 content-center border-t border-white">
+    <div id="contact-us" class=" bg-gradient-to-br from-sky-950 via-sky-900 to-sky-950 min-h- screen grid grid-cols-1 content-center border-t border-white">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
@@ -479,7 +550,7 @@
         </div>
 
         
-        <div class="flex gap-4 items-center justify-between py-12">
+        <!-- <div class="flex gap-4 items-center justify-between py-12 hidden">
           <div class="">
             <div class="flex items-center justify-start my-4 border-b border-gray-100/20">
               <p class="text-gray-100 font-semibold">
@@ -553,7 +624,7 @@
             </div>
 
           </div>
-        </div>
+        </div> -->
       
 
 
