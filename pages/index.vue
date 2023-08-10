@@ -215,7 +215,7 @@
 <!-- <div id="background-page" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]"> -->
     <!-- <div class="bg-white/80 py-4 min-h-screen grid grid-cols-1 content-center"> -->
     <div id="repair" class="bg-fixed bg-no-repeat bg-[center_0px] bg-cover bg-[url('bg/bg-1.jpg')]">
-      <div class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center border-t border-b border-sky-950/20">
+      <div class="bg-white/80 py-8 grid grid-cols-1 content-center border-t border-b border-sky-950/20">
         <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
           <div class="flex items-center justify-end my-4">
@@ -354,7 +354,7 @@
           <div class="">
             <div class="grid grid-cols-2 gap-8 py-8">
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class=" h-[8rem]">
+                <div class=" h-[8rem] py-2">
                   <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
                   <p class="text-xs py-2 text-sky-950">
                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
@@ -363,7 +363,7 @@
               </div>
             
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem]">
+                <div class="h-[8rem] py-2">
                   <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
                   <p class="text-xs py-2 text-sky-950">
                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
@@ -372,7 +372,7 @@
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem]">
+                <div class="h-[8rem] py-2">
                   <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
                   <p class="text-xs py-2 text-sky-950">
                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
@@ -381,7 +381,7 @@
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem]">
+                <div class="h-[8rem] py-2">
                   <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
                   <p class="text-xs py-2 text-sky-950">
                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
