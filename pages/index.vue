@@ -102,13 +102,16 @@
         </nuxt-link>
 
         <div class="my-4">
-          <div v-for="f in 3" :key="f" class="">
+
+
+
+          <div class="">
             <div class="">
               <div class="flex items-center justify-end border-b border-sky-950/20">
-                <p class="text-sm text-sky-950 font-semibold">Welding machines {{ f }}</p>
+                <p class="text-sm text-sky-950 font-semibold">Стационарные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
-                <div v-for="i in 5 - f" :key="i" class="my-2">
+                <div v-for="i, pk in ['МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ МСР-65.01', 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ МСО-120.01',]" :key="pk" class="my-2">
 
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
@@ -117,7 +120,7 @@
                     </div>
 
                     <div class="my-2">
-                      <p class="text-sm font-semibold text-sky-950 ">{{ $t('pages.index.prod-name-1') }}</p>
+                      <p class="text-sm font-semibold text-sky-950 ">{{ i }}</p>
                     </div>
                     <div>
                       <p class="text-xs text-sky-950">
@@ -139,7 +142,107 @@
 
               
             </div>            
-          </div>          
+          </div>
+          
+
+          <div class="">
+            <div class="">
+              <div class="flex items-center justify-end border-b border-sky-950/20">
+                <p class="text-sm text-sky-950 font-semibold">Мобильные рельсосварочные машины</p>
+              </div>
+              <div class="grid grid-cols-3 gap-8">
+                <div v-for="i, pk in ['РЕЛЬСОСВАРОЧНЫЙ КОМПЛЕКС FBM-60', 'РЕЛЬСОСВАРОЧНЫЙ КОМПЛЕКС FBM-140',]" :key="pk" class="my-2">
+
+                  
+                  <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
+                    <div class="flex items-center justify-center bg-white">
+                      <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+                    </div>
+
+                    <div class="my-2">
+                      <p class="text-sm font-semibold text-sky-950 ">{{ i }}</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-sky-950">
+                      
+                      {{ mashineDescription.slice(0, 200) }}<span class="">...</span>
+                      </p>
+                      <div class="flex justify-end">
+                        <p class="text-xs text-sky-950 font-semibold">Read more</p>
+                      </div>
+                    </div>                  
+                  </nuxt-link>
+
+                  <div class="">
+                    <p class="text-sky-900 text-xs font-semibold">Вариант исполнения</p>
+                    <div class="flex gap-1 my-2">
+                      <div class="bg-gray-100 px-1 py-1 rounded-2xl flex items-center justify-center border border-sky-950/10">
+                        <input :id="`var${pk}`"  type="radio" value="archive" name="default-radio" class="text-xs text-sky-800 bg-gray-100 border-gray-300 focus:ring-sky-500/0  focus:ring-0">
+                        <label :for="`var${pk}`" class="text-xs mx-2 font-semibold text-sky-800 cursor-pointer"> Грузовой автомобиль</label>
+                      </div>
+                      <div class="bg-gray-100 px-1 py-1 rounded-2xl flex items-center justify-center border border-sky-950/10">
+                        <input :id="`var${pk}`"  type="radio" value="file" name="default-radio" class="text-xs text-sky-800 bg-gray-100 border-gray-300 focus:ring-sky-500/0 focus:ring-0">
+                        <label :for="`var${pk}`" class="text-xs mx-2 font-semibold text-sky-800 cursor-pointer"> ЖД платформа</label>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="my-4 flex items-center py-1">
+                    <button class="text-sm shadow-md shadow-black/50 bg-sky-800 text-gray-100 px-4 py-2 font-semibold uppercase">Request price</button>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>            
+          </div>
+
+
+
+          <div class="">
+            <div class="">
+              <div class="flex items-center justify-end border-b border-sky-950/20">
+                <p class="text-sm text-sky-950 font-semibold">Испытательное оборудование</p>
+              </div>
+              <div class="grid grid-cols-3 gap-8">
+                <div v-for="i in 1" :key="i" class="my-2">
+
+                  
+                  <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
+                    <div class="flex items-center justify-center bg-white">
+                      <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+                    </div>
+
+                    <div class="my-2">
+                      <p class="text-sm font-semibold text-sky-950 ">ГЕРКУЛЕС 300</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-sky-950">
+                      
+                      {{ mashineDescription.slice(0, 200) }}<span class="">...</span>
+                      </p>
+                      <div class="flex justify-end">
+                        <p class="text-xs text-sky-950 font-semibold">Read more</p>
+                      </div>
+                    </div>                  
+                  </nuxt-link>
+
+
+                  <div class="my-4 flex items-center py-1">
+                    <button class="text-sm shadow-md shadow-black/50 bg-sky-800 text-gray-100 px-4 py-2 font-semibold uppercase">Request price</button>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>            
+          </div>
+
+
+
         </div>
       </div>      
     </div>

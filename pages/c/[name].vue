@@ -159,27 +159,51 @@
 
         <div class="">
 
-          <div class="flex items-center gap-8 h-full py-2">
+          <div class="flex items-center gap-8 py-2">
             <div class="flex-none">
-              <div class="bg-white w-[400px] h-[320px] flex items-center justify-center">
+              <div class="bg-white w-[400px] flex items-center justify-center">
                 <img src="/prod/fbm-140.png" class=" w-40 py-4" />
               </div>
             </div>               
-            <div class="grid grid-cols-1 content-between h-[320px]">
+            <div class="grid grid-cols-1 content-between ">
               <div class="flex items-center justify-start my-4">
                 <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
               </div>
-              <p class="text-base text-sky-950">
-                The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
-              </p>
+              
+              <div class="py-4">
+                <p class="text-base text-sky-950">
+                  The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.
+                </p>                
+              </div>
+
               <div class="flex items-end justify-between gap-4">
-                <div class="bg-white flex items-center gap-2 cursor-pointer">
-                  <img src="/pngegg.webp" class="w-10 opacity-95" />
-                  <div class="grid grid-cols-1 items-center gap-0.5">
-                    <p class="text-sky-900 text-sm font-semibold uppercase"> FBM-140 RAIL WELDING MACHINE</p>
-                    <p class="text-sky-950 text-sm">.PDF</p>
+                <div class="">
+                  <div class="">
+                    <div class="">
+                      <p class="text-sky-900 text-sm font-semibold">Вариант исполнения</p>
+                      <div class="flex gap-1 my-2">
+                        <div class="bg-gray-100 px-1 py-1 rounded-2xl flex items-center justify-center border border-sky-950/10">
+                          <input id="var"  type="radio" value="archive" name="default-radio" class="text-xs text-sky-800 bg-gray-100 border-gray-300 focus:ring-sky-500/0  focus:ring-0">
+                          <label for="var" class="text-xs mx-2 font-semibold text-sky-800 cursor-pointer"> Грузовой автомобиль</label>
+                        </div>
+                        <div class="bg-gray-100 px-1 py-1 rounded-2xl flex items-center justify-center border border-sky-950/10">
+                          <input id="var"  type="radio" value="file" name="default-radio" class="text-xs text-sky-800 bg-gray-100 border-gray-300 focus:ring-sky-500/0 focus:ring-0">
+                          <label for="var" class="text-xs mx-2 font-semibold text-sky-800 cursor-pointer"> ЖД платформа</label>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                  <!-- <div class="">
+                    <div class="bg-white flex items-center gap-2 cursor-pointer">
+                      <img src="/pngegg.webp" class="w-10 opacity-95" />
+                      <div class="grid grid-cols-1 items-center gap-0.5">
+                        <p class="text-sky-900 text-sm font-semibold uppercase"> FBM-140 RAIL WELDING MACHINE</p>
+                        <p class="text-sky-950 text-sm">.PDF</p>
+                      </div>
+                    </div>                    
+                  </div> -->
                 </div>
+
                 <button class=" py-3 shadow-lg shadow-black/30 px-16 bg-sky-800 text-gray-100 text-sm font-semibold uppercase">Заказать</button>
               </div>
             </div>
