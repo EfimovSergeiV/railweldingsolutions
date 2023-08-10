@@ -108,7 +108,7 @@
           <div class="">
             <div class="">
               <div class="flex items-center justify-end border-b border-sky-950/20">
-                <p class="text-sm text-sky-950 font-semibold">Стационарные рельсосварочные машины</p>
+                <p class="text-xl text-sky-950">Стационарные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
                 <div v-for="i, pk in ['МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ МСР-65.01', 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ МСО-120.01',]" :key="pk" class="my-2">
@@ -148,7 +148,7 @@
           <div class="">
             <div class="">
               <div class="flex items-center justify-end border-b border-sky-950/20">
-                <p class="text-sm text-sky-950 font-semibold">Мобильные рельсосварочные машины</p>
+                <p class="text-xl text-sky-950">Мобильные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
                 <div v-for="i, pk in ['РЕЛЬСОСВАРОЧНЫЙ КОМПЛЕКС FBM-60', 'РЕЛЬСОСВАРОЧНЫЙ КОМПЛЕКС FBM-140',]" :key="pk" class="my-2">
@@ -174,7 +174,7 @@
                   </nuxt-link>
 
                   <div class="">
-                    <p class="text-sky-900 text-xs font-semibold">Вариант исполнения</p>
+                    <p class="text-sky-900 text-xs font-semibold">Вариант исполнения:</p>
                     <div class="flex gap-1 my-2">
                       <div class="bg-gray-100 px-1 py-1 rounded-2xl flex items-center justify-center border border-sky-950/10">
                         <input :id="`var${pk}`"  type="radio" value="archive" name="default-radio" class="text-xs text-sky-800 bg-gray-100 border-gray-300 focus:ring-sky-500/0  focus:ring-0">
@@ -205,7 +205,7 @@
           <div class="">
             <div class="">
               <div class="flex items-center justify-end border-b border-sky-950/20">
-                <p class="text-sm text-sky-950 font-semibold">Испытательное оборудование</p>
+                <p class="text-xl text-sky-950">Испытательное оборудование</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
                 <div v-for="i in 1" :key="i" class="my-2">
@@ -542,19 +542,15 @@
               <div class="grid grid-cols-2 gap-8 items-center">
                 <div class="">
                   <input id="agreement" v-model="newFileCustomDateStatus" type="checkbox" class="rounded text-sky-800 focus:ring-white/0 focus:ring-offset-0 focus:outline-none">
-                  <label for="agreement" class="text-xs text-sky-950 mx-2 cursor-pointer select-none"> Согласен на обработку данных</label>
+                  <label for="agreement" class="text-xs text-gray-600 mx-2 cursor-pointer select-none"> Согласен на обработку данных</label>
                 </div>
                 <button class="bg-sky-800 text-gray-50 font-semibold py-1 shadow-lg shadow-black/30">{{ $t('pages.index.send') }}</button>
               </div>
-              
 
             </div>
 
           </div>
         </div>
-
-
-
 
       </div>
     </div>

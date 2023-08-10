@@ -166,7 +166,7 @@
               </div>
             </div>               
             <div class="grid grid-cols-1 content-between ">
-              <div class="flex items-center justify-start my-4">
+              <div class="flex items-center justify-start">
                 <p class="text-lg font-semibold text-sky-950 text-center">{{ $t('pages.index.prod-name-1') }}</p>
               </div>
               
@@ -176,11 +176,11 @@
                 </p>                
               </div>
 
-              <div class="flex items-end justify-between gap-4">
+              <div class="flex items-end justify-between gap-4 py-4">
                 <div class="">
                   <div class="">
                     <div class="">
-                      <p class="text-sky-900 text-sm font-semibold">Вариант исполнения</p>
+                      <p class="text-sky-900 text-sm font-semibold">Вариант исполнения:</p>
                       <div class="flex gap-1 my-2">
                         <div class="bg-gray-100 px-1 py-1 rounded-2xl flex items-center justify-center border border-sky-950/10">
                           <input id="var"  type="radio" value="archive" name="default-radio" class="text-xs text-sky-800 bg-gray-100 border-gray-300 focus:ring-sky-500/0  focus:ring-0">
