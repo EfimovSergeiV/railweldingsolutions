@@ -436,7 +436,14 @@
                 <textarea type="text" id="person" rows="4" class="bg-gray-50 shadow-lg shadow-black/10 border border-gray-300 focus:border-gray-300 text-gray-900 text-sm focus:ring-blue-500/0 focus:border-blue-500/0 block w-full pl-8 p-1.5 " :placeholder="$t('pages.index.yourmess')"></textarea>
               </div>
 
-              <button class="bg-sky-800 text-gray-50 font-semibold py-1 shadow-lg shadow-black/30">{{ $t('pages.index.send') }}</button>
+              <div class="grid grid-cols-2 gap-8 items-center">
+                <div class="">
+                  <input id="agreement" v-model="newFileCustomDateStatus" type="checkbox" class="rounded text-sky-800 focus:ring-white/0 focus:ring-offset-0 focus:outline-none">
+                  <label for="agreement" class="text-xs text-sky-950 mx-2 cursor-pointer select-none"> Согласен на обработку данных</label>
+                </div>
+                <button class="bg-sky-800 text-gray-50 font-semibold py-1 shadow-lg shadow-black/30">{{ $t('pages.index.send') }}</button>
+              </div>
+              
 
             </div>
 
