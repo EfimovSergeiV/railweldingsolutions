@@ -6,11 +6,11 @@
   // const route = useRoute()
 
   const railmachines = ref([
-    { 'id': 1, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-60', 'path': 'fbm-60' },
-    { 'id': 2, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
-    { 'id': 3, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-150', 'path': 'fbm-150' },
-    { 'id': 4, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-160', 'path': 'fbm-160' },
-    { 'id': 5, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-170', 'path': 'fbm-170' },
+    { 'id': 1, 'name': 'FBM-60', 'path': 'fbm-60' },
+    { 'id': 2, 'name': 'FBM-140', 'path': 'fbm-140' },
+    { 'id': 3, 'name': 'FBM-150', 'path': 'fbm-150' },
+    { 'id': 4, 'name': 'FBM-160', 'path': 'fbm-160' },
+    { 'id': 5, 'name': 'FBM-170', 'path': 'fbm-170' },
   ])
 
   const mashineDescription = ref('The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.')
@@ -35,7 +35,7 @@
           <div class="flex gap-6 items-center">
             <div class="group">
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-sky-900 font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
-              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 inv isible group-hover:visible ease-in-out transition-opacity duration-300 op acity-0 group-hover:opacity-100">
+              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
                   <div class="bg-gray-100 border border-sky-800/10 shadow-sm shadow-black/30 rounded-sm w-full">
 
@@ -44,7 +44,7 @@
                       <div class="px-2 py-4 w-full">
 
                         <div class="">
-                          <div class="border-b border-sky-950/50">
+                          <div class="border-b border-sky-950/50 px-4 mx-2">
                             <p class="text-sky-900 text-sm font-semibold">Стационарные рельсосварочные машины</p>
                           </div>
                           
@@ -82,7 +82,7 @@
                         </div>
 
                         <div class="">
-                          <div class="border-b border-sky-950/50">
+                          <div class="border-b border-sky-950/50 px-4 mx-2">
                             <p class="text-sky-900 text-sm font-semibold">Мобильные рельсосварочные машины</p>
                           </div>
                           
@@ -119,7 +119,7 @@
                           </div>
                         </div>
                         <div class="">
-                          <div class="border-b border-sky-950/50">
+                          <div class="border-b border-sky-950/50 px-4 mx-2">
                             <p class="text-sky-900 text-sm font-semibold">Испытательное оборудование</p>
                           </div>
                           

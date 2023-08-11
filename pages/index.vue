@@ -111,7 +111,7 @@
                 <p class="text-xl text-sky-950">Стационарные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
-                <div v-for="i, pk in ['МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ МСР-65.01', 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ МСО-120.01',]" :key="pk" class="my-2">
+                <div v-for="i, pk in ['МСР-65.01', 'МСО-120.01',]" :key="pk" class="my-2">
 
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
@@ -151,7 +151,7 @@
                 <p class="text-xl text-sky-950">Мобильные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
-                <div v-for="i, pk in ['РЕЛЬСОСВАРОЧНЫЙ КОМПЛЕКС FBM-60', 'РЕЛЬСОСВАРОЧНЫЙ КОМПЛЕКС FBM-140',]" :key="pk" class="my-2">
+                <div v-for="i, pk in ['FBM-60', 'FBM-140',]" :key="pk" class="my-2">
 
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
@@ -217,7 +217,7 @@
                     </div>
 
                     <div class="my-2">
-                      <p class="text-sm font-semibold text-sky-950 ">ГЕРКУЛЕС 300</p>
+                      <p class="text-sm font-semibold text-sky-950 ">ПРЕСС ГЕРКУЛЕС 300</p>
                     </div>
                     <div>
                       <p class="text-xs text-sky-950">
