@@ -426,7 +426,7 @@
 
 
         <div class="">
-          <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+          <p class="font-opensans font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-sky-800 to-sky-800 uppercase se lect-none">
             Ремонт и обслуживание оборудования
           </p>
         </div>
@@ -434,61 +434,34 @@
 
         <div class="grid grid-cols-1 gap-8">
 
-          <!-- <div class="flex items-center h-full">
-            <div class="">
-              <div class="py-2">
-                <p class="font-opensans font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
-                  {{ $t('pages.index.service-title') }}
-                </p>
-              </div>
-              <p class="text-sm text-sky-950 se lect-none font-opensans">
-                {{ $t('pages.index.service-1' ) }}
-              </p>
-              <div class="my-4 border-t border-sky-950/10 py-1">
-                <p class="text-base text-sky-800 se lect-none font-opensans font-semibold">
-                  {{ $t('pages.index.service-6') }}
-                </p>
-              </div>              
-            </div>
-
-
-          </div> -->
 
           <div class="">
             <div class="grid grid-cols-2 gap-8 py-8">
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class=" h-[8rem] py-2">
-                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
-                  <p class="text-xs py-2 text-sky-950">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
-                  </p>
+                <div class=" h-[8rem] flex items-center py-2">
+                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
+
                 </div>
               </div>
             
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem] py-2">
-                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
-                  <p class="text-xs py-2 text-sky-950">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
-                  </p>
+                <div class="h-[8rem] flex items-center py-2">
+                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
+
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem] py-2">
-                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
-                  <p class="text-xs py-2 text-sky-950">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
-                  </p>
+                <div class="h-[8rem] flex items-center py-2">
+                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
+
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem] py-2">
-                  <p class="text-sm text-sky-900 font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
-                  <p class="text-xs py-2 text-sky-950">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
-                  </p>
+                <div class="h-[8rem] flex items-center py-2">
+                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
+
                 </div>
               </div>
             </div>
@@ -498,7 +471,7 @@
 
 
 
-        <div class=" grid grid-cols-2 gap-8">
+        <div class=" grid grid-cols-2 gap-8 py-8">
 
           <div class="flex items-end">
             <div class="">
@@ -618,7 +591,7 @@
 
 
     
-    <div id="contact-us" class=" bg-gradient-to-br from-sky-950 via-sky-900 to-sky-950 min-h- screen grid grid-cols-1 content-center border-t border-white">
+    <div id="contact-us" class=" bg-gradient-to-br from-sky-950 via-sky-900 to-sky-950 min-h- screen grid grid-cols-1 content-center border-t border-white py-8">
 
 
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
