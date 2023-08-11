@@ -8,11 +8,13 @@
   const railmachines = ref([
     { 'id': 1, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-60', 'path': 'fbm-60' },
     { 'id': 2, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
-    { 'id': 3, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
-    { 'id': 4, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
-    { 'id': 5, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140', 'path': 'fbm-140' },
+    { 'id': 3, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-150', 'path': 'fbm-150' },
+    { 'id': 4, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-160', 'path': 'fbm-160' },
+    { 'id': 5, 'name': 'МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-170', 'path': 'fbm-170' },
   ])
-  // console.log(route.params.id)
+
+  const mashineDescription = ref('The machine is designed for flash butt welding of rails with cross-sectional area of from 6,500 mm to 10,000 mm in field conditions, through continuous or pulsating flashing, and removes flash immediately after welding. Due to the increased upsetting force of 140 tons, the welding machine is capable of welding long rail strings into tracks and tightening the strings. The welding machine can hold the welded joint within the time necessary for the joint to cool down after welding and removing flash. The welding machine is equipped with a welding process control system, which allows monitoring the welding process and and issues data sheets for every welded joint.')
+
 </script>
 
 
@@ -24,23 +26,73 @@
 
     <div class=" ">
       <div id="navbar" class="bg-white/60 border-b border-main-primary/40 shadow-sm shadow-main-primary/40 w-full absolute z-50 backdrop-blur-sm duration-700 transition-all">
-        <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full">
+        <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 flex items-center justify-between gap-12 h-full relative">
           <div class="py-1">
             <nuxt-link :to="localePath('index')">
               <img src="/railwelding-logo.webp" class=" h-6" />
             </nuxt-link>                
           </div>
           <div class="flex gap-6 items-center">
-            <div class="relative group">
+            <div class="group">
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
-              <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 in visible group-hover:visible ease-in-out transition-opacity duration-300 op acity-0 group-hover:opacity-100">
                 <div class="py-1">
-                  <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[460px]">
-                    <div class="grid grid-cols-1 gap-2 py-2">
-                      
+                  <div class="bg-gray-100 border border-sky-800 shadow-sm shadow-black/30 rounded-sm w-full">
+
+                    <div class="flex justify-end">
+
+                      <div class="px-2 py-4 w-full">
+
+                        <div class="grid grid-cols-2 gap-2">
+                          <div v-for="machine in railmachines" :key="machine.id" class="">
+                            <div class="">
+                              <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: machine.path } })" class="">
+                                <div class="px-2 py-2">
+                                  <div class="flex items-center gap-2">
+                                    <div class="px-4 py-2">
+                                      <img src="/prod/fbm-140.png" class=" w-14" />
+                                    </div>
+                                    
+                                    <div class=" grid grid-cols-1">
+                                      <p class=" text-sm text-sky-950 py-1">{{  machine.name }}</p>
+                                      <div class="flex justify-start">
+                                        <p class="text-xs text-sky-950">перейти к товару</p>
+                                      </div>
+                                    </div>
+                                    
+
+                                  </div>
+
+                                  <div>
+
+
+                                  </div>
+
+                                </div>
+                              </nuxt-link>
+                            </div>
+
+                          </div>
+                        </div>
+
+
+                      </div>
+                      <div class="px-4 bg-sky-800 w-[540px] py-4 flex items-center">
+                        <div class="">
+                          <div class="">
+                            <p class="text-white font-semibold text-2xl">Рельсосварочое оборудование</p>
+                          </div>
+                          <div class="my-4 py-4 border-t border-white/50">
+                            <p class="text-sm text-gray-100">Представляем вашему вниманию наши решения для сварки рельсов. Наше оборудование является сертифицированным по самим жёстким стандартам и проверенное временем</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                    
+                    <!-- <div class="grid grid-cols-1 gap-2 py-2">
                       <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: machine.path } })" v-for="(machine, pk) in railmachines" :key="pk" class="">
-                        
-                        
                         <div class="px-2 py-2">
                           <div class="flex items-center gap-2">
                             <div class="px-4 py-2">
@@ -51,21 +103,16 @@
                           </div>
 
                         </div>
-
-
                         <div v-if="pk + 1 !== railmachines.length" class="border-t border-sky-950/30"></div>                      
                       </nuxt-link>
+                    </div> -->
 
-                      <!-- <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold py-1">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold py-1">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link>
-                      <nuxt-link :to="localePath({ name: 'c-name', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold py-1">МАШИНА ДЛЯ СВАРКИ РЕЛЬСОВ FBM-140</nuxt-link> -->
-                    </div>
+
                   </div>
                 </div>
               </div>
-            
-            
             </div>
+
             <div class="relative group">
               <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'thispath'} })" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('testEquipment') }}</nuxt-link>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
