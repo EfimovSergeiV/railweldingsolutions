@@ -437,28 +437,28 @@
             <div class="grid grid-cols-2 gap-8 py-8">
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class=" h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-2') }}</p>
+                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-2') }}</p>
 
                 </div>
               </div>
             
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-3') }}</p>
+                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-3') }}</p>
 
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-4') }}</p>
+                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-4') }}</p>
 
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
                 <div class="h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans font-semibold">{{ $t('pages.index.service-5') }}</p>
+                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-5') }}</p>
 
                 </div>
               </div>
