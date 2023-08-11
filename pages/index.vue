@@ -571,9 +571,11 @@
             </div>
             <div>
               <p class="font-semibold text-sm">Cкачать каталог</p>
-              <div class="py-1 grid grid-cols-1 gap-0.5">
-                <p class="text-xs cursor-pointer">Рельсосварочное оборудование</p>
-                <p class="text-xs cursor-pointer">Испытательное оборудование</p>              
+              <div class="py-1 grid grid-cols-1 gap-1">
+
+                <a href="#" class="text-xs cursor-pointer">catalog-railwelding.pdf</a>
+                <a href="#" class="text-xs cursor-pointer">catalog-railwelding.docx</a>
+      
               </div>              
             </div>
           </div>
