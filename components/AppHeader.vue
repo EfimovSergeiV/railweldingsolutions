@@ -37,14 +37,14 @@
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-sky-900 font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
               <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
-                  <div class="bg-gray-100 border border-sky-800/10 shadow-sm shadow-black/30 rounded-sm w-full">
+                  <div class="bg-white shadow-sm shadow-black/30 rounded-sm w-full">
 
                     <div class="flex justify-end">
 
                       <div class="px-2 py-4 w-full">
 
                         <div class="">
-                          <div class="border-b border-sky-950/50 px-4 mx-2">
+                          <div class="border border-white px-4 mx-2">
                             <p class="text-sky-900 text-sm font-semibold">Стационарные рельсосварочные машины</p>
                           </div>
                           
@@ -158,7 +158,7 @@
 
 
                       </div>
-                      <div class="px-4 bg-sky-800 w-[540px] py-4 flex items-center">
+                      <div class="px-4 bg-sky-800 border border-sky-800 w-[640px] py-4 flex items-center">
                         <div class="">
                           <div class="">
                             <p class="text-white font-semibold text-2xl">Рельсосварочое оборудование</p>
