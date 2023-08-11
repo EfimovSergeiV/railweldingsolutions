@@ -418,10 +418,15 @@
     <div id="service" class="bg-white/80 py-8 min-h-screen grid grid-cols-1 content-center">
       <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8">
 
-        <div class="">
-          <p class="font-opensans font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
+        <div class="flex">
+          <div class="bg-sky-800 z-20 rounded-sm px-8 py-2 ">
+            <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
+              Ремонт и обслуживание оборудования
+            </p>                  
+          </div>
+          <!-- <p class="font-opensans font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-sky-900 to-sky-800 uppercase se lect-none">
             Ремонт и обслуживание оборудования
-          </p>
+          </p> -->
         </div>
 
 
@@ -482,7 +487,15 @@
 
           <div class="">
 
-            <div class="flex items-center justify-center my-4 border-b border-sky-950/20">
+            <!-- <div class="flex mb-4">
+              <div class="bg-sky-800 z-20 rounded-sm px-8 py-2 ">
+                <p class=" font-opensans font-semibold text-transparent text-lg bg-clip-text bg-gradient-to-r from-white to-gray-200 uppercase">
+                  {{ $t('pages.index.contactus') }}
+                </p>                  
+              </div>
+            </div> -->
+
+            <div class="flex items-center justify-start mb-2">
               <p class="text-sky-900 font-semibold ">
                 {{ $t('pages.index.contactus') }}
               </p>
@@ -510,7 +523,7 @@
                   <input id="agreement" v-model="newFileCustomDateStatus" type="checkbox" class="rounded text-sky-800 focus:ring-white/0 focus:ring-offset-0 focus:outline-none">
                   <label for="agreement" class="text-xs text-gray-600 mx-2 cursor-pointer select-none"> Согласен на обработку данных</label>
                 </div>
-                <button class="bg-sky-800 text-gray-50 font-semibold py-1 shadow-lg shadow-black/30">{{ $t('pages.index.send') }}</button>
+                <button class="bg-sky-800 text-gray-50 font-semibold py-2 shadow-lg shadow-black/30">{{ $t('pages.index.send') }}</button>
               </div>
 
             </div>

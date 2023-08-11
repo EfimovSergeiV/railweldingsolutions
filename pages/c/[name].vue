@@ -297,12 +297,12 @@
       
 
         <div class="flex items-center justify-start py-4">
-          <p class="text-lg font-semibold text-gray-100 uppercase">Преимущества</p>
+          <p class="text-lg font-semibold text-gray-100 uppercase">Преимущества машины</p>
         </div>
         <div class=" columns-2 gap-4">
 
           <div class="my-2 break-inside-avoid-column" v-for="(advantage, pk) in advantages" :key="pk">
-            <div class="py-2">
+            <div class="py-1">
               <p class="text-sm text-gray-200">{{ advantage.text }}</p>
             </div>
           </div>                
