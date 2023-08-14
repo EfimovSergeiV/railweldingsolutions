@@ -32,7 +32,7 @@
               <img src="/railwelding-logo.webp" class=" h-6" />
             </nuxt-link>                
           </div>
-          <div class="flex gap-6 items-center">
+          <div class="flex gap-12 items-center">
             <div class="group">
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-sky-900 font-semibold h-[56px] flex items-center">{{ $t('railWeldingEquipment') }}</nuxt-link>
               <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
@@ -194,6 +194,94 @@
               </div>
             </div>
 
+
+
+            <div class="group">
+              <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-sky-900 font-semibold h-[56px] flex items-center">{{ $t('services') }}</nuxt-link>
+              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 inv isible group-hover:visible ease-in-out transition-opacity duration-300 opa city-0 group-hover:opacity-100">
+                <div class="py-1">
+                  <div class="bg-white shadow-md shadow-black/30 rounded-sm w-full">
+
+                    <div class="flex justify-end">
+
+                      <div class="border border-white px-2 py-4 w-full">
+
+                        <div class="">
+                          <div class="border-b border-sky-950/50 px-4 mx-4">
+                            <p class="text-sky-900 text-sm font-semibold">Капитальный ремонт оборудования</p>
+                          </div>
+                          
+                          <div class="grid grid-cols-1 gap-2 px-6 py-4">
+                            <p class="text-sm">
+                              Мы готовы не только осуществить полное восстановление бывшего в эксплуатации оборудования, но и улучшить его технические характеристики, необходимые для введения вашей устаревшей рельсосварочной машины в современное производство.                            </p>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <div class="border-b border-sky-950/50 px-4 mx-4">
+                            <p class="text-sky-900 text-sm font-semibold">Обучение и техническая поддержка</p>
+                          </div>
+                          
+                          <div class="grid grid-cols-1 gap-2 px-6 py-4">
+                            <p class="text-sm">
+                              Наша команда состоит из опытных инженеров и квалифицированных рабочих, которые всегда готовы и рады поделиться своими знаниями с другими профессионалами в этой области.                            </p>
+                          </div>
+                        </div>
+                        <div class="">
+                          <div class="border-b border-sky-950/50 px-4 mx-4">
+                            <p class="text-sky-900 text-sm font-semibold">Ремонт и техническое обслуживание</p>
+                          </div>
+                          
+                          <div class="grid grid-cols-1 gap-2 px-6 py-4">
+                            <p class="text-sm">
+                              С нашим многолетним опытом работы в железнодорожной отрасли, наша команда экспертов готова предоставить выдающийся уровень профессионализма и экспертизы при обслуживании и устранении неполадок для всех видов продукции Railwelding. Независимо от того, имеется ли у вас оборудование для сварки рельсов, электропередвижные сварочные машины или другие товары из нашего разнообразного ассортимента, мы обеспечиваем полное техническое обслуживание и оперативное устранение любых возможных неисправностей.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="px-4 bg-sky-800 border border-sky-800 w-[640px] py-4 flex items-center">
+                        <div class="">
+                          <div class="">
+                            <p class="text-white font-semibold text-2xl">Наши услуги</p>
+                          </div>
+                          <div class="my-4 py-4 border-t border-white/50">
+                            <p class="text-sm text-gray-100">С нашим многолетним опытом работы в железнодорожной отрасли, наша команда экспертов готова предоставить выдающийся уровень профессионализма и экспертизы при обслуживании и устранении неполадок для всех видов продукции Railwelding</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                    
+                    <!-- <div class="grid grid-cols-1 gap-2 py-2">
+                      <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: machine.path } })" v-for="(machine, pk) in railmachines" :key="pk" class="">
+                        <div class="px-2 py-2">
+                          <div class="flex items-center gap-2">
+                            <div class="px-4 py-2">
+                              <img src="/prod/fbm-140.png" class=" w-14" />
+                            </div>
+                            
+                            <p class="text-right text-sm text-main-primary font-semibold py-1">{{  machine.name }}</p>                            
+                          </div>
+
+                        </div>
+                        <div v-if="pk + 1 !== railmachines.length" class="border-t border-sky-950/30"></div>                      
+                      </nuxt-link>
+                    </div> -->
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
             <div class="relative group">
               <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'thispath'} })" class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('about') }}</nuxt-link>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
@@ -207,6 +295,11 @@
               </div>
             
             </div>
+
+
+
+
+
             <!-- <div class="relative group">
               <p class="text-sm text-center text-main-primary font-semibold h-[56px] flex items-center">{{ $t('services') }}</p>
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
