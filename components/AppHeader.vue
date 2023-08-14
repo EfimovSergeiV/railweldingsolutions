@@ -198,7 +198,7 @@
 
             <div class="group">
               <nuxt-link :to="localePath({ name: 'index'})" class="text-sm text-center text-sky-900 font-semibold h-[56px] flex items-center">{{ $t('services') }}</nuxt-link>
-              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 inv isible group-hover:visible ease-in-out transition-opacity duration-300 opa city-0 group-hover:opacity-100">
+              <div class="container mx-auto px-4 lg:max-w-7xl lg:px-8 absolute w-full right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
                   <div class="bg-white shadow-md shadow-black/30 rounded-sm w-full">
 
