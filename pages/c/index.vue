@@ -20,8 +20,8 @@
 
       <div></div>
 
-      <div class="absolute overflow-hidden -z-10">
-        <img src="/backgrounds/bg-5.webp" class="" />
+      <div class="absolute h-screen   -z-10">
+        <img src="/backgrounds/bg-5.webp" class="h-screen object-cover" />
       </div>
 
       <div class="">

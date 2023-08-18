@@ -23,8 +23,8 @@
     <div class="min-h-screen grid grid-cols-1 content-between">
       <div></div>
 
-      <div class="absolute overflow-hidden -z-10">
-        <img src="/backgrounds/bg-5.webp" class="" />
+      <div class="absolute h-screen   -z-10">
+        <img src="/backgrounds/bg-5.webp" class="h-screen object-cover" />
       </div>
 
       <div class="">
@@ -111,7 +111,7 @@
                 <p class="text-xl text-sky-950">Стационарные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
-                <div v-for="i, pk in ['МСР-65.01', 'МСО-120.01',]" :key="pk" class="my-2">
+                <div v-for="i, pk in ['МСР-65.01', 'МСО-120.01', 'МСО-120.01',]" :key="pk" class="my-2">
 
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
@@ -436,29 +436,29 @@
           <div class="">
             <div class="grid grid-cols-2 gap-8 py-8">
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class=" h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-2') }}</p>
+                <div class=" h-[6rem] flex items-center py-2">
+                  <p class="text-md text-sky-800 font-opensans">{{ $t('pages.index.service-2') }}</p>
 
                 </div>
               </div>
             
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-3') }}</p>
+                <div class="h-[6rem] flex items-center py-2">
+                  <p class="text-md text-sky-800 font-opensans">{{ $t('pages.index.service-3') }}</p>
 
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-4') }}</p>
+                <div class="h-[6rem] flex items-center py-2">
+                  <p class="text-md text-sky-800 font-opensans">{{ $t('pages.index.service-4') }}</p>
 
                 </div>
               </div>
 
               <div class="bg-gradient-to-br from-gray-100/95 to-gray-50/90 border-l-8 border-sky-800/90 shadow-lg shadow-black/10 px-4">
-                <div class="h-[8rem] flex items-center py-2">
-                  <p class="text-xl text-sky-800 font-opensans">{{ $t('pages.index.service-5') }}</p>
+                <div class="h-[6rem] flex items-center py-2">
+                  <p class="text-md text-sky-800 font-opensans">{{ $t('pages.index.service-5') }}</p>
 
                 </div>
               </div>

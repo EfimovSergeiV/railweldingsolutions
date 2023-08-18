@@ -49,7 +49,7 @@
                           </div>
                           
                           <div class="grid grid-cols-2 gap-2">
-                            <div v-for="machine in railmachines.slice(0, 2)" :key="machine.id" class="">
+                            <div v-for="machine in railmachines.slice(0, 3)" :key="machine.id" class="">
                               <div class="">
                                 <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: machine.path } })" class="">
                                   <div class="px-2 py-2">
@@ -211,8 +211,8 @@
                             <p class="text-sky-900 text-sm font-semibold">Капитальный ремонт оборудования</p>
                           </div>
                           
-                          <div class="grid grid-cols-1 gap-2 px-6 py-4">
-                            <p class="text-sm">
+                          <div class="grid grid-cols-1 gap-2 px-8 py-2">
+                            <p class="text-sm text-sky-800">
                               Мы готовы не только осуществить полное восстановление бывшего в эксплуатации оборудования, но и улучшить его технические характеристики, необходимые для введения вашей устаревшей рельсосварочной машины в современное производство.                            </p>
                           </div>
                         </div>
@@ -222,8 +222,8 @@
                             <p class="text-sky-900 text-sm font-semibold">Обучение и техническая поддержка</p>
                           </div>
                           
-                          <div class="grid grid-cols-1 gap-2 px-6 py-4">
-                            <p class="text-sm">
+                          <div class="grid grid-cols-1 gap-2 px-8 py-2">
+                            <p class="text-sm text-sky-800">
                               Наша команда состоит из опытных инженеров и квалифицированных рабочих, которые всегда готовы и рады поделиться своими знаниями с другими профессионалами в этой области.                            </p>
                           </div>
                         </div>
@@ -232,8 +232,8 @@
                             <p class="text-sky-900 text-sm font-semibold">Ремонт и техническое обслуживание</p>
                           </div>
                           
-                          <div class="grid grid-cols-1 gap-2 px-6 py-4">
-                            <p class="text-sm">
+                          <div class="grid grid-cols-1 gap-2 px-8 py-2">
+                            <p class="text-sm text-sky-800">
                               С нашим многолетним опытом работы в железнодорожной отрасли, наша команда экспертов готова предоставить выдающийся уровень профессионализма и экспертизы при обслуживании и устранении неполадок для всех видов продукции Railwelding. Независимо от того, имеется ли у вас оборудование для сварки рельсов, электропередвижные сварочные машины или другие товары из нашего разнообразного ассортимента, мы обеспечиваем полное техническое обслуживание и оперативное устранение любых возможных неисправностей.
                             </p>
                           </div>
@@ -287,8 +287,10 @@
               <div class="absolute right-0 invisible group-hover:visible ease-in-out transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                 <div class="py-1">
                   <div class="bg-gray-100 border border-main-primary/40 shadow-sm shadow-black/30 rounded-sm w-[460px]">
-                    <div class="grid grid-cols-1 gap-2 px-10 py-2">
-                      <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })" class="text-right text-sm text-main-primary font-semibold px-2 py-2">Прес тестировычный</nuxt-link>
+                    <div class="grid grid-cols-1 gap-2 px-2 py-2">
+                      <p class=" text-sm text-sky-900">
+                        КОМПАНИЯ RAILWELDING лидер в разработке и производстве рельсосварочного оборудования. Наши инновационные технологии и высокое качество материалов обеспечивают надёжность и долговечность нашего оборудования. Наша компания предлагает широкий ассортимент рельсосварочных машин, разработанных и изготовленных полностью внутри компании с учетом особенностей каждого проекта и потребностей каждого клиента. В нашем каталоге вы найдете оборудование, доступное в различных конфигурациях.
+                      </p>
                     </div>
                   </div>
                 </div>
