@@ -303,7 +303,11 @@
 
           <div class="my-2 break-inside-avoid-column" v-for="(advantage, pk) in advantages" :key="pk">
             <div class="py-1">
-              <p class="text-sm text-gray-200">{{ advantage.text }}</p>
+              <div class="flex items-center gap-4">
+                <div class="mdi mdi-16px mdi-circle text-gray-200/70"></div>
+                <p class="text-sm text-gray-200">{{ advantage.text }}</p>
+              </div>
+              
             </div>
           </div>                
 
