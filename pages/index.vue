@@ -476,12 +476,12 @@
 
           <div class="flex items-end">
             <div class="">
-
+              <p class="text-xl font-semibold text-sky-900 se lect-none font-opensans uppercase py-1">Почему выбирают нас?</p>
               <p class="text-sm text-sky-950 se lect-none font-opensans py-1">
                 {{ $t('pages.index.service-1' ) }}
               </p>
               <div class="my-4">
-                <p class="text-base text-sky-900 se lect-none font-opensans font-semibold">
+                <p class="text-base text-sky-950 se lect-none font-opensans">
                   {{ $t('pages.index.service-6') }}
                 </p>
               </div>              
@@ -499,7 +499,7 @@
             </div> -->
 
             <div class="flex items-center justify-start mb-2">
-              <p class="text-sky-900 font-semibold ">
+              <p class="text-xl font-semibold text-sky-900 se lect-none font-opensans uppercase py-1">
                 {{ $t('pages.index.contactus') }}
               </p>
             </div>
