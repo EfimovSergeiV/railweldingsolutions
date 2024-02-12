@@ -122,7 +122,7 @@
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
                     <div class="flex items-center justify-center bg-white">
-                      <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+                      <img src="/prod/МРСК-01-front.png" class=" w-40 py-4" />
                     </div>
 
                     <div class="my-2">

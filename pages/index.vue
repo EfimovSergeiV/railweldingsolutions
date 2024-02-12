@@ -111,12 +111,12 @@
                 <p class="text-xl text-sky-950">Стационарные рельсосварочные машины</p>
               </div>
               <div class="grid grid-cols-3 gap-8">
-                <div v-for="i, pk in ['МСР-65.01', 'МСО-120.01', 'МСО-120.01',]" :key="pk" class="my-2">
+                <div v-for="i, pk in ['МРКК-001', 'МСО-120.01', 'МСО-120.01',]" :key="pk" class="my-2">
 
                   
                   <nuxt-link :to="localePath({ name: 'c-name', hash: '#product-description', params: { name: 'fbm-140'} })">
                     <div class="flex items-center justify-center bg-white">
-                      <img src="/prod/fbm-140.png" class=" w-40 py-4" />
+                      <img src="/prod/МРСК-01-front.png" class=" w-40 py-4" />
                     </div>
 
                     <div class="my-2">
