@@ -315,6 +315,33 @@
 
 
 
+    <div class=" bg-sky-950 grid grid-cols-1 content-center py-4 border-t border-black/10">
+      <div id="product-property" class="container mx-auto lg:max-w-7xl lg:px-8">
+      
+
+        <div class="flex items-center justify-start py-4">
+          <p class="text-lg font-semibold text-gray-100 uppercase">Преимущества машины</p>
+        </div>
+        <div class=" columns-2 gap-4">
+
+          <div class="my-2 break-inside-avoid-column" v-for="(advantage, pk) in advantages" :key="pk">
+            <div class="py-1">
+              <div class="flex items-center gap-4">
+                <div class="mdi mdi-16px mdi-circle text-gray-200/70"></div>
+                <p class="text-sm text-gray-200">{{ advantage.text }}</p>
+              </div>
+              
+            </div>
+          </div>                
+
+        </div>            
+
+      
+      </div>
+    </div>
+
+
+
     <div class="container mx-auto lg:max-w-7xl lg:px-8">
       <div class="py-4">
         <p class="text-sky-950 text-base font-opensans font-semibold">Комплектующие МРКК-001:</p>
@@ -374,25 +401,63 @@
       
 
         <div class="flex items-center justify-start py-4">
-          <p class="text-lg font-semibold text-gray-100 uppercase">Преимущества машины</p>
+          <p class="text-lg font-semibold text-gray-100 uppercase">FOOTER</p>
         </div>
         <div class=" columns-2 gap-4">
 
-          <div class="my-2 break-inside-avoid-column" v-for="(advantage, pk) in advantages" :key="pk">
-            <div class="py-1">
-              <div class="flex items-center gap-4">
-                <div class="mdi mdi-16px mdi-circle text-gray-200/70"></div>
-                <p class="text-sm text-gray-200">{{ advantage.text }}</p>
-              </div>
               
-            </div>
-          </div>                
 
         </div>            
 
       
       </div>
+
+
+      <div class="">
+
+        <div class="flex items-center justify-center py-6">
+          <p class="text-white text-sm">Нашими партнёрами уже стали</p>
+        </div>
+
+        <div class="grid grid-cols-4 gap-2">
+          <div class="px-8">
+            <div class="flex items-center justify-center py-2">
+              <img src="/partners/2.png" class="h-12"/>
+            </div>
+            <div class="flex items-center justify-center py-2">
+              <p class="text-gray-100 text-xs">Kazakh Railways</p>
+            </div>
+          </div>
+          <div class="px-8">
+            <div class="flex items-center justify-center py-2">
+              <img src="/partners/1.png" class="h-12"/>
+            </div>
+            <div class="flex items-center justify-center py-2">
+              <p class="text-gray-100 text-xs">Lithuanian Railways</p>
+            </div>
+          </div>
+          <div class="px-8">
+            <div class="flex items-center justify-center py-2">
+              <img src="/partners/3.png" class="h-12"/>
+            </div>
+            <div class="flex items-center justify-center py-2">
+              <p class="text-gray-100 text-xs">Ozbekiston temir yollari</p>
+            </div>
+          </div>
+          <div class="px-8">
+            <div class="flex items-center justify-center py-2">
+              <img src="/partners/4.png" class="h-12"/>
+            </div>
+            <div class="flex items-center justify-center py-2">
+              <p class="text-gray-100 text-xs">Belarusian railways</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+
 
 
   </div>
